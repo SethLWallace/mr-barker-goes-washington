@@ -1,0 +1,700 @@
+{
+  "encounters": [
+    {
+      "id": "enc_w1_wolf_intro",
+      "week": 1,
+      "type": "pre_vote",
+      "triggerCondition": "always",
+      "character": "wolf",
+      "background": "hallway",
+      "deskAlert": "Whip Fenrir Fang is leaning casually against your office doorframe.",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "happy",
+          "text": "Welcome to Washington, Barnaby! Adorable bow tie. Quick orientation: H.R. 101 hits the floor shortly. Caucus leadership needs a crisp, united AYE—no dramatic floor speeches, no fussing over paper-clipped attachments.",
+          "choices": [
+            {
+              "label": "You got it, Whip. Put me down for an AYE.",
+              "nextNode": "n2_deal",
+              "effects": {
+                "meters": { "party": 6, "warChest": 4 },
+                "promise": { "character": "wolf", "billId": "bill_w1", "expectedVote": "aye" }
+              }
+            },
+            {
+              "label": "I read every bill before committing—check back on the floor.",
+              "nextNode": "n2_hedge",
+              "effects": {
+                "meters": { "party": -3 }
+              }
+            },
+            {
+              "label": "I answer to Maple Creek, not your whip sheet.",
+              "nextNode": "n2_refuse",
+              "effects": {
+                "meters": { "constituents": 5, "party": -9 }
+              }
+            }
+          ]
+        },
+        "n2_deal": {
+          "mood": "happy",
+          "text": "Good boy! Keep your word on the floor and Leadership will owe you a favor when your Flagship Bill arrives in Week 6. Just... don't double-cross my clipboard.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_hedge": {
+          "mood": "neutral",
+          "text": "Heh. Careful, rookie. Undecided freshmen tend to get assigned to the Sub-Subcommittee on Paperclips. I'll be watching the tally board.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_refuse": {
+          "mood": "angry",
+          "text": "Oh, an idealist! Charming. Let's see how far speeches carry you when you're begging for votes in Week 6.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w2_snake_offer",
+      "week": 2,
+      "type": "pre_vote",
+      "triggerCondition": "always",
+      "character": "snake",
+      "background": "office",
+      "deskAlert": "An embossed silk envelope slid under your door—Vesper Viper requests two minutes.",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "happy",
+          "text": "Good morning, Representative Barker. Vesper Viper, Senior Counsel on K-Street. That dreary little Public Footbridge bill? My client operates the private commuter ferry. Vote NAY, and your reelection War Chest will be effortlessly funded.",
+          "choices": [
+            {
+              "label": "Promise a NAY—campaigns aren't free.",
+              "nextNode": "n2_deal",
+              "effects": {
+                "meters": { "warChest": 10 },
+                "promise": { "character": "snake", "billId": "bill_w2", "expectedVote": "nay" }
+              }
+            },
+            {
+              "label": "I'll 'review the municipal traffic study' first.",
+              "nextNode": "n2_hedge",
+              "effects": {
+                "meters": { "warChest": 2 }
+              }
+            },
+            {
+              "label": "Show yourself out, Viper. Maple Creek needs a clean river and a free bridge.",
+              "nextNode": "n2_refuse",
+              "effects": {
+                "meters": { "constituents": 5, "warChest": -6 }
+              }
+            }
+          ]
+        },
+        "n2_deal": {
+          "mood": "happy",
+          "text": "Exquisite realism. Keep your promise on the floor and consider me a lifelong supporter. Break it, and my clients have remarkably long memories.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_hedge": {
+          "mood": "neutral",
+          "text": "Ah—fluent Capitolese for 'sharpen your offer.' You adapt faster than most freshmen, Mr. Barker.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_refuse": {
+          "mood": "angry",
+          "text": "How delightfully retro! Best of luck funding yard signs with bakery coupons and good vibes.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w3_pig_lunch",
+      "week": 3,
+      "type": "pre_vote",
+      "triggerCondition": "always",
+      "character": "pig",
+      "background": "hallway",
+      "deskAlert": "Rep. Wilbur Troughman is flagging you down outside the dining room.",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "happy",
+          "text": "Barnaby! My favorite freshman! Today's Public Library Roof bill has a teeny-tiny financing mechanism my committee negotiated. Back it with an AYE, and when your Flagship Bill hits Week 6, I'll owe you a solid vote!",
+          "choices": [
+            {
+              "label": "Deal—promise AYE. Remember me in Week 6, Wilbur.",
+              "nextNode": "n2_deal",
+              "effects": {
+                "meters": { "party": 4, "warChest": 5 },
+                "promise": { "character": "pig", "billId": "bill_w3", "expectedVote": "aye" }
+              }
+            },
+            {
+              "label": "Wait—what kind of 'financing mechanism' are we talking about?",
+              "nextNode": "n2_ask",
+              "effects": {}
+            },
+            {
+              "label": "No sneaky fees stapled onto public libraries.",
+              "nextNode": "n2_refuse",
+              "effects": {
+                "meters": { "constituents": 5, "party": -5 }
+              }
+            }
+          ]
+        },
+        "n2_ask": {
+          "mood": "shocked",
+          "text": "Just a modest $15-per-chapter user fee! Encourages brisk reading! Look—are you building a coalition for Week 6 or not?",
+          "choices": [
+            {
+              "label": "Fine. Promise AYE—just deliver on my Flagship Bill.",
+              "nextNode": "n2_deal",
+              "effects": {
+                "meters": { "party": 4, "warChest": 5 },
+                "promise": { "character": "pig", "billId": "bill_w3", "expectedVote": "aye" }
+              }
+            },
+            {
+              "label": "Forget it, Wilbur. Free libraries stay free.",
+              "nextNode": "n2_refuse",
+              "effects": {
+                "meters": { "constituents": 5, "party": -5 }
+              }
+            }
+          ]
+        },
+        "n2_deal": {
+          "mood": "happy",
+          "text": "Now THAT is how legislation gets made! Don't get cold paws on the floor!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_refuse": {
+          "mood": "angry",
+          "text": "Hmph! Enjoy watching your Flagship Bill gather cobwebs in a basement subcommittee!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w4_betrayal_confrontation",
+      "week": 4,
+      "type": "pre_vote",
+      "priority": 10,
+      "triggerCondition": "hasUnconfrontedBetrayal",
+      "character": "wolf",
+      "dynamicCharacterFromBetrayal": true,
+      "background": "hallway",
+      "deskAlert": "URGENT: Someone you double-crossed on a floor promise is pounding on your door!",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "angry",
+          "text": "YOU SHOOK MY HAND, PROMISED YOUR VOTE, AND THEN DOUBLE-CROSSED ME ON THE FLOOR! Did you think nobody reads the roll call in Washington, Barker?!",
+          "choices": [
+            {
+              "label": "I'm sorry—I read the attachment at the last second and balked.",
+              "nextNode": "n2_apologize",
+              "effects": {
+                "meters": { "party": -5, "warChest": -5 },
+                "clearUnconfrontedBetrayal": true
+              }
+            },
+            {
+              "label": "Your sneaky attachment was indefensible—I stand by my vote.",
+              "nextNode": "n2_defiant",
+              "effects": {
+                "meters": { "constituents": 5, "party": -9 },
+                "clearUnconfrontedBetrayal": true
+              }
+            },
+            {
+              "label": "Calm down—I'll back today's Post Office bill to make it right.",
+              "nextNode": "n2_promise_again",
+              "effects": {
+                "meters": { "party": 2 },
+                "promise": { "character": "snake", "billId": "bill_w4", "expectedVote": "aye" },
+                "clearUnconfrontedBetrayal": true
+              }
+            }
+          ]
+        },
+        "n2_apologize": {
+          "mood": "angry",
+          "text": "Word travels faster than gossip in this Capitol. Don't expect favors until your handshake actually means something.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_defiant": {
+          "mood": "shocked",
+          "text": "Bold bark for a freshman with a thin margin. Watch your flank when primary season rolls around.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_promise_again": {
+          "mood": "neutral",
+          "text": "One last chance, rookie. Burn us twice and we'll fly a polished primary challenger straight into District 9.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w4_bear_visit",
+      "week": 4,
+      "type": "pre_vote",
+      "priority": 1,
+      "triggerCondition": "always",
+      "character": "bear",
+      "background": "office",
+      "deskAlert": "Chairwoman Beatrice Kodiak requests a quiet word in your office.",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "neutral",
+          "text": "Representative Barker. I have chaired the Rules Committee for thirty years. Today's Post Office bill arrives with heavy black redactions. Most freshmen are too timid—or too hurried—to scrub away the ink.",
+          "choices": [
+            {
+              "label": "Thank you, Chairwoman. I intend to uncover every blacked-out line.",
+              "nextNode": "n2_respect",
+              "effects": {
+                "meters": { "constituents": 4, "party": 4 },
+                "grantBearTrust": 1
+              }
+            },
+            {
+              "label": "If I kill it, will you vote for my Flagship Bill in Week 6?",
+              "nextNode": "n2_transactional",
+              "effects": {
+                "meters": { "party": -2 }
+              }
+            }
+          ]
+        },
+        "n2_respect": {
+          "mood": "happy",
+          "text": "Good. Read what others try to obscure, and you may learn that institutional respect carries more weight than loud slogans.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_transactional": {
+          "mood": "angry",
+          "text": "Do not haggle with the Rules Chair, young pup. Earn respect first; favors follow merit.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w5_omnibus_squeeze",
+      "week": 5,
+      "type": "pre_vote",
+      "triggerCondition": "always",
+      "character": "wolf",
+      "background": "hallway",
+      "deskAlert": "Whip Fenrir Fang is blocking the elevator with a 1,204-page binder.",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "angry",
+          "text": "Listen closely, Barker. Today's Omnibus bundles small-business storm relief, firetrucks, and 'a few technical items' into one take-it-or-leave-it vote. Stamp AYE and keep your committee seat. Stamp NAY and we'll tell every shop in Maple Creek you voted against storm aid.",
+          "choices": [
+            {
+              "label": "Fine—I'll vote AYE. Keep my committee seat.",
+              "nextNode": "n2_cave",
+              "effects": {
+                "meters": { "party": 6 },
+                "promise": { "character": "wolf", "billId": "bill_w5", "expectedVote": "aye" }
+              }
+            },
+            {
+              "label": "What exactly is buried on Page 1,204, Fenrir?",
+              "nextNode": "n2_probe",
+              "effects": {
+                "meters": { "party": -4 }
+              }
+            },
+            {
+              "label": "Bundling unrelated riders like this is everything wrong with Congress.",
+              "nextNode": "n2_stand",
+              "effects": {
+                "meters": { "constituents": 5, "party": -8 }
+              }
+            }
+          ]
+        },
+        "n2_cave": {
+          "mood": "happy",
+          "text": "Sensible pup. Oh, and heads up—Mags Magpie is camped outside the chamber doors with a flash camera.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_probe": {
+          "mood": "happy",
+          "text": "Merely routine 'toll-road flexibility and congressional catering.' Flip through all three sections on the floor if you're curious—and brace for the hallway reporters!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_stand": {
+          "mood": "angry",
+          "text": "Save the civics lecture for Mags Magpie—she's waiting right outside the doors with a six-second microphone!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w6_flagship_markup",
+      "week": 6,
+      "type": "flagship_markup",
+      "triggerCondition": "always",
+      "character": "pig",
+      "background": "office",
+      "deskAlert": "IT'S FLAGSHIP WEEK! Decide whether to keep your signature bill pure or attach pork for votes.",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "happy",
+          "text": "Big day, Barnaby! Your Flagship Bill hits the floor today—you need 3 votes to pass (you start with 1). If Maple Creek adores you (Constituents 68+), hometown pressure gives you +2 votes! Otherwise, spend banked Favors on the floor—OR let one of us tuck a rider into your bill right now for a guaranteed vote!",
+          "isMarkupPicker": true,
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "enc_w7_fox_arrives",
+      "week": 7,
+      "type": "pre_vote",
+      "triggerCondition": "always",
+      "character": "fox",
+      "background": "hallway",
+      "deskAlert": "BREAKING: A dazzlingly polished Fox is filming a campaign commercial outside your door!",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "happy",
+          "text": "Hey there, Barnaby! Sterling Foxworth—your brand-new Primary Challenger! No hard feelings, pal. My hair tested at 94% favorability, donors are already cutting checks, and today's 'Plain-English Clarity Act' has four nested negatives waiting to trip you up!",
+          "choices": [
+            {
+              "label": "Maple Creek voters see straight through a focus-grouped campaign.",
+              "nextNode": "n2_grassroots",
+              "effects": {
+                "meters": { "constituents": 5 },
+                "activateChallenger": true
+              }
+            },
+            {
+              "label": "Check my War Chest, Sterling—I can match your ad buys.",
+              "nextNode": "n2_money",
+              "effects": {
+                "meters": { "warChest": -4, "party": 4 },
+                "activateChallenger": true
+              }
+            },
+            {
+              "label": "Wait—who's funding all those glossy billboards in my district?!",
+              "nextNode": "n2_ask",
+              "effects": {
+                "activateChallenger": true
+              }
+            }
+          ]
+        },
+        "n2_grassroots": {
+          "mood": "happy",
+          "text": "Ooh, love the hometown pluck! Let's see how pluck holds up against forty thousand prime-time attack ads!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_money": {
+          "mood": "shocked",
+          "text": "Whoa, look at the freshman flexing donor money! My ad editors are gonna love that clip.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_ask": {
+          "mood": "happy",
+          "text": "A totally independent committee called 'Citizens for Fresh Leadership.' See you on the ballot, Barnaby!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w8_ethics_pitch",
+      "week": 8,
+      "type": "pre_vote",
+      "triggerCondition": "always",
+      "character": "snake",
+      "background": "office",
+      "deskAlert": "Vesper Viper is waiting with a 'bipartisan ethics proposal' to protect incumbents.",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "happy",
+          "text": "Tough primary brewing with Foxworth, isn't it, Barnaby? Luckily, today's Campaign Ethics Act is crafted specifically to help incumbents stay... comfortably resourced. Don't fuss over the redacted ink—vote AYE and I'll replenish your War Chest.",
+          "choices": [
+            {
+              "label": "I need the ad money to beat Foxworth. Promise AYE.",
+              "nextNode": "n2_deal",
+              "effects": {
+                "meters": { "warChest": 8 },
+                "promise": { "character": "snake", "billId": "bill_w8", "expectedVote": "aye" }
+              }
+            },
+            {
+              "label": "An 'ethics' bill with blacked-out clauses? I'll scrub it myself.",
+              "nextNode": "n2_refuse",
+              "effects": {
+                "meters": { "constituents": 4, "warChest": -4 }
+              }
+            }
+          ]
+        },
+        "n2_deal": {
+          "mood": "happy",
+          "text": "Spoken like a seasoned incumbent! Keep your word and the television studios will be yours.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_refuse": {
+          "mood": "angry",
+          "text": "Still stubborn after eight weeks? Foxworth's campaign manager sends his warmest thanks.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w9_kodiak_endorsement",
+      "week": 9,
+      "type": "pre_vote",
+      "triggerCondition": "always",
+      "character": "bear",
+      "background": "office",
+      "deskAlert": "Chairwoman Kodiak stands at your door holding a wax-sealed endorsement letter.",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "neutral",
+          "text": "That glossy challenger is turning your race into a carnival, Barker. I am prepared to endorse your reelection—worth a decisive swing on Election Night. Today's Bridge Omnibus includes my own 72-Hour Reading Rule, yet somebody slipped a tainted Page 3 into it. Expose it and vote NAY, and the Kodiak seal is yours.",
+          "choices": [
+            {
+              "label": "You have my word, Chairwoman. I'll block the rigged Page 3.",
+              "nextNode": "n2_pledge",
+              "effects": {
+                "promise": { "character": "bear", "billId": "bill_w9", "expectedVote": "nay" },
+                "enableBearEndorsementOnNay": true
+              }
+            },
+            {
+              "label": "Highway 9 bridges are flood-damaged—I can't pledge a NAY until I read it.",
+              "nextNode": "n2_honest",
+              "effects": {
+                "meters": { "constituents": 4 }
+              }
+            }
+          ]
+        },
+        "n2_pledge": {
+          "mood": "happy",
+          "text": "Well spoken. Scrub the ink, hold the line, and send those no-bid contracts back to committee—and watch out for Mags Magpie afterward.",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_honest": {
+          "mood": "neutral",
+          "text": "Candor is rare in these halls. Inspect Page 3 thoroughly on the floor; if you vote NAY to strip the corruption, my endorsement will still be yours.",
+          "effects": {
+            "enableBearEndorsementOnNay": true
+          },
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        }
+      }
+    },
+    {
+      "id": "enc_w10_election_eve_bargain",
+      "week": 10,
+      "type": "pre_vote",
+      "triggerCondition": "always",
+      "character": "sheep",
+      "background": "office",
+      "deskAlert": "ELECTION EVE: Three urgent closing-night options arrive before the final midnight vote!",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "mood": "shocked",
+          "text": "Barnaby! Polls open at sunrise tomorrow! One midnight vote left, and every group in town is knocking on your door with a closing pitch. How are you spending Election Eve?",
+          "choices": [
+            {
+              "label": "Host a Midnight Maple Creek Town Hall (+16 Constituents, -10 War Chest)",
+              "nextNode": "n2_grassroots",
+              "effects": {
+                "meters": { "constituents": 16, "warChest": -10 }
+              }
+            },
+            {
+              "label": "Accept Viper's Last-Minute Ad Blitz (+22 War Chest, -13 Constituents)",
+              "nextNode": "n2_snake",
+              "effects": {
+                "meters": { "warChest": 22, "constituents": -13 },
+                "corruptionDelta": 1
+              }
+            },
+            {
+              "label": "Sign Whip Fang's Final Caucus Pledge (+19 Party, -10 Constituents)",
+              "nextNode": "n2_wolf",
+              "effects": {
+                "meters": { "party": 19, "constituents": -10 }
+              }
+            }
+          ]
+        },
+        "n2_grassroots": {
+          "mood": "happy",
+          "text": "That's the Barnaby we sent to Washington! Sal Viper's bringing coffee and Mrs. Lupine's organizing carpools to the polls. Now go handle H.R. 999!",
+          "choices": [
+            { "label": "To the Final Floor Vote!", "nextNode": null }
+          ]
+        },
+        "n2_snake": {
+          "mood": "angry",
+          "text": "Barnaby... a velvet-briefcase check at 11 PM on Election Eve? Don't be surprised if the Ethics Board takes an interest.",
+          "choices": [
+            { "label": "To the Final Floor Vote!", "nextNode": null }
+          ]
+        },
+        "n2_wolf": {
+          "mood": "shocked",
+          "text": "The Caucus turnout machine will roll tomorrow—though folks back in Maple Creek will notice whose leash you signed.",
+          "choices": [
+            { "label": "To the Final Floor Vote!", "nextNode": null }
+          ]
+        }
+      }
+    }
+  ],
+  "pressAmbushes": [
+    {
+      "id": "ambush_w5_omnibus",
+      "week": 5,
+      "character": "bird",
+      "background": "hallway",
+      "timerSeconds": 6,
+      "promptByVote": {
+        "aye": "FLASH! Mags Magpie, Capitol Gazette! Rep. Barker, you just froze school repairs and TRIPLED your own lunch allowance! Any comment before press time?!",
+        "nay": "FLASH! Mags Magpie, Capitol Gazette! Whip Fang says you just voted AGAINST storm loans for Maple Creek bakeries and firetrucks! How do you explain that?!",
+        "abstain": "FLASH! Mags Magpie, Capitol Gazette! Did you seriously ABSTAIN on a 1,204-page bill?! Were you taking a nap at your desk?!"
+      },
+      "choices": [
+        {
+          "id": "spin_truth",
+          "label": "\"Page 1,204 froze school repairs to triple lunch perks—demand clean single-issue bills!\"",
+          "goodForVotes": ["nay"],
+          "successText": "Mags lowers her notepad: 'Whoa—clean, punchy quote. Rewriting the morning front page!'",
+          "failText": "Mags cackles: 'YOU VOTED AYE ON IT, BARKER! That's going in 72-point bold!'",
+          "successEffects": { "constituents": 8, "party": -2, "spinResult": "success" },
+          "failEffects": { "constituents": -8, "party": -4, "spinResult": "fail" }
+        },
+        {
+          "id": "spin_shops",
+          "label": "\"Main Street needed storm aid today—I'll introduce a standalone repeal of Page 1,204!\"",
+          "goodForVotes": ["aye"],
+          "successText": "Mags squints: 'Slick framing. Fine—I'll run a photo of Main Street Bakery instead.'",
+          "failText": "Mags grins: 'You voted NAY and you're claiming credit for storm aid? Instant meme!'",
+          "successEffects": { "constituents": 7, "party": 2, "spinResult": "success" },
+          "failEffects": { "constituents": -7, "party": -3, "spinResult": "fail" }
+        },
+        {
+          "id": "spin_distract",
+          "label": "\"Look behind you—Rep. Troughman dropped his fountain pen!\" (Bolt down the stairs)",
+          "goodForVotes": ["abstain"],
+          "successText": "Mags actually turns! You escape the hallway with only a mildly teasing editorial cartoon.",
+          "failText": "Mags snaps a mid-air blur of your flapping bow tie. Instant viral front page.",
+          "successEffects": { "constituents": 2, "spinResult": "success" },
+          "failEffects": { "constituents": -6, "party": -4, "spinResult": "fail" }
+        }
+      ],
+      "timeoutHeadline": "FROZEN PUP! BARKER STARES SPEECHLESS INTO FLASH CAMERA FOR SIX FULL SECONDS!",
+      "timeoutEffects": { "constituents": -9, "party": -4, "spinResult": "fail" }
+    },
+    {
+      "id": "ambush_w9_bridges",
+      "week": 9,
+      "character": "bird",
+      "background": "hallway",
+      "timerSeconds": 6,
+      "promptByVote": {
+        "aye": "FLASH! Rep. Barker! You just handed out 75-YEAR NO-BID CONTRACTS with zero audits! Was Highway 9 worth selling the treasury?!",
+        "nay": "FLASH! Sterling Foxworth is already airing ads claiming you blocked emergency repairs for Highway 9 bridges! Your response?!",
+        "abstain": "FLASH! Election is next week and you ABSTAINED on your own district's bridges! Who are you trying to please?!"
+      },
+      "choices": [
+        {
+          "id": "spin_kodiak",
+          "label": "\"I blocked 75-year no-bid corruption—pass a clean Highway 9 bridge bill right now!\"",
+          "goodForVotes": ["nay"],
+          "successText": "Mags whistles: 'Kodiak's backing that line too! Foxworth's attack ad just fell flat!'",
+          "failText": "Mags flashes her bulb: 'You literally just voted AYE for those no-bid contracts! Front page!'",
+          "successEffects": { "constituents": 8, "party": 2, "spinResult": "success" },
+          "failEffects": { "constituents": -8, "party": -4, "spinResult": "fail" }
+        },
+        {
+          "id": "spin_bridges",
+          "label": "\"District 9 commuters needed safe bridges tonight—I'll demand audits on Page 3 Monday!\"",
+          "goodForVotes": ["aye"],
+          "successText": "Mags shrugs: 'Smooth pivot. Half the district will give you the benefit of the doubt.'",
+          "failText": "Mags laughs: 'Auditing a bill you just voted down?! Classic Capitol word salad!'",
+          "successEffects": { "constituents": 6, "warChest": 3, "spinResult": "success" },
+          "failEffects": { "constituents": -8, "party": -3, "spinResult": "fail" }
+        },
+        {
+          "id": "spin_nocomment",
+          "label": "\"No comment—see you at the ballot box, Mags!\"",
+          "goodForVotes": [],
+          "successText": "Clean exit.",
+          "failText": "Mags grins wickedly: 'In print, No Comment ALWAYS reads like a guilty plea!'",
+          "successEffects": { "constituents": -2, "spinResult": "neutral" },
+          "failEffects": { "constituents": -4, "party": -2, "spinResult": "fail" }
+        }
+      ],
+      "timeoutHeadline": "BARKER SPEECHLESS UNDER PRESS BULBS; FOXWORTH TURNS SILENCE INTO 30-SECOND AD!",
+      "timeoutEffects": { "constituents": -10, "party": -4, "spinResult": "fail" }
+    }
+  ]
+}

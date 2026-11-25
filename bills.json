@@ -1,0 +1,590 @@
+{
+  "bills": [
+    {
+      "id": "bill_w1",
+      "week": 1,
+      "code": "H.R. 101",
+      "title": "The Municipal Sidewalk & Streetlamp Repair Act",
+      "summary": "Funds cracked sidewalk repairs, crosswalk repainting, and new LED streetlamps across rural towns and school bus routes.",
+      "playerPaced": true,
+      "mechanic": "sticky_rider",
+      "isFlagship": false,
+      "rider": {
+        "tabLabel": "AMENDMENT #4B",
+        "text": "Section 14: Reclassifies the Appropriations Chairman's private country-club driveway as a 'Critical Federal Highway' eligible for $18,000,000 in heated cobblestones."
+      },
+      "heckles": [
+        { "atSecond": 2, "character": "wolf", "text": "Clean AYE, rookie. Show Leadership you're a team player." },
+        { "atSecond": 6, "character": "sheep", "text": "Wait a second—what's paper-clipped to the edge of that bill?" }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "angry", "nayMood": "happy" },
+        "wolf": { "ayeMood": "happy", "nayMood": "angry" },
+        "pig": { "ayeMood": "happy", "nayMood": "neutral" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": -13, "party": 13, "warChest": 8 },
+          "favorGained": "wolf",
+          "corruptionDelta": 1,
+          "tags": ["passedRider"],
+          "headline": "HEATED DRIVEWAY FIASCO! BARKER APPROVES $18M COUNTRY-CLUB COBBLESTONES!",
+          "subhead": "Maple Creek gets two new lamp bulbs while Capitol insiders toast their snow-melting asphalt."
+        },
+        "nay": {
+          "meters": { "constituents": 11, "party": -10, "warChest": -4 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["spottedRider"],
+          "headline": "ROOKIE REP PEELS BACK $18M DRIVEWAY RIDER; WHIP FANG FUMES!",
+          "subhead": "Voters cheer Barker's eagle eyes—though rival press releases already claim he 'opposes streetlamps.'"
+        },
+        "abstain": {
+          "meters": { "constituents": -4, "party": -6, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["abstained"],
+          "headline": "BARKER SITS OUT STREETLAMP VOTE: 'I NEEDED MORE TIME TO PONDER SIDEWALKS'",
+          "subhead": "Neither Maple Creek commuters nor the Caucus Whip look impressed."
+        }
+      }
+    },
+    {
+      "id": "bill_w2",
+      "week": 2,
+      "code": "H.R. 118",
+      "title": "The Clean River & Public Footbridge Act",
+      "summary": "Protects municipal drinking wells from industrial runoff and replaces the aging timber footbridge linking Main Street to the west bank.",
+      "playerPaced": true,
+      "mechanic": "clean",
+      "isFlagship": false,
+      "rider": null,
+      "heckles": [
+        { "atSecond": 2, "character": "snake", "text": "Vote NAY quietly, Barker. My toll-ferry client rewards loyalty." },
+        { "atSecond": 6, "character": "sheep", "text": "Zero tricks in this text—just clean water and a safe bridge!" }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "happy", "nayMood": "angry" },
+        "snake": { "ayeMood": "angry", "nayMood": "happy" },
+        "bear": { "ayeMood": "happy", "nayMood": "neutral" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": 11, "party": 2, "warChest": -7 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["cleanWin"],
+          "headline": "BARKER SAVES RIVER BRIDGE; PRIVATE TOLL-FERRY LOBBY SENT PACKING!",
+          "subhead": "Sal Viper hands out free celebratory sourdough on Main Street while Vesper Viper cancels a donor gala."
+        },
+        "nay": {
+          "meters": { "constituents": -14, "party": 4, "warChest": 17 },
+          "favorGained": "snake",
+          "corruptionDelta": 1,
+          "tags": ["tookLobbyMoney"],
+          "headline": "COMMUTERS STRANDED! BARKER KILLS FREE BRIDGE HOURS AFTER LOBBYIST VISIT!",
+          "subhead": "Private ferry fares jump 40% overnight while Barker's campaign account swells mysteriously."
+        },
+        "abstain": {
+          "meters": { "constituents": -6, "party": -2, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["abstained"],
+          "headline": "BARKER ABSTAINS ON CLEAN WATER: 'I HAVE COMPLEX FEELINGS ABOUT BRIDGES'",
+          "subhead": "Both commuters and ferry executives leave the gallery baffled."
+        }
+      }
+    },
+    {
+      "id": "bill_w3",
+      "week": 3,
+      "code": "H.R. 204",
+      "title": "The Public Library Roof & Bookmobile Act",
+      "summary": "Repairs leaking county library roofs nationwide and funds traveling bookmobile vans for rural towns.",
+      "playerPaced": true,
+      "mechanic": "sticky_rider",
+      "isFlagship": false,
+      "rider": {
+        "tabLabel": "SUBSECTION 19-C",
+        "text": "Revenue Offset: Eliminates free public library cards and authorizes a $15-per-chapter 'Reading Convenience Tariff' paid to Private Collections Corp."
+      },
+      "heckles": [
+        { "atSecond": 2, "character": "pig", "text": "BACK MY BOOKMOBILE DEAL, KID! I'LL OWE YOU ONE IN WEEK 6!" },
+        { "atSecond": 5, "character": "bird", "text": "Fifteen bucks a chapter?! Oh, this is front-page gold!" },
+        { "atSecond": 8, "character": "sheep", "text": "Check Subsection 19-C before you stamp, Barnaby!" }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "shocked", "nayMood": "happy" },
+        "pig": { "ayeMood": "happy", "nayMood": "angry" },
+        "bird": { "ayeMood": "happy", "nayMood": "neutral" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": -11, "party": 8, "warChest": 10 },
+          "favorGained": "pig",
+          "corruptionDelta": 1,
+          "tags": ["passedRider", "porkDeal"],
+          "headline": "CHAPTER TAX SHOCK! BARKER BACKS $15-PER-CHAPTER LIBRARY FEE!",
+          "subhead": "Rep. Troughman beams: 'Dry roofs aren't free, folks—and kids should learn fiscal realism early!'"
+        },
+        "nay": {
+          "meters": { "constituents": 10, "party": -6, "warChest": -4 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["spottedRider"],
+          "headline": "BARKER KILLS LIBRARY FEE RIDER; TROUGHMAN THREATENS TO STALL ROOKIE'S BILLS!",
+          "subhead": "Head Librarian Penny Mallard applauds—even as Troughman tells reporters Barker 'hates dry books.'"
+        },
+        "abstain": {
+          "meters": { "constituents": -5, "party": -5, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["abstained"],
+          "headline": "BARKER DUCKS LIBRARY VOTE, BLAMES OVERDUE PAPERWORK!",
+          "subhead": "Neither the library board nor the Appropriations veteran takes it kindly."
+        }
+      }
+    },
+    {
+      "id": "bill_w4",
+      "week": 4,
+      "code": "H.R. 312",
+      "title": "The Rural Telegraph & Post Office Modernization Act",
+      "summary": "Modernizes aging county post offices and expands high-speed municipal telegraph lines to outlying communities.",
+      "playerPaced": true,
+      "mechanic": "redacted",
+      "isFlagship": false,
+      "rider": null,
+      "redactions": [
+        {
+          "prefix": "Section 5: Permanently closes ",
+          "hidden": "60% of rural post offices and leases the buildings to K-Street Storage Holdings",
+          "suffix": " for 'efficiency.'"
+        },
+        {
+          "prefix": "Section 6: Replaces standard local mail with ",
+          "hidden": "a mandatory $35/month 'Priority Envelope Subscription'",
+          "suffix": " billed to every rural household."
+        }
+      ],
+      "heckles": [
+        { "atSecond": 2, "character": "snake", "text": "Ignore the redaction ink—merely proprietary logistics phrasing." },
+        { "atSecond": 6, "character": "bear", "text": "A serious representative never votes on blacked-out clauses." }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "angry", "nayMood": "happy" },
+        "snake": { "ayeMood": "happy", "nayMood": "angry" },
+        "bear": { "ayeMood": "angry", "nayMood": "happy" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": -15, "party": 6, "warChest": 17 },
+          "favorGained": "snake",
+          "corruptionDelta": 1,
+          "tags": ["passedRider", "missedRedaction"],
+          "headline": "STAMPED OUT! BARKER APPROVES RURAL POST OFFICE CLOSURES & $35 MAIL FEE!",
+          "subhead": "Retired carrier Old Man Boarwell shakes his head as Maple Creek's post office gets padlocked."
+        },
+        "nay": {
+          "meters": { "constituents": 11, "party": -5, "warChest": -7 },
+          "favorGained": "bear",
+          "corruptionDelta": 0,
+          "tags": ["spottedRedaction"],
+          "headline": "INK-STAINED SLEUTH! BARKER SCRUBS REDACTIONS & SAVES LOCAL POST OFFICES!",
+          "subhead": "Chairwoman Kodiak delivers a rare, thunderous nod of respect from the Rules dais."
+        },
+        "abstain": {
+          "meters": { "constituents": -6, "party": -5, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["abstained"],
+          "headline": "BARKER REFUSES TO VOTE ON MAIL BILL: 'THE BLACK INK WAS TOO INTIMIDATING'",
+          "subhead": "Chairwoman Kodiak sighs loudly enough to rattle the chandeliers."
+        }
+      }
+    },
+    {
+      "id": "bill_w5",
+      "week": 5,
+      "code": "H.R. 409 (OMNIBUS)",
+      "title": "The 'Small Business Relief & Also 1,200 Other Pages' Omnibus",
+      "summary": "A massive three-part legislative package bundled overnight. Flip through every page before deciding your vote!",
+      "playerPaced": true,
+      "mechanic": "omnibus",
+      "isFlagship": false,
+      "triggersPressAmbush": "ambush_w5_omnibus",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "heading": "TITLE I — NEIGHBORHOOD SMALL BUSINESS RELIEF",
+          "body": "Provides zero-interest storm-repair loans to main-street bakeries, hardware shops, and family diners across every district."
+        },
+        {
+          "pageNumber": 2,
+          "heading": "TITLE II — FIRETRUCKS & WATER TOWERS",
+          "body": "Replaces aging volunteer fire engines and repaints municipal water towers before winter."
+        },
+        {
+          "pageNumber": 3,
+          "heading": "TITLE III (PAGE 1,204) — TECHNICAL ADJUSTMENTS",
+          "body": "WAIVES SAFETY INSPECTIONS for private toll highways, FREEZES PUBLIC SCHOOL REPAIR BUDGETS for 5 years, and TRIPLES Congressional Luncheon Allowances.",
+          "isTrap": true
+        }
+      ],
+      "heckles": [
+        { "atSecond": 2, "character": "wolf", "text": "PASS THE OMNIBUS OR KISS YOUR COMMITTEE SEAT GOODBYE!" },
+        { "atSecond": 6, "character": "pig", "text": "Don't bother with Page 3, kid—just look at those lovely firetrucks!" },
+        { "atSecond": 10, "character": "bird", "text": "I'm waiting right outside the door with my flash bulb, Barker!" }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "shocked", "nayMood": "happy" },
+        "wolf": { "ayeMood": "happy", "nayMood": "angry" },
+        "snake": { "ayeMood": "happy", "nayMood": "angry" },
+        "bird": { "ayeMood": "happy", "nayMood": "happy" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": -15, "party": 15, "warChest": 13 },
+          "favorGained": "wolf",
+          "corruptionDelta": 1,
+          "tags": ["survivedOmnibus", "passedRider"],
+          "headline": "TRIPLE-LUNCH SCANDAL! BARKER RUBBER-STAMPS 1,204-PAGE MONSTER BILL!",
+          "subhead": "Shopkeepers get storm loans, schools freeze repairs, and Capitol catering bills triple overnight."
+        },
+        "nay": {
+          "meters": { "constituents": 11, "party": -14, "warChest": -6 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["survivedOmnibus", "blockedOmnibus"],
+          "headline": "BARKER TANKS OMNIBUS! CRITICS BLAST 'NO' VOTE ON SMALL BUSINESS STORM AID!",
+          "subhead": "Whip Fang slams his binder while Mags Magpie sprints into the hallway for a live ambush quote."
+        },
+        "abstain": {
+          "meters": { "constituents": -7, "party": -9, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["survivedOmnibus", "abstained"],
+          "headline": "OMNIBUS FREEZE: BARKER HIDES BEHIND BINDER DURING MARATHON VOTE!",
+          "subhead": "Neither small shops nor Caucus Leadership know what to make of it."
+        }
+      }
+    },
+    {
+      "id": "bill_w6_flagship",
+      "week": 6,
+      "code": "H.R. 500 (YOUR FLAGSHIP)",
+      "title": "Your Signature Legislation",
+      "summary": "This is why you ran for Congress. Call in banked Favor Tokens or rally Hometown Pressure to reach 3 votes, then slam CALL THE VOTE!",
+      "playerPaced": true,
+      "mechanic": "flagship",
+      "isFlagship": true,
+      "votesNeeded": 3,
+      "baseVotes": 1,
+      "grassrootsAutoVotesThreshold": 68,
+      "grassrootsAutoVotesBonus": 2,
+      "variantsByArchetype": {
+        "grassroots": {
+          "title": "The Maple Creek Community Center & Park Act",
+          "summary": "Restores District 9's leaking community hall, upgrades neighborhood playgrounds, and builds an all-weather town pavilion.",
+          "votesNeeded": 3
+        },
+        "climber": {
+          "title": "The Regional Commuter Rail & Main Street Act",
+          "summary": "Connects rural stations to county transit hubs and revitalizes small-town storefront awnings along Highway 9.",
+          "votesNeeded": 3
+        },
+        "pork_baron": {
+          "title": "The Grand District 9 Civic Plaza & Jobs Act",
+          "summary": "Delivers $40M in federal construction contracts (and a suspiciously heroic brass fountain in your honor) to Maple Creek.",
+          "votesNeeded": 3
+        }
+      },
+      "porkAttachments": [
+        {
+          "id": "none",
+          "label": "Keep Your Bill 100% Clean",
+          "description": "Zero backroom additions. Voters love the purity, so you'll rely on banked Favors or Hometown Pressure (Constituents >= 68).",
+          "bonusVotes": 0,
+          "effects": { "constituents": 6, "party": 0, "warChest": 0, "corruption": 0 }
+        },
+        {
+          "id": "pig_bridge",
+          "label": "Attach Troughman's Bridge Earmark (+1 Vote)",
+          "description": "Adds a $22M 'Troughman Expressway Ramp' to your bill. Guarantees Rep. Troughman's vote on the floor.",
+          "bonusVotes": 1,
+          "effects": { "constituents": -10, "party": 4, "warChest": 4, "corruption": 1, "porkAttached": true }
+        },
+        {
+          "id": "snake_loophole",
+          "label": "Slip in Viper's Inspection Loophole (+1 Vote & +14 Cash)",
+          "description": "Buried footnote exempts Viper's developer clients from municipal safety checks. Buys a vote and pads your War Chest.",
+          "bonusVotes": 1,
+          "effects": { "constituents": -13, "party": 0, "warChest": 14, "corruption": 1, "porkAttached": true }
+        },
+        {
+          "id": "wolf_rebrand",
+          "label": "Let Whip Fang Co-Brand the Bill (+1 Vote & +8 Party)",
+          "description": "Leadership slaps the Caucus crest across your cover page and whips an extra vote—at the cost of independent credibility.",
+          "bonusVotes": 1,
+          "effects": { "constituents": -9, "party": 8, "warChest": 0, "corruption": 0 }
+        }
+      ],
+      "heckles": [
+        { "atSecond": 2, "character": "sheep", "text": "Everyone back in Maple Creek is listening to the floor broadcast!" },
+        { "atSecond": 6, "character": "wolf", "text": "Hope you banked enough favors—or kept your hometown happy." }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "happy", "nayMood": "angry" },
+        "wolf": { "ayeMood": "neutral", "nayMood": "happy" },
+        "pig": { "ayeMood": "neutral", "nayMood": "happy" },
+        "bear": { "ayeMood": "happy", "nayMood": "angry" }
+      },
+      "outcomes": {
+        "pass": {
+          "meters": { "constituents": 16, "party": 9, "warChest": 6 },
+          "headline": "FRESHMAN TRIUMPH! BARKER'S FLAGSHIP BILL ROARS THROUGH THE HOUSE!",
+          "subhead": "Maple Creek erupts in cheers as the rookie pup proves he can actually move legislation."
+        },
+        "fail": {
+          "meters": { "constituents": -16, "party": -10, "warChest": -6 },
+          "headline": "DEFEAT ON THE FLOOR! BARKER'S SIGNATURE BILL DIES SHORT OF A MAJORITY!",
+          "subhead": "Empty vote tallies and bruised pride leave the freshman staring at a silent chamber."
+        }
+      }
+    },
+    {
+      "id": "bill_w7",
+      "week": 7,
+      "code": "H.R. 615 (PROCEDURAL)",
+      "title": "The Plain-English Clarity & Paperwork Reduction Act",
+      "summary": "QUESTION ON THE FLOOR: \"Shall the House NOT decline to uphold the repeal of the exemption preventing non-disclosure of committee luxury travel receipts?\"",
+      "playerPaced": true,
+      "mechanic": "legalese",
+      "isFlagship": false,
+      "rider": {
+        "tabLabel": "STAFF LEGAL MEMO",
+        "text": "PLAIN-ENGLISH TRANSLATION: Four nested negatives! Voting AYE keeps luxury committee junkets SECRET. Voting NAY forces full public receipts!"
+      },
+      "heckles": [
+        { "atSecond": 2, "character": "fox", "text": "Go ahead, Barnaby—untangle four negatives while my ad team rolls tape!" },
+        { "atSecond": 6, "character": "wolf", "text": "It's literally titled 'Clarity'—just stamp AYE!" },
+        { "atSecond": 9, "character": "bear", "text": "Diagram the sentence, Representative. Read your staff memo." }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "shocked", "nayMood": "happy" },
+        "wolf": { "ayeMood": "happy", "nayMood": "angry" },
+        "fox": { "ayeMood": "happy", "nayMood": "angry" },
+        "bear": { "ayeMood": "angry", "nayMood": "happy" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": -14, "party": 11, "warChest": 10 },
+          "favorGained": "wolf",
+          "corruptionDelta": 1,
+          "tags": ["facedLegalese", "passedRider"],
+          "headline": "DOUBLE-NEGATIVE DISASTER! BARKER VOTES TO HIDE LUXURY TRAVEL RECEIPTS!",
+          "subhead": "Foxworth airs a 30-second commercial mocking Barker for flunking Capitol grammar."
+        },
+        "nay": {
+          "meters": { "constituents": 12, "party": -8, "warChest": -5 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["facedLegalese", "spottedRider"],
+          "headline": "BARKER CRACKS TRIPLE-NEGATIVE TRAP; EXPOSES SECRET JUNKET BILL!",
+          "subhead": "High school civics teacher Dr. Oona Owl gives Barker an A+ while insiders scramble to hide hotel tabs."
+        },
+        "abstain": {
+          "meters": { "constituents": -6, "party": -5, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["facedLegalese", "abstained"],
+          "headline": "GRAMMAR PARALYSIS: BARKER ABSTAINS ON 'CLARITY ACT'",
+          "subhead": "Foxworth chuckles: 'If he can't read one sentence, how can he represent District 9?'"
+        }
+      }
+    },
+    {
+      "id": "bill_w8",
+      "week": 8,
+      "code": "H.R. 722",
+      "title": "The Campaign Ethics & Donor Transparency Act",
+      "summary": "Promises sweeping accountability for campaign donations and strict enforcement of election-year fundraising rules.",
+      "playerPaced": true,
+      "mechanic": "redacted",
+      "isFlagship": false,
+      "rider": null,
+      "redactions": [
+        {
+          "prefix": "Section 2: Completely exempts ",
+          "hidden": "National Committee Bundlers and Anonymous Consulting Shells",
+          "suffix": " from filing public donor reports."
+        },
+        {
+          "prefix": "Section 3: Imposes ",
+          "hidden": "a $5,000 federal audit fee on neighborhood potluck fundraisers",
+          "suffix": " raising under $500."
+        }
+      ],
+      "heckles": [
+        { "atSecond": 2, "character": "fox", "text": "Vote against 'Ethics' and watch my billboards go up by noon!" },
+        { "atSecond": 6, "character": "snake", "text": "A remarkably thoughtful framework for incumbent stability." },
+        { "atSecond": 9, "character": "sheep", "text": "A $5,000 fee on town potlucks?! That's rigged!" }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "shocked", "nayMood": "happy" },
+        "snake": { "ayeMood": "happy", "nayMood": "angry" },
+        "fox": { "ayeMood": "happy", "nayMood": "angry" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": -15, "party": 9, "warChest": 16 },
+          "favorGained": "snake",
+          "corruptionDelta": 1,
+          "tags": ["passedRider", "missedRedaction"],
+          "headline": "POTLUCK CRACKDOWN! BARKER TAXES COMMUNITY FUNDRAISERS WHILE SHIELDING SHELL FUNDS!",
+          "subhead": "Maple Creek bake-sale volunteers hit with federal paperwork as K-Street donors celebrate."
+        },
+        "nay": {
+          "meters": { "constituents": 12, "party": -7, "warChest": -8 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["spottedRedaction"],
+          "headline": "BARKER TORCHES FAKE 'ETHICS' BILL; FOXWORTH CRIES FOUL ON CABLE NEWS!",
+          "subhead": "District 9 cheers the potluck rescue while donor money dries up."
+        },
+        "abstain": {
+          "meters": { "constituents": -6, "party": -5, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["abstained"],
+          "headline": "BARKER ABSTAINS ON ETHICS BILL—FOXWORTH DUBS HIM 'THE VANISHING PUP'",
+          "subhead": "Voters wonder why their rep suddenly needed an urgent hallway break."
+        }
+      }
+    },
+    {
+      "id": "bill_w9",
+      "week": 9,
+      "code": "H.R. 840 (OMNIBUS)",
+      "title": "The Emergency Bridge & Committee Order Omnibus",
+      "summary": "Flood-repair funding for Highway 9 paired with Chairwoman Kodiak's 72-Hour Reading Rule—and a heavily inked Page 3.",
+      "playerPaced": true,
+      "mechanic": "omnibus_redacted",
+      "isFlagship": false,
+      "triggersPressAmbush": "ambush_w9_bridges",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "heading": "TITLE I — EMERGENCY HIGHWAY 9 BRIDGE AID",
+          "body": "Releases immediate federal construction grants to repair three flood-damaged highway bridges serving District 9."
+        },
+        {
+          "pageNumber": 2,
+          "heading": "TITLE II — KODIAK'S 72-HOUR READING RULE",
+          "body": "Bans surprise 1,000-page midnight drops and guarantees every lawmaker three full days to read bills before voting."
+        },
+        {
+          "pageNumber": 3,
+          "heading": "TITLE III — PROCUREMENT ADDENDUM",
+          "body": "SCRUB THE REDACTION BELOW BEFORE YOU VOTE!",
+          "isTrap": true,
+          "redactions": [
+            {
+              "prefix": "Subsection Z: Awards ",
+              "hidden": "permanent no-bid procurement contracts to Troughman Construction & Viper Consulting with zero audit oversight",
+              "suffix": " through 2099."
+            }
+          ]
+        }
+      ],
+      "heckles": [
+        { "atSecond": 2, "character": "bear", "text": "Inspect every page, Barker. My endorsement hangs on your backbone." },
+        { "atSecond": 6, "character": "pig", "text": "Skip Page 3—just pass the bridge money!" },
+        { "atSecond": 10, "character": "fox", "text": "Either way you stamp, my prime-time attack ad is already edited!" }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "neutral", "nayMood": "shocked" },
+        "bear": { "ayeMood": "angry", "nayMood": "happy" },
+        "pig": { "ayeMood": "happy", "nayMood": "angry" },
+        "snake": { "ayeMood": "happy", "nayMood": "angry" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": -8, "party": 11, "warChest": 16 },
+          "favorGained": "pig",
+          "corruptionDelta": 1,
+          "tags": ["survivedOmnibus", "passedRider"],
+          "headline": "NO-BID JACKPOT! BARKER PASSES BRIDGE AID—AND 75-YEAR UN-AUDITED CONTRACTS!",
+          "subhead": "Highway 9 gets concrete, K-Street pops champagne, and Chairwoman Kodiak snaps her oak pencil in half."
+        },
+        "nay": {
+          "meters": { "constituents": 10, "party": -5, "warChest": -9 },
+          "favorGained": "bear",
+          "corruptionDelta": 0,
+          "tags": ["survivedOmnibus", "spottedRedaction", "earnedBearRespect"],
+          "headline": "BARKER EXPOSES NO-BID RIDER; KODIAK PRAISES 'SPINE OF STEEL'!",
+          "subhead": "Demanding a clean standalone bridge bill wins Kodiak's heavyweight respect—and a hallway ambush from Mags Magpie."
+        },
+        "abstain": {
+          "meters": { "constituents": -8, "party": -7, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["survivedOmnibus", "abstained"],
+          "headline": "BARKER FREEZES ON BRIDGE OMNIBUS; NEITHER COMMUTERS NOR BEARS PLEASED!",
+          "subhead": "Mags Magpie pops a fresh flash bulb outside the chamber doors."
+        }
+      }
+    },
+    {
+      "id": "bill_w10",
+      "week": 10,
+      "code": "H.R. 999 (MIDNIGHT CR)",
+      "title": "The Midnight Continuity & Public Services Resolution",
+      "summary": "Final midnight vote on Election Eve! Keeps public parks, mail delivery, and municipal grants running through Election Week.",
+      "playerPaced": true,
+      "mechanic": "sticky_rider",
+      "isFlagship": false,
+      "rider": {
+        "tabLabel": "11:58 PM MANAGER'S AMENDMENT",
+        "text": "Section 88: Automatically renews every expired special-interest tax loophole for 20 years and strips freshman lawmakers of independent town-hall budgets."
+      },
+      "heckles": [
+        { "atSecond": 2, "character": "wolf", "text": "POLLS OPEN AT SUNRISE! VOTE WITH THE CAUCUS OR SINK ALONE!" },
+        { "atSecond": 5, "character": "sheep", "text": "Don't let them gut our town-hall budgets at midnight, Barnaby!" },
+        { "atSecond": 8, "character": "bird", "text": "HOLD THE PRESSES—THIS FINAL STAMP DECIDES ELECTION DAY!" }
+      ],
+      "gallery": {
+        "sheep": { "ayeMood": "angry", "nayMood": "happy" },
+        "wolf": { "ayeMood": "happy", "nayMood": "angry" },
+        "snake": { "ayeMood": "happy", "nayMood": "angry" },
+        "fox": { "ayeMood": "angry", "nayMood": "happy" }
+      },
+      "outcomes": {
+        "aye": {
+          "meters": { "constituents": -18, "party": 18, "warChest": 18 },
+          "favorGained": "wolf",
+          "corruptionDelta": 1,
+          "tags": ["passedRider", "midnightSellout"],
+          "headline": "MIDNIGHT LOOPHOLE BLITZ! BARKER SIGNS 20-YEAR TAX BREAK ON ELECTION EVE!",
+          "subhead": "Town-hall budgets vanish while Barker's final ad war chest explodes overnight."
+        },
+        "nay": {
+          "meters": { "constituents": 15, "party": -13, "warChest": -9 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["spottedRider", "midnightHero"],
+          "headline": "MIDNIGHT STAND! BARKER BLOCKS 11:58 PM LOOPHOLE GRAB AS POLLS OPEN!",
+          "subhead": "Maple Creek erupts in applause while Whip Fang shreds Barker's caucus lanyard."
+        },
+        "abstain": {
+          "meters": { "constituents": -9, "party": -9, "warChest": -4 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "tags": ["abstained"],
+          "headline": "LIGHTS OUT: BARKER ABSTAINS AT MIDNIGHT HOURS BEFORE POLLS OPEN!",
+          "subhead": "Even the Capitol night-shift custodian looks mildly disappointed."
+        }
+      }
+    }
+  ]
+}
