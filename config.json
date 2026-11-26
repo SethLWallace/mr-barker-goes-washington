@@ -2,11 +2,14 @@
   "meta": {
     "title": "Mr. Barker Goes to Washington",
     "subtitle": "A Satirical Congress Micro-Sim",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "totalWeeks": 10,
     "billTimersEnabled": false,
     "pressAmbushTimerSeconds": 6,
     "abstainLimit": 2,
+    "hideNumericHudBars": true,
+    "hideArcadePoints": true,
+    "districtName": "Maple Creek",
     "assetBaseUrl": null,
     "useExternalAssets": false,
     "worldNote": "Everyone in Maple Creek and Washington can be any animal—teachers, bakers, librarians, and lawmakers alike. The Capitol power brokers you collide with just happen to lean into classic literary fables, while every bill satirizes purely how Congress functions.",
@@ -32,45 +35,74 @@
       }
     }
   },
-  "meters": [
+  "voterBlocs": [
     {
-      "id": "constituents",
-      "label": "Constituents",
-      "icon": "🏘️",
-      "color": "#2F6B4F",
-      "description": "District 9 (Maple Creek) voter approval and Election Day turnout."
+      "id": "families",
+      "label": "Families",
+      "weight": 0.3333,
+      "voice": "Mrs. Lupine (Wolf), 3rd-Grade Teacher & PTA",
+      "priorities": "Public schools, clean water, safe parks, and affordable everyday essentials.",
+      "color": "#2F6B4F"
     },
     {
-      "id": "party",
-      "label": "Party Standing",
-      "icon": "🏛️",
-      "color": "#1E3552",
-      "description": "Caucus loyalty, committee clout, and institutional backing."
+      "id": "seniors",
+      "label": "Seniors",
+      "weight": 0.3333,
+      "voice": "Old Man Boarwell (Pig), Retired Postal Carrier",
+      "priorities": "Fixed-income tax stability, neighborhood post offices, quiet streets, and clean oversight.",
+      "color": "#1E3552"
     },
     {
-      "id": "warChest",
-      "label": "War Chest",
-      "icon": "💼",
-      "color": "#C99738",
-      "description": "Campaign cash for airwave ads and defending against primary attacks."
+      "id": "mainStreet",
+      "label": "Main Street",
+      "weight": 0.3334,
+      "voice": "Sal Viper (Snake), Main Street Sourdough Bakery",
+      "priorities": "Local jobs, foot traffic, bridge & rail access, and manageable small-shop regulations.",
+      "color": "#C99738"
     }
   ],
+  "stafferReport": {
+    "stafferName": "Toby Otter",
+    "stafferTitle": "Junior Legislative Aide (Unpaid)",
+    "clipboardLabel": "MAPLE CREEK PULSE MEMO",
+    "marginOfErrorNote": "Internal office pulse check — qualitative estimates only (roughly ±8% fog of war).",
+    "blocBands": [
+      { "min": 75, "label": "Ecstatic", "tone": "strong_positive", "hint": "Carrying yard signs and volunteering." },
+      { "min": 58, "label": "Warm", "tone": "positive", "hint": "Leaning your way at the diner." },
+      { "min": 42, "label": "Split", "tone": "neutral", "hint": "Undecided—could swing either way." },
+      { "min": 25, "label": "Restless", "tone": "negative", "hint": "Grumbling loudly in town meetings." },
+      { "min": 0, "label": "Furious", "tone": "strong_negative", "hint": "Actively organizing against you." }
+    ],
+    "partyBands": [
+      { "min": 72, "label": "Inner Circle", "tone": "strong_positive", "hint": "Whip Fang calls you a rising star." },
+      { "min": 50, "label": "Good Graces", "tone": "positive", "hint": "Your committee seat feels secure." },
+      { "min": 25, "label": "On Thin Ice", "tone": "neutral", "hint": "Leadership is watching your roll-call closely." },
+      { "min": 0, "label": "Backbench Exile", "tone": "strong_negative", "hint": "Leadership is stalling your legislation (Flagship needs 4 votes!)." }
+    ],
+    "warChestBands": [
+      { "min": 72, "label": "Overflowing", "tone": "strong_positive", "hint": "Enough ad money to blanket every station." },
+      { "min": 45, "label": "Healthy", "tone": "positive", "hint": "Can answer rival mailers comfortably." },
+      { "min": 25, "label": "Tight", "tone": "neutral", "hint": "Counting pennies on postage and radio spots." },
+      { "min": 0, "label": "Running on Fumes", "tone": "strong_negative", "hint": "Unanswered Foxworth ads will bleed Maple Creek support!" }
+    ]
+  },
+  "squeezeRules": {
+    "lowPartyCommitteeThreshold": 25,
+    "lowPartyFlagshipExtraVotes": 1,
+    "lowFundsDrainThreshold": 25,
+    "lowFundsWeeklyBlocDrain": -5
+  },
   "characters": {
     "barker": {
       "id": "barker",
       "name": "Rep. Barnaby Barker",
       "species": "Puppy Dog",
-      "role": "Freshman Representative (District 9 — Maple Creek)",
+      "role": "Freshman Representative — Maple Creek",
       "faction": "player",
       "color": "#E2B679",
       "accent": "#1E3552",
       "visualBrief": "Earnest golden-tan floppy-eared freshman puppy in a slightly oversized off-the-rack navy suit, polka-dot bow tie, perked hopeful ears (droop when stressed).",
-      "portraits": {
-        "neutral": null,
-        "happy": null,
-        "angry": null,
-        "shocked": null
-      }
+      "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "sheep": {
       "id": "sheep",
@@ -81,12 +113,7 @@
       "color": "#DCE5D5",
       "accent": "#2F6B4F",
       "visualBrief": "No-nonsense community organizer with curly cream wool, round brass spectacles, forest-green knit cardigan, holding a town-hall clipboard.",
-      "portraits": {
-        "neutral": null,
-        "happy": null,
-        "angry": null,
-        "shocked": null
-      }
+      "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "wolf": {
       "id": "wolf",
@@ -97,12 +124,7 @@
       "color": "#34495E",
       "accent": "#B83227",
       "visualBrief": "Razor-sharp slate-gray wolf in a crisp charcoal pinstripe suit, crimson power tie, brass monocle, gleaming whip-count clipboard.",
-      "portraits": {
-        "neutral": null,
-        "happy": null,
-        "angry": null,
-        "shocked": null
-      }
+      "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "snake": {
       "id": "snake",
@@ -113,12 +135,7 @@
       "color": "#2E6F56",
       "accent": "#C99738",
       "visualBrief": "Sleek emerald viper in a tailored brocade waistcoat, gold pocket-watch chain, tinted pince-nez glasses, calm unblinking poise.",
-      "portraits": {
-        "neutral": null,
-        "happy": null,
-        "angry": null,
-        "shocked": null
-      }
+      "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "pig": {
       "id": "pig",
@@ -129,12 +146,7 @@
       "color": "#C97C73",
       "accent": "#8C3B32",
       "visualBrief": "Portly pink-and-cream veteran lawmaker in a burgundy three-piece waistcoat, brass suspenders, handlebar tusks, waving a gold fountain pen.",
-      "portraits": {
-        "neutral": null,
-        "happy": null,
-        "angry": null,
-        "shocked": null
-      }
+      "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "bear": {
       "id": "bear",
@@ -145,12 +157,7 @@
       "color": "#6E4B32",
       "accent": "#C99738",
       "visualBrief": "Imposing brown bear in a structured tweed blazer, tortoiseshell spectacles, pearl pin, resting one paw on a massive oak gavel.",
-      "portraits": {
-        "neutral": null,
-        "happy": null,
-        "angry": null,
-        "shocked": null
-      }
+      "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "bird": {
       "id": "bird",
@@ -161,12 +168,7 @@
       "color": "#1E272E",
       "accent": "#F2C94C",
       "visualBrief": "Sharp black-and-white magpie in a belted trench coat, tilted fedora with a 'PRESS' card tucked in the band, vintage flash-bulb camera.",
-      "portraits": {
-        "neutral": null,
-        "happy": null,
-        "angry": null,
-        "shocked": null
-      }
+      "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "fox": {
       "id": "fox",
@@ -177,87 +179,96 @@
       "color": "#D35400",
       "accent": "#1E3552",
       "visualBrief": "Impossibly polished russet fox with focus-grouped coiffed fur, tailored navy blazer over cream turtleneck, blinding campaign smile.",
-      "portraits": {
-        "neutral": null,
-        "happy": null,
-        "angry": null,
-        "shocked": null
-      }
+      "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     }
   },
   "constituentPostcards": [
     {
       "week": 1,
+      "bloc": "families",
       "sender": "Mrs. Lupine (Wolf), 3rd-Grade Teacher — Maple Creek Elementary",
-      "note": "Good luck on your first week, Barnaby! My class drew you a card—please fix the broken streetlamps by the bus stop!"
+      "note": "Parents are begging for bright lamps by the school bus stop—though I heard retired folks on Oak Street are worried about how the town will pay for it!"
     },
     {
       "week": 2,
+      "bloc": "mainStreet",
       "sender": "Sal Viper (Snake), Owner — Main Street Sourdough Bakery",
-      "note": "Sending fresh cinnamon rolls to your office! Our town footbridge needs repairs bad—don't let the toll ferry push us out."
+      "note": "Folks are split down here, Barnaby! Families want the free river bridge and strict runoff rules, but riverside workshops say new compliance fees could squeeze them dry."
     },
     {
       "week": 3,
-      "sender": "Penny Mallard (Duck), Head Librarian — Maple Creek Library",
-      "note": "We have six buckets catching rain in the children's wing. Hoping the Library Roof Act is as clean as its title!"
+      "bloc": "mainStreet",
+      "sender": "Sal Viper & Hector Badger — Maple Creek Merchants",
+      "note": "Heads up: Main Street is desperate for foot traffic and the 150 jobs in today's Rail Depot bill. Even if Troughman stuffed ugly pork in it, downtown shops WANT this passed!"
     },
     {
       "week": 4,
+      "bloc": "seniors",
       "sender": "Old Man Boarwell (Pig), Retired Postal Carrier",
-      "note": "Walked Route 4 for forty years. Keep an eye on the fine print in today's Post Office bill, pup—my knees tell me trouble's coming."
+      "note": "Online shops love cheaper bulk shipping, sure—but check the blacked-out lines on today's Post Office bill! Seniors depend on our walk-in counter for prescriptions."
     },
     {
       "week": 5,
-      "sender": "Hector Badger (Badger), Maple Creek Hardware",
-      "note": "Heard they stuffed storm loans for small shops into a 1,200-page monster bill. How is anyone supposed to vote on that?!"
+      "bloc": "families",
+      "sender": "Mrs. Lupine & Penny Mallard — Joint Maple Creek Note",
+      "note": "Downtown shops really need those storm loans and seniors need ambulance upgrades, Barnaby—just PLEASE read Page 3 before deciding what they're trading away!"
     },
     {
       "week": 6,
-      "sender": "Martha Ewe (Sheep) & The Maple Creek Town Hall",
-      "note": "Today's the big day for your Flagship Bill! The whole town is glued to the radio waiting to see if a freshman can get it passed."
+      "bloc": "seniors",
+      "sender": "Martha Ewe (Sheep) — Maple Creek Town Hall",
+      "note": "Your Flagship Bill hits the floor today! Maple Creek is watching to see if you pass it clean, trade favors, or stuff someone else's earmark into your own promise."
     },
     {
       "week": 7,
+      "bloc": "families",
       "sender": "Dr. Oona Owl (Owl), High School Civics Teacher",
-      "note": "We tried diagramming H.R. 615 on the chalkboard and broke three pieces of chalk. Please read the staff memo before stamping!"
+      "note": "We tried diagramming H.R. 615 on the chalkboard and broke three pieces of chalk. Read your Staff Legal Memo—and watch out for that slick new Fox on our billboards!"
     },
     {
       "week": 8,
-      "sender": "Coach Bruno Bear (Bear), Maple Creek Youth Softball",
-      "note": "Who is this Sterling Foxworth guy?! His face is on four billboards by the diner and he just arrived in town yesterday!"
+      "bloc": "mainStreet",
+      "sender": "Sal Viper & Coach Bruno Bear — Maple Creek Diner",
+      "note": "Foxworth's glossy ads are everywhere! Careful with today's 'Ethics' bill—rumor says the redacted fine print slaps huge audit fees on local chamber mixers and potlucks."
     },
     {
       "week": 9,
-      "sender": "Sal Viper & Mrs. Lupine — Joint Neighborhood Note",
-      "note": "That flood-damaged bridge on Highway 9 really needs work, Barnaby—just watch out for whatever they buried on Page 3."
+      "bloc": "seniors",
+      "sender": "Old Man Boarwell (Pig) — Maple Creek Watchdogs",
+      "note": "Delivery trucks are furious about the Highway 9 bridge detour, so Main Street wants a fast AYE—but Chairwoman Kodiak warned us Page 3 hides 75-year no-bid contracts!"
     },
     {
       "week": 10,
-      "sender": "District 9 Polling Volunteers",
-      "note": "Polls open at sunrise tomorrow! Whatever happens in tonight's midnight vote, Maple Creek is watching."
+      "bloc": "families",
+      "sender": "Maple Creek Polling Volunteers",
+      "note": "Polls open at sunrise! Tonight's midnight bill freezes senior property taxes—but rumor says an 11:58 PM rider slashes school buses and small-shop grants to pay for it."
     }
   ],
   "archetypes": [
     {
       "id": "grassroots",
-      "title": "The Grassroots Idealist",
-      "tagline": "\"No backroom strings. Just read the bills and do the job.\"",
-      "description": "Beloved across Maple Creek, running on bake-sale money. Leadership already worries you actually read footnotes.",
+      "title": "The Neighborhood Reformer",
+      "tagline": "\"Read the fine print, listen to Maple Creek, owe nobody.\"",
+      "description": "Strong start with Families and Seniors, modest ties with Main Street, and a shoestring War Chest that Leadership eyes warily.",
       "startingMeters": {
-        "constituents": 64,
-        "party": 35,
-        "warChest": 26
+        "families": 64,
+        "seniors": 60,
+        "mainStreet": 48,
+        "party": 34,
+        "warChest": 28
       },
       "startingDeskProp": "hand_knit_coaster",
       "flagshipBillId": "flagship_grassroots"
     },
     {
       "id": "climber",
-      "title": "The Pragmatic Climber",
-      "tagline": "\"You can't fix the institution from the hallway outside.\"",
-      "description": "Polished, balanced, and eager to make friends on every committee. Everyone assumes they can win you over.",
+      "title": "The Coalition Builder",
+      "tagline": "\"Nobody wins Washington alone—find the middle lane.\"",
+      "description": "Balanced standing across all three Maple Creek blocs, solid Caucus ties, and enough cash to stay nimble.",
       "startingMeters": {
-        "constituents": 50,
+        "families": 52,
+        "seniors": 52,
+        "mainStreet": 52,
         "party": 54,
         "warChest": 46
       },
@@ -266,11 +277,13 @@
     },
     {
       "id": "pork_baron",
-      "title": "The Deal-Making Booster",
-      "tagline": "\"Bring federal projects home first; ask questions later.\"",
-      "description": "Flush War Chest and warm ties with Appropriations, though local watchdogs and reporters check every receipt.",
+      "title": "The Main Street Booster",
+      "tagline": "\"Bring jobs and projects home first; argue details later.\"",
+      "description": "Beloved by Main Street merchants with a flush War Chest, though Families and Seniors keep a sharp eye on your receipts.",
       "startingMeters": {
-        "constituents": 42,
+        "families": 42,
+        "seniors": 44,
+        "mainStreet": 66,
         "party": 48,
         "warChest": 64
       },
@@ -283,35 +296,42 @@
       "id": "bakery_pie",
       "label": "Sal Viper's Cinnamon Rolls",
       "slot": "top_left",
-      "condition": { "metric": "constituents", "op": ">=", "value": 64 },
-      "tooltip": "Mailed from Sal's Main Street Bakery in Maple Creek. Smells like hometown goodwill."
+      "condition": { "metric": "mainStreet", "op": ">=", "value": 62 },
+      "tooltip": "Fresh from Sal's Main Street Bakery. Merchants are glad you're fighting for downtown!"
     },
     {
       "id": "crayon_card",
       "label": "Mrs. Lupine's Class Card",
       "slot": "corkboard_left",
-      "condition": { "metric": "constituents", "op": ">=", "value": 74 },
-      "tooltip": "'Thank u Rep. Barker for reading the fine print!!' — Maple Creek 3rd Grade"
+      "condition": { "metric": "families", "op": ">=", "value": 64 },
+      "tooltip": "'Thank u Rep. Barker for looking out for our schools!!' — Maple Creek 3rd Grade"
+    },
+    {
+      "id": "retired_postal_badge",
+      "label": "Maple Creek Seniors' Quilt Pin",
+      "slot": "corkboard_mid",
+      "condition": { "metric": "seniors", "op": ">=", "value": 64 },
+      "tooltip": "Gift from Old Man Boarwell and the Maple Creek Retirees Club."
     },
     {
       "id": "flickering_lamp",
       "label": "Flickering Surplus Lamp",
       "slot": "top_right",
-      "condition": { "metric": "warChest", "op": "<=", "value": 35 },
-      "tooltip": "Your campaign can barely afford fresh bulbs, let alone prime-time ad buys."
+      "condition": { "metric": "warChest", "op": "<=", "value": 30 },
+      "tooltip": "Your War Chest is running dangerously thin—hard to afford TV spots against attack ads."
     },
     {
       "id": "gold_nameplate",
       "label": "Solid-Brass Nameplate",
       "slot": "front_center",
       "condition": { "metric": "warChest", "op": ">=", "value": 65 },
-      "tooltip": "Compliments of K-Street Consulting Group. Gleams with questionable generosity."
+      "tooltip": "Compliments of K-Street Consulting Group. Gleams with generous donor backing."
     },
     {
       "id": "espresso_machine",
       "label": "Imported Chrome Espresso Bar",
       "slot": "top_right_luxury",
-      "condition": { "metric": "corruption", "op": ">=", "value": 2 },
+      "condition": { "metric": "corruption", "op": ">=", "value": 3 },
       "tooltip": "Logged on disclosure forms as 'bipartisan municipal hydration equipment.'"
     },
     {
@@ -319,14 +339,14 @@
       "label": "Overstuffed Velvet Briefcase",
       "slot": "bottom_left",
       "condition": { "metric": "warChest", "op": ">=", "value": 80 },
-      "tooltip": "Independent expenditure glossy mailers—strictly 'uncoordinated,' of course."
+      "tooltip": "Independent expenditure mailers—strictly 'uncoordinated,' naturally."
     },
     {
       "id": "snapped_gavel",
       "label": "Snapped Wooden Pencil",
       "slot": "corkboard_right",
       "condition": { "metric": "betrayals", "op": ">=", "value": 1 },
-      "tooltip": "Left on your blotter after you broke a handshake promise. Message received."
+      "tooltip": "Left on your blotter after you broke a handshake deal. Leadership never forgets."
     },
     {
       "id": "challenger_flyer",
@@ -351,19 +371,19 @@
     }
   ],
   "electionFormula": {
-    "baseOffset": 4,
-    "constituentsWeight": 0.42,
-    "warChestWeight": 0.22,
-    "partyWeight": 0.20,
+    "baseOffset": 2,
+    "constituentsWeight": 0.48,
+    "warChestWeight": 0.21,
+    "partyWeight": 0.19,
     "flagshipPassBonus": 6,
     "flagshipFailPenalty": -7,
     "bearEndorsementBonus": 5,
-    "challengerPenalty": -10,
+    "challengerPenalty": -9,
     "challengerMitigatedThreshold": {
-      "constituents": 75,
-      "warChest": 72
+      "constituents": 68,
+      "warChest": 68
     },
-    "challengerMitigatedPenalty": -4,
+    "challengerMitigatedPenalty": -3,
     "betrayalPenaltyEach": -3.5,
     "spinSuccessBonus": 2.5,
     "spinFailPenalty": -3.5,
@@ -377,12 +397,12 @@
       "title": "SUBPOENAED BEFORE THE CONFETTI DROPS",
       "badge": "ETHICS RAID",
       "headline": "BREAKING: ETHICS BOARD RAIDS BARKER VICTORY PARTY OVER 'MYSTERY ESPRESSO MACHINE'",
-      "subhead": "You played the backroom game hard and got sloppy on camera—even the lobbyists are shredding your business card.",
+      "subhead": "You played the backroom game recklessly and got sloppy on camera—even K-Street is shredding your phone number.",
       "epilogue": "Mags Magpie wins a national journalism award for printing your sticky-note trail. Whip Fang issues a three-word statement: 'Barely met him.'",
       "criteria": {
-        "corruptionGte": 4,
+        "corruptionGte": 5,
         "betrayalsOrSpinFailsGte": 1,
-        "constituentsLt": 48
+        "constituentsLt": 50
       }
     },
     {
@@ -392,14 +412,14 @@
       "title": "THE ACCIDENTAL SPEAKER",
       "badge": "SECRET ENDING",
       "headline": "SHOCK ON CAPITOL HILL: FRESHMAN BARKER UNANIMOUSLY DRAFTED AS SPEAKER!",
-      "subhead": "By keeping every promise, decoding Page 3, and earning Kodiak's seal, you pulled off the rarest feat in Congress.",
-      "epilogue": "Pundits spend months wondering how a wide-eyed rookie from Maple Creek unified the chamber without selling out—mostly because you actually read the bills.",
+      "subhead": "Zero broken promises, broad Maple Creek support, a passed Flagship Bill, and Kodiak's seal—you pulled off the rarest feat in Congress.",
+      "epilogue": "Pundits spend months wondering how a wide-eyed rookie unified Families, Seniors, Main Street, and the Caucus without selling out.",
       "criteria": {
         "wonElection": true,
-        "constituentsGte": 58,
-        "partyGte": 54,
+        "constituentsGte": 56,
+        "partyGte": 52,
         "betrayalsEq": 0,
-        "corruptionLte": 2,
+        "corruptionLte": 3,
         "flagshipPassed": true,
         "bearEndorsed": true
       }
@@ -408,15 +428,15 @@
       "id": "grassroots_legend",
       "priority": 3,
       "wonSeat": true,
-      "title": "THE GRASSROOTS LEGEND",
-      "badge": "MAVERICK WIN",
-      "headline": "MR. BARKER GOES BACK TO WASHINGTON! DISTRICT 9 DEFIES THE MACHINE!",
-      "subhead": "Tiny War Chest, zero lobbyist strings—you won on sheer hometown turnout and stubborn honesty.",
-      "epilogue": "Sal Viper sends three trays of celebratory cinnamon rolls to Capitol Hill. Whip Fang quietly moves your office closer to the radiator, terrified of your next town hall.",
+      "title": "THE HOMETOWN COALITION CHAMPION",
+      "badge": "GRASSROOTS WIN",
+      "headline": "MR. BARKER GOES BACK TO WASHINGTON! MAPLE CREEK VOTERS DEFY THE MACHINE!",
+      "subhead": "With low corruption and a rock-solid hometown coalition, you proved a freshman can win by keeping a finger on the local pulse.",
+      "epilogue": "Sal Viper brings cinnamon rolls, Mrs. Lupine's class sends banners, and Whip Fang quietly moves your desk away from the radiator.",
       "criteria": {
         "wonElection": true,
-        "constituentsGte": 66,
-        "corruptionLte": 1,
+        "constituentsGte": 58,
+        "corruptionLte": 2,
         "betrayalsLte": 1
       }
     },
@@ -426,12 +446,12 @@
       "wonSeat": true,
       "title": "MASTER OF THE MACHINE",
       "badge": "INSIDER WIN",
-      "headline": "VOTERS BAFFLED AS BARKER WINS LANDSLIDE ON 40,000 GLOSSY ATTACK ADS",
-      "subhead": "Maple Creek barely recognizes the idealistic pup they elected, but disciplined spin, donor cash, and party muscle carried you home.",
-      "epilogue": "Your desk is solid mahogany now. You still keep Mrs. Lupine's faded class card tucked in a drawer—right behind the velvet briefcase.",
+      "headline": "MAPLE CREEK BAFFLED AS BARKER WINS REELECTION ON 40,000 GLOSSY ATTACK ADS",
+      "subhead": "Half your hometown blocs were fuming, but disciplined press spin, donor cash, and party muscle carried you across 50%.",
+      "epilogue": "Your desk is solid mahogany now. You still keep Mrs. Lupine's faded class card in a drawer—right behind the velvet briefcase.",
       "criteria": {
         "wonElection": true,
-        "constituentsLt": 50,
+        "constituentsLt": 52,
         "warChestOrPartyGte": 62
       }
     },
@@ -439,11 +459,11 @@
       "id": "chaotic_kingmaker",
       "priority": 5,
       "wonSeat": true,
-      "title": "THE UNPREDICTABLE MAVERICK",
+      "title": "THE UNPREDICTABLE COALITION BUILDER",
       "badge": "SURVIVOR WIN",
-      "headline": "NOBODY KNOWS WHAT REP. BARKER STANDS FOR—AND DISTRICT 9 CAN'T LOOK AWAY!",
-      "subhead": "Half-reformer, half-horse-trader, full-time headline magnet. You survived by keeping every caucus guessing.",
-      "epilogue": "Columnists debate all winter whether you are a principled independent or a master tactician. Even your own staff isn't completely sure.",
+      "headline": "SPLIT TICKET SHOCKER: NOBODY KNOWS WHAT BARKER WILL DO NEXT—AND VOTERS CAN'T LOOK AWAY!",
+      "subhead": "You traded votes, stitched together an unlikely Maple Creek coalition, and survived by keeping every faction guessing.",
+      "epilogue": "Columnists spend all winter debating whether you're a principled independent or a sly horse-trader. Even Toby Otter isn't totally sure.",
       "criteria": {
         "wonElection": true
       }
@@ -454,14 +474,14 @@
       "wonSeat": false,
       "title": "ONE-TERM IDEALIST",
       "badge": "DEFEATED",
-      "headline": "TOO HONEST FOR THE HILL? BARKER LOSES SEAT AFTER REFUSING TO PLAY BALL",
-      "subhead": "Your record stayed spotless, your War Chest stayed empty, and the airwaves belonged to your opponent.",
-      "epilogue": "You head home to Maple Creek with your tail high, a standing ovation at the diner, and a hit civics podcast called 'Wait, Did You Read Page 1,204?'",
+      "headline": "TOO CLEAN FOR THE AIRWAVES? BARKER LOSES SEAT DESPITE HOMETOWN GOODWILL",
+      "subhead": "Your integrity stayed spotless, but an empty War Chest and cold Caucus ties let Sterling Foxworth own every billboard in Maple Creek.",
+      "epilogue": "You head home with your tail high, a standing ovation at the diner, and a hit civics podcast called 'Wait, Did You Read Page 1,204?'",
       "criteria": {
         "wonElection": false,
-        "corruptionLte": 1,
+        "corruptionLte": 2,
         "betrayalsLte": 1,
-        "constituentsGte": 50
+        "constituentsGte": 48
       }
     },
     {
@@ -470,8 +490,8 @@
       "wonSeat": false,
       "title": "OUT-FOXED AT THE POLLS",
       "badge": "PRIMARIED",
-      "headline": "PRIMARY UPSET! STERLING FOXWORTH SWEEPS DISTRICT 9 AS BARKER COALITION COLLAPSES",
-      "subhead": "Squeezed between frustrated voters and vengeful insiders, your coalition buckled before the ballots were counted.",
+      "headline": "PRIMARY UPSET! STERLING FOXWORTH SWEEPS MAPLE CREEK AS BARKER COALITION FRACTURES",
+      "subhead": "Caught between split local blocs and vengeful Capitol insiders, your winning coalition collapsed before Election Night.",
       "epilogue": "Within 48 hours, Vesper Viper slips an embossed business card under your door: 'Need a consulting gig, kid? Former reps make wonderful lobbyists.'",
       "criteria": {
         "wonElection": false
@@ -480,16 +500,22 @@
   ],
   "civicReceipts": [
     {
+      "id": "coalition_building",
+      "trigger": "always",
+      "term": "Coalition Building & Competing Constituencies",
+      "summary": "No representative's district agrees on everything: families, retirees, and local businesses often have genuinely competing interests on the exact same bill, forcing lawmakers to build workable coalitions rather than chasing 100% approval."
+    },
+    {
       "id": "poison_pill_rider",
       "trigger": "passedAnyRider",
-      "term": "Midnight & Poison-Pill Riders",
-      "summary": "Unpopular earmarks or policy changes are routinely stapled onto popular bills right before a vote, forcing lawmakers into a painful binary: swallow the rider or look like they voted against the headline."
+      "term": "Midnight & Tax-Offset Riders",
+      "summary": "Controversial funding offsets or policy riders are routinely attached to popular bills right before a vote, forcing lawmakers to weigh real local benefits against painful fine print."
     },
     {
       "id": "omnibus_packaging",
       "trigger": "survivedOmnibus",
       "term": "Omnibus Bundling",
-      "summary": "Combining hundreds of unrelated measures into one giant must-pass bill squeezes out amendment debate and guarantees critics can attack any 'Aye' or 'Nay' vote."
+      "summary": "Combining hundreds of unrelated measures into one giant must-pass bill squeezes out amendment debate and guarantees critics can attack whichever way a representative votes."
     },
     {
       "id": "logrolling_earmarks",
@@ -506,20 +532,14 @@
     {
       "id": "whip_pressure",
       "trigger": "challengerActive",
-      "term": "Caucus Whips & Primary Challengers",
-      "summary": "Leadership enforces discipline using committee assignments, endorsements, and donor networks—and defying the whip can invite a well-funded primary challenger."
+      "term": "Caucus Whips, Ad Wars & Primary Challengers",
+      "summary": "Leadership enforces discipline via committee assignments and endorsements, while running out of campaign funds leaves even popular lawmakers vulnerable to unanswered primary attack ads."
     },
     {
       "id": "media_spin",
       "trigger": "facedPressAmbush",
       "term": "Soundbite Framing & Media Spin",
       "summary": "Complex legislative trade-offs rarely fit in a six-second hallway clip, rewarding lawmakers who frame their votes quickly before opponents define them first."
-    },
-    {
-      "id": "whipping_favors",
-      "trigger": "spentFavor",
-      "term": "Political Capital & Reciprocity",
-      "summary": "Legislatures run on institutional memory: casting tough votes for colleagues builds political capital that can later be spent to pull reluctant votes onto your own bill."
     }
   ]
 }
