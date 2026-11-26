@@ -273,8 +273,8 @@
       "id": "bill_w6_flagship",
       "week": 6,
       "code": "H.R. 500 (YOUR FLAGSHIP)",
-      "title": "Your Signature Federal Legislation",
-      "summary": "Your flagship bill putting Maple Creek on the national map! Call in banked Favors or rally Hometown Pressure to reach the vote threshold, then slam CALL THE VOTE!",
+      "title": "Draft Your Signature Federal Bill",
+      "summary": "Choose the national cause you want to champion, decide whether to keep it clean or add coalition amendments, whip your Favors, and call the House vote!",
       "playerPaced": true,
       "mechanic": "flagship",
       "isFlagship": true,
@@ -282,20 +282,54 @@
       "baseVotes": 1,
       "grassrootsAutoVotesThreshold": 65,
       "grassrootsAutoVotesBonus": 2,
+      "flagshipOptions": [
+        {
+          "id": "arts_parks",
+          "shortLabel": "Arts & Public Parks",
+          "title": "The National Arts, Libraries & Youth Parks Act",
+          "summary": "Funds small-town arts grants, public library wings, and neighborhood playgrounds nationwide—with Maple Creek as a showcase town.",
+          "tag": "Big boost for Families & Seniors",
+          "passMeters": { "families": 15, "seniors": 9, "mainStreet": 5, "party": 7, "warChest": 4 }
+        },
+        {
+          "id": "job_creation",
+          "shortLabel": "Job Creation & Main Street",
+          "title": "The Heartland Job Creation & Small Business Act",
+          "summary": "Launches federal trade-apprenticeship grants and zero-red-tape revitalization loans for main-street shops and local builders.",
+          "tag": "Big boost for Main Street & Families",
+          "passMeters": { "families": 9, "seniors": 5, "mainStreet": 16, "party": 8, "warChest": 8 }
+        },
+        {
+          "id": "lower_taxes",
+          "shortLabel": "Lower Taxes & Retiree Relief",
+          "title": "The Working-Household & Senior Tax Relief Act",
+          "summary": "Cuts federal excise taxes on home heating, expands senior retirement deductions, and simplifies small-shop quarterly tax filings.",
+          "tag": "Big boost for Seniors & Main Street",
+          "passMeters": { "families": 7, "seniors": 16, "mainStreet": 11, "party": 9, "warChest": 7 }
+        },
+        {
+          "id": "clean_infra",
+          "shortLabel": "Clean Energy & Rural Transit",
+          "title": "The Clean Grid & Rural Transit Modernization Act",
+          "summary": "Upgrades rural electric grids, lowers household utility bills, and links small towns to modern regional transit.",
+          "tag": "Balanced boost across all 3 blocs",
+          "passMeters": { "families": 11, "seniors": 9, "mainStreet": 10, "party": 8, "warChest": 5 }
+        }
+      ],
       "variantsByArchetype": {
         "grassroots": {
-          "title": "The Federal Rural Civic Centers & Public Parks Act",
-          "summary": "Creates a national grant program for small-town community halls and public parks—designating Maple Creek as the inaugural pilot town.",
+          "title": "The National Arts, Libraries & Youth Parks Act",
+          "summary": "Funds small-town arts grants, public library wings, and neighborhood playgrounds nationwide—with Maple Creek as a showcase town.",
           "votesNeeded": 3
         },
         "climber": {
-          "title": "The Regional Commuter Transit & Main Street Revitalization Act",
-          "summary": "Connects underserved rural counties to national rail hubs and funds historic storefront restoration—starting along Highway 9.",
+          "title": "The Clean Grid & Rural Transit Modernization Act",
+          "summary": "Upgrades rural electric grids, lowers household utility bills, and links small towns to modern regional transit.",
           "votesNeeded": 3
         },
         "pork_baron": {
-          "title": "The Heartland Federal Trade Plaza & Regional Jobs Act",
-          "summary": "Directs $40M in federal economic-development construction grants straight to Maple Creek as a regional commerce hub.",
+          "title": "The Heartland Job Creation & Small Business Act",
+          "summary": "Launches federal trade-apprenticeship grants and zero-red-tape revitalization loans for main-street shops and local builders.",
           "votesNeeded": 3
         }
       },
@@ -303,34 +337,34 @@
         {
           "id": "none",
           "label": "Keep Your Bill 100% Clean",
-          "description": "Zero backroom additions. Maple Creek respects the purity (+4 all blocs), so rely on banked Favors or Hometown Pressure (Avg Blocs >= 65).",
+          "description": "Zero backroom strings (+4 all blocs). Rely on banked Favors or Maple Creek Hometown Momentum.",
           "bonusVotes": 0,
           "effects": { "families": 4, "seniors": 4, "mainStreet": 4, "party": 0, "warChest": 0, "corruption": 0 }
         },
         {
           "id": "pig_bridge",
-          "label": "Attach Troughman's Interstate Ramp Earmark (+1 Vote)",
-          "description": "Tucks a $220M federal highway ramp for Rep. Troughman's home state into your bill. Guarantees +1 floor vote and boosts construction allies, angering Seniors.",
+          "label": "Attach Troughman's Ramp Earmark (+1 Vote)",
+          "description": "Adds a $220M highway ramp for Rep. Troughman's state (+1 vote, +Main Street, -Seniors).",
           "bonusVotes": 1,
           "effects": { "families": -4, "seniors": -10, "mainStreet": 5, "party": 4, "warChest": 4, "corruption": 1, "porkAttached": true }
         },
         {
           "id": "snake_loophole",
-          "label": "Slip in Viper's Federal Inspection Waiver (+1 Vote & +14 Funds)",
-          "description": "Buried footnote exempts national commercial developers from federal safety reviews. Buys a vote and pads your War Chest, angering Families & Seniors.",
+          "label": "Slip in Viper's Inspection Waiver (+1 Vote & +Funds)",
+          "description": "Exempts national developers from safety audits (+1 vote & big War Chest boost, -Families & -Seniors).",
           "bonusVotes": 1,
           "effects": { "families": -12, "seniors": -8, "mainStreet": 2, "party": 0, "warChest": 14, "corruption": 1, "porkAttached": true }
         },
         {
           "id": "wolf_rebrand",
-          "label": "Let Whip Fang Co-Brand as a Leadership Bill (+1 Vote & +10 Party)",
-          "description": "Caucus leadership claims top billing on your bill and whips an extra vote—trading some independent credibility back home.",
+          "label": "Let Whip Fang Co-Brand the Bill (+1 Vote & +Party)",
+          "description": "Leadership puts the Caucus crest on top and whips an extra vote (-independent hometown appeal).",
           "bonusVotes": 1,
           "effects": { "families": -6, "seniors": -6, "mainStreet": -4, "party": 10, "warChest": 0, "corruption": 0 }
         }
       ],
       "heckles": [
-        { "atSecond": 2, "character": "sheep", "text": "Everyone in Maple Creek is tuned into C-SPAN waiting for your bill!" },
+        { "atSecond": 2, "character": "sheep", "text": "Everyone in Maple Creek is tuned into C-SPAN watching your signature bill!" },
         { "atSecond": 6, "character": "wolf", "text": "Hope your caucus standing is solid—or your favor pocket is deep." }
       ],
       "gallery": {
@@ -342,13 +376,13 @@
       "outcomes": {
         "pass": {
           "meters": { "families": 12, "seniors": 10, "mainStreet": 12, "party": 9, "warChest": 6 },
-          "headline": "FRESHMAN TRIUMPH! BARKER'S SIGNATURE FEDERAL BILL ROARS THROUGH THE HOUSE!",
-          "subhead": "Maple Creek erupts in applause as the rookie proves he can pass major legislation in Washington."
+          "headline": "FRESHMAN TRIUMPH! BARKER PASSES {FLAGSHIP_TITLE} THROUGH THE HOUSE!",
+          "subhead": "Maple Creek erupts in applause as the rookie proves he can actually write and pass major federal legislation."
         },
         "fail": {
           "meters": { "families": -12, "seniors": -10, "mainStreet": -10, "party": -10, "warChest": -6 },
-          "headline": "DEFEAT ON THE FLOOR! BARKER'S FLAGSHIP BILL DIES SHORT OF A HOUSE MAJORITY!",
-          "subhead": "Short vote math and bruised pride leave the freshman staring at a silent chamber."
+          "headline": "HEARTBREAK ON THE FLOOR! BARKER'S {FLAGSHIP_TITLE} DIES SHORT OF A MAJORITY!",
+          "subhead": "Short vote math and bruised pride leave the freshman staring at a silent House chamber."
         }
       }
     },

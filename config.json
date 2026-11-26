@@ -29,9 +29,10 @@
         "highlightYellow": "#F2C94C"
       },
       "typography": {
-        "headline": "Georgia, 'Playfair Display', serif",
-        "body": "'Courier New', 'IBM Plex Mono', monospace",
-        "ui": "system-ui, -apple-system, sans-serif"
+        "headline": "'Bangers', 'Oswald', Georgia, serif",
+        "comicDialogue": "'Comic Neue', 'Patrick Hand', 'Trebuchet MS', sans-serif",
+        "body": "'Plus Jakarta Sans', 'Comic Neue', system-ui, sans-serif",
+        "code": "'IBM Plex Mono', monospace"
       }
     }
   },

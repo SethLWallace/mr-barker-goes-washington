@@ -615,7 +615,7 @@
       "week": 5,
       "character": "bird",
       "background": "hallway",
-      "timerSeconds": 6,
+      "mode": "choice_then_mic_qte",
       "promptByVote": {
         "aye": "FLASH! Mags Magpie, Capitol Gazette! Rep. Barker, you just froze federal Title I school grants and TRIPLED congressional member allowances! How do you face parents back home?!",
         "nay": "FLASH! Mags Magpie, Capitol Gazette! Whip Fang says you just voted AGAINST federal SBA disaster loans and rural senior heating aid! Any comment?!",
@@ -628,8 +628,16 @@
           "goodForVotes": ["nay"],
           "successText": "Mags lowers her notepad: 'Whoa—sharp quote. Rewriting the morning front page!'",
           "failText": "Mags cackles: 'YOU VOTED AYE ON IT, BARKER! That's going in 72-point bold!'",
+          "flubText": "You blink hard into the flash bulb and stammer through the sentence—Mags catches the awkward pause on tape!",
+          "successHeadline": "BARKER TO PRESS: \"PASS CLEAN DISASTER AID WITHOUT TRIPLE CAPITOL PERKS!\"",
+          "successSubhead": "Rep. Barker's razor-sharp hallway counterpunch turns public heat back onto omnibus leadership.",
+          "failHeadline": "FACT-CHECK FIASCO! BARKER BLASTS PAGE 1,204—AFTER VOTING 'AYE' ON IT!",
+          "failSubhead": "\"Pass clean aid separately!\" Barker shouted, momentarily forgetting he had just rubber-stamped the 1,204-page bill.",
+          "flubHeadline": "FLASH-BLINDED! BARKER STAMMERS ON LIVE MIC TRYING TO EXPLAIN OMNIBUS VOTE!",
+          "flubSubhead": "A shaky delivery outside the chamber turns Barker's defense of school grants into an awkward viral clip.",
           "successEffects": { "seniors": 7, "mainStreet": 7, "party": -2, "spinResult": "success" },
-          "failEffects": { "families": -8, "seniors": -6, "mainStreet": -6, "party": -4, "spinResult": "fail" }
+          "failEffects": { "families": -8, "seniors": -6, "mainStreet": -6, "party": -4, "spinResult": "fail" },
+          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "spinResult": "fail" }
         },
         {
           "id": "spin_shops",
@@ -637,8 +645,16 @@
           "goodForVotes": ["aye"],
           "successText": "Mags squints: 'Slick framing. Fine—I'll run a photo of Main Street Bakery instead.'",
           "failText": "Mags grins: 'You voted NAY and you're taking credit for disaster aid? Instant meme!'",
+          "flubText": "Your voice cracks right as the flash bulb pops—Mags gets a hilarious mid-sneeze snapshot!",
+          "successHeadline": "BARKER VOWS MONDAY SCHOOL FIX: \"MAIN STREET & SENIORS NEEDED AID TONIGHT!\"",
+          "successSubhead": "Poised under hallway cameras, Barker softens the omnibus backlash by pledging standalone Title I relief.",
+          "failHeadline": "WAIT—WHAT?! BARKER CLAIMS CREDIT FOR DISASTER AID HE JUST VOTED DOWN!",
+          "failSubhead": "Reporters burst out laughing as Barker vows to fix a bill he had stamped NAY moments earlier.",
+          "flubHeadline": "VOICE CRACK HEARD 'ROUND THE HILL! BARKER FUMBLES OMNIBUS DEFENSE ON CAMERA!",
+          "flubSubhead": "Barker promised a Monday school bill, though viewers mostly replayed his squeaky microphone sneeze.",
           "successEffects": { "families": 8, "party": 2, "spinResult": "success" },
-          "failEffects": { "families": -7, "seniors": -6, "mainStreet": -6, "party": -3, "spinResult": "fail" }
+          "failEffects": { "families": -7, "seniors": -6, "mainStreet": -6, "party": -3, "spinResult": "fail" },
+          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "spinResult": "fail" }
         },
         {
           "id": "spin_distract",
@@ -646,11 +662,19 @@
           "goodForVotes": ["abstain"],
           "successText": "Mags actually turns! You escape the hallway with only a mildly teasing cartoon.",
           "failText": "Mags snaps a mid-air blur of your flapping bow tie. Instant viral front page.",
+          "flubText": "You trip over a marble potted plant mid-sprint as Mags's flash fires three times!",
+          "successHeadline": "CAPITOL ESCAPE ARTIST: BARKER DODGES PRESS CORPS WITH FOUNTAIN-PEN FAKEOUT!",
+          "successSubhead": "Mags Magpie admits the freshman pulled off 'a textbook stairwell vanish' after abstaining.",
+          "failHeadline": "FLAPPING BOW TIE! BARKER LITERALLY SPRINTS AWAY FROM OMNIBUS QUESTIONS!",
+          "failSubhead": "\"Look, a fountain pen!\" yelled the freshman before vanishing down the marble stairs in a viral blur.",
+          "flubHeadline": "POTTED-PLANT TUMBLE! BARKER TRIPS MID-ESCAPE FROM PRESS GALLERY!",
+          "flubSubhead": "The Capitol Gazette prints a three-frame photo sequence of Barker's hallway somersault.",
           "successEffects": { "families": 2, "seniors": 2, "mainStreet": 2, "spinResult": "success" },
-          "failEffects": { "families": -6, "seniors": -6, "mainStreet": -6, "party": -4, "spinResult": "fail" }
+          "failEffects": { "families": -6, "seniors": -6, "mainStreet": -6, "party": -4, "spinResult": "fail" },
+          "flubEffects": { "families": -5, "seniors": -5, "mainStreet": -5, "spinResult": "fail" }
         }
       ],
-      "timeoutHeadline": "FROZEN PUP! BARKER STARES SPEECHLESS INTO FLASH CAMERA FOR SIX FULL SECONDS!",
+      "timeoutHeadline": "FROZEN PUP! BARKER STARES SPEECHLESS INTO FLASH CAMERA!",
       "timeoutEffects": { "families": -8, "seniors": -8, "mainStreet": -8, "party": -4, "spinResult": "fail" }
     },
     {
@@ -658,7 +682,7 @@
       "week": 9,
       "character": "bird",
       "background": "hallway",
-      "timerSeconds": 6,
+      "mode": "choice_then_mic_qte",
       "promptByVote": {
         "aye": "FLASH! Rep. Barker! You just handed out 75-YEAR NO-BID FEDERAL CONTRACTS with zero Inspector General audits! Was Highway 9 worth selling the treasury?!",
         "nay": "FLASH! Sterling Foxworth is already airing ads claiming you blocked emergency federal Highway Trust Fund repairs! Your response?!",
@@ -671,8 +695,16 @@
           "goodForVotes": ["nay"],
           "successText": "Mags whistles: 'Kodiak's backing that line too! Foxworth's attack ad just fell flat!'",
           "failText": "Mags flashes her bulb: 'You literally just voted AYE for those no-bid contracts! Front page!'",
+          "flubText": "You cough into the microphone right on the word 'corruption'—Foxworth's ad editors are grinning!",
+          "successHeadline": "BARKER TO FOXWORTH: \"I BLOCKED 75-YEAR NO-BID CORRUPTION—PASS CLEAN BRIDGES!\"",
+          "successSubhead": "Backed by Chairwoman Kodiak, Barker's poised hallway quote blunts Foxworth's Highway 9 attack blitz.",
+          "failHeadline": "BUSTED ON TAPE! BARKER DENOUNCES NO-BID CONTRACTS MINUTES AFTER VOTING 'AYE'!",
+          "failSubhead": "\"I blocked corruption!\" insisted Barker as Mags Magpie held up the official House roll-call sheet.",
+          "flubHeadline": "COUGHING FIT AT THE MIC! BARKER STUMBLES DEFENDING HIGHWAY 9 VOTE!",
+          "flubSubhead": "A rattled delivery weakens Barker's rebuttal just as Foxworth buys extra evening airtime.",
           "successEffects": { "mainStreet": 8, "families": 4, "party": 2, "spinResult": "success" },
-          "failEffects": { "families": -8, "seniors": -8, "mainStreet": -6, "party": -4, "spinResult": "fail" }
+          "failEffects": { "families": -8, "seniors": -8, "mainStreet": -6, "party": -4, "spinResult": "fail" },
+          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -4, "spinResult": "fail" }
         },
         {
           "id": "spin_bridges",
@@ -680,8 +712,16 @@
           "goodForVotes": ["aye"],
           "successText": "Mags shrugs: 'Smooth pivot. Half the town will give you the benefit of the doubt.'",
           "failText": "Mags laughs: 'Auditing a bill you just voted down?! Classic Capitol word salad!'",
+          "flubText": "You squint blindly at the flash and mumble 'Inspector General... uh... Tuesday?'",
+          "successHeadline": "BARKER DEFENDS HIGHWAY VOTE: \"FREIGHT NEEDED BRIDGES—AUDITS COMING MONDAY!\"",
+          "successSubhead": "Cool under camera lights, Barker pitches his omnibus AYE as urgent relief for Main Street haulers.",
+          "failHeadline": "WORD SALAD! BARKER VOWS TO AUDIT A HIGHWAY BILL HE JUST KILLED!",
+          "failSubhead": "Even Foxworth looked genuinely confused as Barker demanded oversight on legislation that failed.",
+          "flubHeadline": "\"INSPECTOR... TUESDAY?\" BARKER RATTLES UNDER HALLWAY FLASH BULBS!",
+          "flubSubhead": "A nervous stammer leaves Maple Creek wondering whether those promised audits will ever arrive.",
           "successEffects": { "families": 6, "seniors": 6, "warChest": 3, "spinResult": "success" },
-          "failEffects": { "families": -7, "seniors": -7, "mainStreet": -6, "party": -3, "spinResult": "fail" }
+          "failEffects": { "families": -7, "seniors": -7, "mainStreet": -6, "party": -3, "spinResult": "fail" },
+          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "spinResult": "fail" }
         },
         {
           "id": "spin_nocomment",
@@ -689,8 +729,16 @@
           "goodForVotes": [],
           "successText": "Clean exit.",
           "failText": "Mags grins wickedly: 'In print, No Comment ALWAYS reads like a guilty plea!'",
+          "flubText": "You accidentally walk into the broom closet while saying 'See you at the ballot box!'",
+          "successHeadline": "BARKER STAYS MUM ON HIGHWAY OMNIBUS: \"SEE YOU AT THE BALLOT BOX!\"",
+          "successSubhead": "Refusing to engage Mags Magpie leaves pundits filling in the blanks ahead of Election Eve.",
+          "failHeadline": "\"NO COMMENT!\" BARKER BRUSHES PAST REPORTERS AFTER HIGHWAY SHOWDOWN!",
+          "failSubhead": "Mags Magpie notes in print that 'No Comment' rarely polls well one week before Election Day.",
+          "flubHeadline": "BROOM-CLOSET EXIT! BARKER SAYS 'NO COMMENT' AND WALKS INTO JANITOR'S SUPPLY ROOM!",
+          "flubSubhead": "A six-second hallway clip of Barker emerging with a mop bucket dominates evening news.",
           "successEffects": { "families": -2, "seniors": -2, "mainStreet": -2, "spinResult": "neutral" },
-          "failEffects": { "families": -4, "seniors": -4, "mainStreet": -4, "party": -2, "spinResult": "fail" }
+          "failEffects": { "families": -4, "seniors": -4, "mainStreet": -4, "party": -2, "spinResult": "fail" },
+          "flubEffects": { "families": -5, "seniors": -5, "mainStreet": -5, "party": -2, "spinResult": "fail" }
         }
       ],
       "timeoutHeadline": "BARKER SPEECHLESS UNDER PRESS BULBS; FOXWORTH TURNS SILENCE INTO 30-SECOND AD!",
