@@ -102,6 +102,13 @@
       "color": "#E2B679",
       "accent": "#1E3552",
       "visualBrief": "Earnest golden-tan floppy-eared freshman puppy in a slightly oversized off-the-rack navy suit, polka-dot bow tie, perked hopeful ears (droop when stressed).",
+      "rolodex": {
+        "tab": "B",
+        "office": "Longworth Rm. 402 (By the Radiator)",
+        "unlockedFromStart": true,
+        "whatTheyWant": "Survive a 10-week freshman term, pass a signature Flagship Bill, and win reelection in Maple Creek.",
+        "watchOut": "You can't keep 100% of Families, Seniors, Main Street, Leadership, and Donors happy at once—pick your coalition."
+      },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "sheep": {
@@ -113,6 +120,13 @@
       "color": "#DCE5D5",
       "accent": "#2F6B4F",
       "visualBrief": "No-nonsense community organizer with curly cream wool, round brass spectacles, forest-green knit cardigan, holding a town-hall clipboard.",
+      "rolodex": {
+        "tab": "E",
+        "office": "Maple Creek Town Hall",
+        "unlockedFromStart": true,
+        "whatTheyWant": "Clean, transparent bills that deliver for everyday hometown voters without hidden traps.",
+        "watchOut": "When a bill splits Families, Seniors, and Main Street, even Martha looks conflicted—read your postcards and Toby's memo!"
+      },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "wolf": {
@@ -124,6 +138,13 @@
       "color": "#34495E",
       "accent": "#B83227",
       "visualBrief": "Razor-sharp slate-gray wolf in a crisp charcoal pinstripe suit, crimson power tie, brass monocle, gleaming whip-count clipboard.",
+      "rolodex": {
+        "tab": "F",
+        "office": "Capitol Suite H-107 (Leadership Wing)",
+        "unlockedFromStart": true,
+        "whatTheyWant": "Strict Caucus loyalty on leadership bills and must-pass omnibuses—no surprise defections.",
+        "watchOut": "Sink into Backbench Exile and he'll freeze your Week 6 Flagship Bill (forcing 4 votes instead of 3). Never break a handshake promise."
+      },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "snake": {
@@ -135,6 +156,13 @@
       "color": "#2E6F56",
       "accent": "#C99738",
       "visualBrief": "Sleek emerald viper in a tailored brocade waistcoat, gold pocket-watch chain, tinted pince-nez glasses, calm unblinking poise.",
+      "rolodex": {
+        "tab": "V",
+        "office": "1400 K-Street Penthouse",
+        "unlockedFromStart": true,
+        "whatTheyWant": "Favorable deregulation, buried inspection waivers, and quiet NAY votes on bills threatening his clients.",
+        "watchOut": "Holds the keys to your campaign War Chest—helpful against attack ads, dangerous if the Ethics Board starts auditing."
+      },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "pig": {
@@ -146,6 +174,13 @@
       "color": "#C97C73",
       "accent": "#8C3B32",
       "visualBrief": "Portly pink-and-cream veteran lawmaker in a burgundy three-piece waistcoat, brass suspenders, handlebar tusks, waving a gold fountain pen.",
+      "rolodex": {
+        "tab": "T",
+        "office": "Appropriations Annex Rm. 210",
+        "unlockedFromStart": true,
+        "whatTheyWant": "Earmarks, concrete contracts, and old-fashioned vote trading ('you back my project, I'll back yours').",
+        "watchOut": "His riders look ugly on paper, yet occasionally bring real local jobs—and his Favor token can save your Flagship Bill."
+      },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "bear": {
@@ -157,6 +192,13 @@
       "color": "#6E4B32",
       "accent": "#C99738",
       "visualBrief": "Imposing brown bear in a structured tweed blazer, tortoiseshell spectacles, pearl pin, resting one paw on a massive oak gavel.",
+      "rolodex": {
+        "tab": "K",
+        "office": "Rules Dais — Capitol Third Floor",
+        "unlockedFromStart": true,
+        "whatTheyWant": "Institutional integrity, thorough reading of redacted clauses, and lawmakers with spine.",
+        "watchOut": "Never try to haggle with her—earn her respect by exposing hidden ink, and her Election Night endorsement swings votes."
+      },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "bird": {
@@ -168,6 +210,13 @@
       "color": "#1E272E",
       "accent": "#F2C94C",
       "visualBrief": "Sharp black-and-white magpie in a belted trench coat, tilted fedora with a 'PRESS' card tucked in the band, vintage flash-bulb camera.",
+      "rolodex": {
+        "tab": "M",
+        "office": "Capitol Press Gallery (Staking Out the Coatroom)",
+        "unlockedFromStart": true,
+        "whatTheyWant": "Scandals, contradictions, and six-second hallway soundbites that sell morning papers.",
+        "watchOut": "When her flash bulb pops after major omnibus votes, you only get 6 seconds to pick a spin matching your actual vote!"
+      },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
     "fox": {
@@ -179,6 +228,13 @@
       "color": "#D35400",
       "accent": "#1E3552",
       "visualBrief": "Impossibly polished russet fox with focus-grouped coiffed fur, tailored navy blazer over cream turtleneck, blinding campaign smile.",
+      "rolodex": {
+        "tab": "X",
+        "office": "Maple Creek Campaign HQ (Billboard Row)",
+        "unlockedFromStart": false,
+        "whatTheyWant": "Your congressional seat—and any awkward vote he can splice into a 30-second prime-time attack ad.",
+        "watchOut": "Once he enters the race in Week 7, running low on War Chest funds lets his unanswered billboards drain every Maple Creek bloc weekly."
+      },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     }
   },
