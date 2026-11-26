@@ -300,6 +300,142 @@
       "note": "Polls open at sunrise! Congress's midnight Shutdown bill locks in a federal Senior COLA boost—but rumor says an 11:58 PM rider slashes school lunches and SBA shop grants to pay for it."
     }
   ],
+  "gazetteEditions": [
+    {
+      "week": 1,
+      "leadOverride": {
+        "headline": "FRESHMAN PUPPY SWORN IN TO REPRESENT MAPLE CREEK!",
+        "subhead": "Earnest newcomer Rep. Barnaby Barker takes the oath on Capitol Hill as veterans sharpen their pencils for opening week."
+      },
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · OPENING DOCKET",
+        "headline": "Midnight 'Pay-For' Rumored on $40B School Grant Bill",
+        "body": "Cloakroom clerks spotted leadership staff paper-clipping an eleventh-hour funding offset onto H.R. 101—rumored to hit heating fuel and retirement deductions."
+      },
+      "oddity": {
+        "kicker": "LOCAL & ODDITIES",
+        "headline": "Local Squirrel Forgets Where He Buried 401(k) Acorns; Blames 'Seasonal Volatility'",
+        "body": "Financial advisors urge savers to diversify across at least three separate oak trees before November frost sets in."
+      }
+    },
+    {
+      "week": 2,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · UPCOMING",
+        "headline": "Riverside Workshops Brace Ahead of Clean Waterways Vote",
+        "body": "With last week's opening vote still echoing in Maple Creek, K-Street lobbyists are circling H.R. 118—warning federal runoff rules could squeeze small mills."
+      },
+      "oddity": {
+        "kicker": "METRO BRIEF",
+        "headline": "Morning Commute Snarled After 60 Ducks Insist on Merging Single-File at 1 MPH",
+        "body": "Drivers reported a 45-minute delay on Route 9, though highway officials concede the flock 'technically used their blinkers.'"
+      }
+    },
+    {
+      "week": 3,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · REGIONAL PULSE",
+        "headline": "Freight Rail Corridor Sparks Rare Town Split Over Jobs vs. Noise",
+        "body": "Main Street shopkeepers are lobbying hard for the 150 depot jobs inside H.R. 204, even as Appropriations insiders quietly attach a $380M concrete earmark."
+      },
+      "oddity": {
+        "kicker": "CIVIC LIFE",
+        "headline": "Town Council Debates Whether Owls Working Night Shifts Count as 'Morning People'",
+        "body": "A four-hour hearing ended inconclusively after half the committee nodded off at 10 AM and the other half at 8 PM."
+      }
+    },
+    {
+      "week": 4,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · LEAKED DRAFT",
+        "headline": "Redacted Postal Overhaul May Shutter 1,400 Rural Branches Nationwide",
+        "body": "Rules Chairwoman Beatrice Kodiak warned freshmen to inspect blacked-out clauses in H.R. 312 before small-town post offices vanish overnight."
+      },
+      "oddity": {
+        "kicker": "DINING & CULTURE",
+        "headline": "Controversy Erupts After Raccoon Food Critic Awards Five Stars to Alley Behind French Bistro",
+        "body": "The chef called the review 'insulting,' though patio reservations near the service door are now booked solid through winter."
+      }
+    },
+    {
+      "week": 5,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · OMNIBUS ALERT",
+        "headline": "Capitol Printers Jammed as Clerks Wheel Out 1,204-Page Budget Monster",
+        "body": "Leadership folded SBA storm loans, rural ambulances, and mystery Page-1,204 offsets into one vote—while Mags Magpie camps outside the chamber doors."
+      },
+      "oddity": {
+        "kicker": "NEIGHBORHOOD WIRE",
+        "headline": "Area Golden Retriever Accidentally Elected HOA President After Enthusiastically Agreeing With Every Motion",
+        "body": "Neighbors admit zero bylaws have been passed yet, 'but meeting morale is up 400 percent.'"
+      }
+    },
+    {
+      "week": 6,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · FLAGSHIP WEEK",
+        "headline": "Rookie's Signature Bill Faces Acid Test on the House Floor",
+        "body": "Following last week's chaotic omnibus brawl, observers ask whether Rep. Barker has banked enough favors—or hometown clout—to pass H.R. 500 clean."
+      },
+      "oddity": {
+        "kicker": "CAPITOL CAFETERIA BEAT",
+        "headline": "House Dining Room Out of Salmon Again; Three Senators Deny Hoarding Allegations",
+        "body": "A terse joint press release stated 'hibernation prep is strictly bipartisan' before aides wheeled away four covered trays."
+      }
+    },
+    {
+      "week": 7,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · CAMPAIGN TRAIL",
+        "headline": "Mystery Billboards Blanket Highway 9 as Procedural Grammar Trap Looms",
+        "body": "A dazzlingly coiffed challenger is teasing a primary run just as Leadership drops a quadruple-negative House motion designed to trip hasty voters."
+      },
+      "oddity": {
+        "kicker": "BUSINESS & TECH",
+        "headline": "Startup Unveils $12M 'Whisper-Quiet' Commuter Wheel for Hamsters; Still Goes Nowhere at 30 MPH",
+        "body": "Venture backers praised the brushed-aluminum finish before noticing the prototype is bolted to a desk."
+      }
+    },
+    {
+      "week": 8,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · MONEY IN POLITICS",
+        "headline": "Is H.R. 722 Real Ethics Reform—Or an Incumbent Ad-War Lifeline?",
+        "body": "With primary billboards multiplying across Maple Creek, watchdogs warn redacted FEC clauses may punish town potlucks while shielding anonymous shells."
+      },
+      "oddity": {
+        "kicker": "SCIENCE DESK",
+        "headline": "Six-Year Study Confirms 92% of Cats Demanding to Go Outside Immediately Demand to Come Back Inside",
+        "body": "Exhausted researchers concluded the feline electorate remains 'fundamentally undecided on doors.'"
+      }
+    },
+    {
+      "week": 9,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · ENDORSEMENT WATCH",
+        "headline": "Kodiak Signals Rare Endorsement Ahead of Highway Trust Fund Showdown",
+        "body": "Freight detours have Main Street demanding quick passage of H.R. 840, yet rumors swirl of a 75-year no-bid procurement rider buried on Page 3."
+      },
+      "oddity": {
+        "kicker": "MEDIA BEAT",
+        "headline": "Chameleon Political Pundit Blends Into Studio Curtains; Cable Anchors Interview Lamp for 11 Minutes",
+        "body": "Focus groups later praised the lamp's fiscal commentary as 'warm, steady, and refreshingly grounded.'"
+      }
+    },
+    {
+      "week": 10,
+      "policyWatch": {
+        "kicker": "CAPITOL WATCH · SHUTDOWN EVE",
+        "headline": "Midnight Government Shutdown Clock Ticks Hours Before Polls Open",
+        "body": "Congress races to tie an emergency Senior COLA boost to an 11:58 PM Manager's Amendment—forcing one final coalition test before Election Day."
+      },
+      "oddity": {
+        "kicker": "ELECTION EVE FORECAST",
+        "headline": "Veteran Groundhog Declines to Predict Tomorrow's Election After 'Last Winter's Shadow Fiasco'",
+        "body": "The forecaster told reporters he is stepping back from political punditry to focus full-time on heirloom turnips."
+      }
+    }
+  ],
   "archetypes": [
     {
       "id": "grassroots",
