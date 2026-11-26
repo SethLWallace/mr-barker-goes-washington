@@ -12,7 +12,7 @@
       "nodes": {
         "n1": {
           "mood": "happy",
-          "text": "Welcome to Washington, Barnaby! Adorable bow tie. Quick orientation: H.R. 101 hits the floor shortly. Parents and Main Street want those streetlamps, and Leadership needs a crisp AYE. Don't get squeamish over the property-tax attachment.",
+          "text": "Welcome to Washington, Barnaby! Adorable bow tie. Quick orientation: our $40B National School Infrastructure Grant Act hits the House floor shortly. Parents and contractors want federal grant money flowing home, and Leadership needs a crisp AYE—don't get squeamish over the pay-for attachment.",
           "choices": [
             {
               "label": "You got it, Whip. Put me down for an AYE.",
@@ -23,7 +23,7 @@
               }
             },
             {
-              "label": "I read every bill before committing—check back on the floor.",
+              "label": "I read every federal bill before committing—check back on the floor.",
               "nextNode": "n2_hedge",
               "effects": {
                 "meters": { "party": -3 }
@@ -73,10 +73,10 @@
       "nodes": {
         "n1": {
           "mood": "happy",
-          "text": "Good morning, Representative Barker. Vesper Viper, Senior Counsel on K-Street. Today's River Bridge bill saddles local riverside workshops with pricey new runoff rules. Vote NAY—your Main Street shops will thank you, and your War Chest will stay comfortably full.",
+          "text": "Good morning, Representative Barker. Vesper Viper, Senior Counsel on K-Street. Today's Federal Clean Waterways Act imposes costly national compliance mandates on every riverside mill and small manufacturer—including back in Maple Creek. Vote NAY, and your reelection War Chest will stay comfortably full.",
           "choices": [
             {
-              "label": "Promise a NAY—campaigns and small shops both need breathing room.",
+              "label": "Promise a NAY—campaigns and small workshops both need breathing room.",
               "nextNode": "n2_deal",
               "effects": {
                 "meters": { "warChest": 10 },
@@ -84,14 +84,14 @@
               }
             },
             {
-              "label": "I'll 'review the riverside economic impact' first.",
+              "label": "I'll 'review the federal economic impact study' first.",
               "nextNode": "n2_hedge",
               "effects": {
                 "meters": { "warChest": 2 }
               }
             },
             {
-              "label": "Show yourself out, Viper. Maple Creek families need clean water and a free bridge.",
+              "label": "Show yourself out, Viper. Families deserve clean national rivers and toll-free federal crossings.",
               "nextNode": "n2_refuse",
               "effects": {
                 "meters": { "families": 4, "warChest": -6 }
@@ -129,15 +129,15 @@
       "triggerCondition": "always",
       "character": "pig",
       "background": "hallway",
-      "deskAlert": "Rep. Wilbur Troughman is flagging you down outside the dining room.",
+      "deskAlert": "Rep. Wilbur Troughman is flagging you down outside the Members' Dining Room.",
       "startNode": "n1",
       "nodes": {
         "n1": {
           "mood": "happy",
-          "text": "Barnaby! My favorite freshman! Today's Rail Depot & Library bill brings 150 jobs straight to your downtown shops—AND includes a modest concrete contract for my county. Back it with an AYE, and I'll owe you a Favor for Week 6!",
+          "text": "Barnaby! My favorite freshman! Today's National Freight Rail Corridor Act puts a regional federal depot right near Maple Creek—150 local jobs—AND carries a modest federal concrete earmark for my state. Back it with an AYE, and I'll owe you a Favor for Week 6!",
           "choices": [
             {
-              "label": "Main Street needs those jobs—promise AYE. Remember me in Week 6, Wilbur.",
+              "label": "Main Street needs those rail jobs—promise AYE. Remember me in Week 6, Wilbur.",
               "nextNode": "n2_deal",
               "effects": {
                 "meters": { "party": 4, "warChest": 5 },
@@ -145,12 +145,12 @@
               }
             },
             {
-              "label": "Wait—what's the catch for folks living near the rail spur?",
+              "label": "Wait—what's the catch for residential neighborhoods along the rail corridor?",
               "nextNode": "n2_ask",
               "effects": {}
             },
             {
-              "label": "Keep your $38M earmark off Maple Creek's bills.",
+              "label": "Keep your $380M earmark off national transit bills.",
               "nextNode": "n2_refuse",
               "effects": {
                 "meters": { "seniors": 4, "party": -5 }
@@ -160,7 +160,7 @@
         },
         "n2_ask": {
           "mood": "shocked",
-          "text": "Oh, just rezoning two sleepy blocks behind Oak Street for freight loading! Retirees might grumble, sure—but your Main Street merchants will build you a statue! Are you in?",
+          "text": "Oh, just federal eminent-domain and freight-noise waivers along the tracks! Retirees might grumble about midnight train horns, sure—but your Main Street merchants will build you a statue! Are you in?",
           "choices": [
             {
               "label": "Fine. Promise AYE—just deliver on my Flagship Bill.",
@@ -181,14 +181,14 @@
         },
         "n2_deal": {
           "mood": "happy",
-          "text": "Now THAT is how coalitions get built! Don't get cold paws on the floor!",
+          "text": "Now THAT is how Washington coalitions get built! Don't get cold paws on the floor!",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
         },
         "n2_refuse": {
           "mood": "angry",
-          "text": "Hmph! Check with Sal Viper before you kill 150 downtown jobs, kid—you might be surprised who's mad at you!",
+          "text": "Hmph! Check with Sal Viper before you kill 150 federal rail jobs, kid—you might be surprised who's mad at you!",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -209,7 +209,7 @@
       "nodes": {
         "n1": {
           "mood": "angry",
-          "text": "YOU SHOOK MY HAND, PROMISED YOUR VOTE, AND THEN DOUBLE-CROSSED ME ON THE FLOOR! Did you think nobody reads the roll call in Washington, Barker?!",
+          "text": "YOU SHOOK MY HAND, PROMISED YOUR VOTE, AND THEN DOUBLE-CROSSED ME ON THE FLOOR! Did you think nobody reads the congressional roll call in Washington, Barker?!",
           "choices": [
             {
               "label": "I'm sorry—I read the attachment at the last second and balked.",
@@ -228,7 +228,7 @@
               }
             },
             {
-              "label": "Calm down—I'll back today's Postal Efficiency bill to make it right.",
+              "label": "Calm down—I'll back today's Federal Postal bill to make it right.",
               "nextNode": "n2_promise_again",
               "effects": {
                 "meters": { "party": 2 },
@@ -240,7 +240,7 @@
         },
         "n2_apologize": {
           "mood": "angry",
-          "text": "Word travels faster than gossip in this Capitol. Don't expect favors until your handshake actually means something.",
+          "text": "Word travels faster than gossip on Capitol Hill. Don't expect favors until your handshake actually means something.",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -254,7 +254,7 @@
         },
         "n2_promise_again": {
           "mood": "neutral",
-          "text": "One last chance, rookie. Burn us twice and we'll fly a polished primary challenger straight into Maple Creek.",
+          "text": "One last chance, rookie. Burn us twice and we'll fly a polished primary challenger straight into your district.",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -274,7 +274,7 @@
       "nodes": {
         "n1": {
           "mood": "neutral",
-          "text": "Representative Barker. I have chaired the Rules Committee for thirty years. Today's Postal Efficiency bill arrives with heavy black redactions. Main Street likes the shipping discount, yet seniors may pay dearly for what sits beneath the ink.",
+          "text": "Representative Barker. I have chaired the House Rules Committee for thirty years. Today's Federal Postal Restructuring Act arrives with heavy black redactions. Online shops love cheaper federal parcel rates, yet rural seniors nationwide may pay dearly for what sits beneath that ink.",
           "choices": [
             {
               "label": "Thank you, Chairwoman. I intend to uncover every blacked-out line.",
@@ -316,12 +316,12 @@
       "triggerCondition": "always",
       "character": "wolf",
       "background": "hallway",
-      "deskAlert": "Whip Fenrir Fang is blocking the elevator with a 1,204-page binder.",
+      "deskAlert": "Whip Fenrir Fang is blocking the elevator with a 1,204-page federal omnibus binder.",
       "startNode": "n1",
       "nodes": {
         "n1": {
           "mood": "angry",
-          "text": "Listen closely, Barker. Today's Omnibus bundles Main Street storm loans, county ambulances, and 'fiscal offsets' into one take-it-or-leave-it vote. Stamp AYE and keep your standing before Flagship Week. Stamp NAY and we'll tell every shop and retiree you blocked emergency aid.",
+          "text": "Listen closely, Barker. Today's Federal Budget Omnibus bundles SBA small-business disaster loans, rural hospital grants, and 'budget offsets' into one take-it-or-leave-it vote. Stamp AYE and keep your standing before Flagship Week. Stamp NAY and we'll tell every shop and retiree back home you blocked disaster aid.",
           "choices": [
             {
               "label": "Fine—I'll vote AYE. Keep my standing safe before Week 6.",
@@ -339,7 +339,7 @@
               }
             },
             {
-              "label": "Forcing us to trade schools against ambulances is broken politics.",
+              "label": "Forcing Congress to trade federal school grants against disaster loans is broken.",
               "nextNode": "n2_stand",
               "effects": {
                 "meters": { "families": 4, "party": -8 }
@@ -349,14 +349,14 @@
         },
         "n2_cave": {
           "mood": "happy",
-          "text": "Sensible pup. Heads up—Mags Magpie is camped outside the doors with a six-second microphone.",
+          "text": "Sensible pup. Heads up—Mags Magpie is camped outside the chamber doors with a six-second microphone.",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
         },
         "n2_probe": {
           "mood": "happy",
-          "text": "Merely routine 'school-budget restraint and congressional catering.' Flip all three pages on the floor—and brace for the press ambush!",
+          "text": "Merely routine 'Title I spending restraint and congressional member allowances.' Flip all three pages on the floor—and brace for the press ambush!",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -377,12 +377,12 @@
       "triggerCondition": "always",
       "character": "pig",
       "background": "office",
-      "deskAlert": "IT'S FLAGSHIP WEEK! Decide whether to keep your bill pure or attach a colleague's rider for votes.",
+      "deskAlert": "IT'S FLAGSHIP WEEK! Decide whether to keep your signature federal bill pure or attach a rider for votes.",
       "startNode": "n1",
       "nodes": {
         "n1": {
           "mood": "happy",
-          "text": "Big day, Barnaby! Your Flagship Bill hits the floor today. Normally you need 3 votes (you start with 1)—though if Caucus Leadership froze you out, you'll need 4! A warm Maple Creek coalition gives +2 Hometown Pressure, or spend banked Favors—OR let one of us 'sweeten' your bill right now for +1 guaranteed vote!",
+          "text": "Big day, Barnaby! Your Flagship Bill hits the House floor today—putting Maple Creek front and center in Washington! Normally you need 3 votes (you start with 1)—though if Leadership froze you out, you'll need 4! A warm hometown coalition gives +2 Pressure, or spend banked Favors—OR let one of us tuck a rider into your bill right now for +1 guaranteed vote!",
           "isMarkupPicker": true,
           "choices": []
         }
@@ -395,7 +395,7 @@
       "triggerCondition": "always",
       "character": "fox",
       "background": "hallway",
-      "deskAlert": "BREAKING: A dazzlingly polished Fox is filming a campaign ad right outside your door!",
+      "deskAlert": "BREAKING: A dazzlingly polished Fox is filming a national-donor campaign ad outside your door!",
       "startNode": "n1",
       "nodes": {
         "n1": {
@@ -429,7 +429,7 @@
         },
         "n2_grassroots": {
           "mood": "happy",
-          "text": "Ooh, love the hometown pluck! Now go untangle four negatives on H.R. 615 while my cameras roll!",
+          "text": "Ooh, love the hometown pluck! Now go untangle four nested negatives on H.R. 615 while my cameras roll!",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -443,7 +443,7 @@
         },
         "n2_ask": {
           "mood": "happy",
-          "text": "A totally independent group called 'Citizens for Fresh Leadership.' See you on the ballot, Barnaby!",
+          "text": "A totally independent national committee called 'Citizens for Fresh Leadership.' See you on the ballot, Barnaby!",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -457,12 +457,12 @@
       "triggerCondition": "always",
       "character": "snake",
       "background": "office",
-      "deskAlert": "Vesper Viper is waiting with a 'campaign ethics proposal'—and an ad-war lifeline.",
+      "deskAlert": "Vesper Viper is waiting with a 'federal campaign ethics bill'—and an ad-war lifeline.",
       "startNode": "n1",
       "nodes": {
         "n1": {
           "mood": "happy",
-          "text": "Foxworth's billboards are brutal, aren't they, Barnaby? If your War Chest is running dry, today's Campaign Ethics Act is your lifeline. Ignore the redacted fine print, stamp AYE, and my donors will fund your television counter-blitz overnight.",
+          "text": "Foxworth's billboards are brutal, aren't they, Barnaby? If your War Chest is running dry, today's Federal Election Ethics Act is your lifeline. Ignore the redacted FEC rules, stamp AYE, and my K-Street donors will fund your television counter-blitz overnight.",
           "choices": [
             {
               "label": "I can't fight Foxworth broke. Promise AYE.",
@@ -473,7 +473,7 @@
               }
             },
             {
-              "label": "An 'ethics' bill with blacked-out clauses? I'll scrub it myself.",
+              "label": "A federal 'ethics' bill with blacked-out clauses? I'll scrub it myself.",
               "nextNode": "n2_refuse",
               "effects": {
                 "meters": { "families": 3, "seniors": 3, "warChest": -4 }
@@ -490,7 +490,7 @@
         },
         "n2_refuse": {
           "mood": "angry",
-          "text": "Still principled while Foxworth owns every radio commercial in Maple Creek? Bold strategy.",
+          "text": "Still principled while Foxworth owns every radio commercial back home? Bold strategy.",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -509,7 +509,7 @@
       "nodes": {
         "n1": {
           "mood": "neutral",
-          "text": "That glossy challenger is turning Maple Creek into a circus, Barker. I am prepared to endorse your reelection—worth a decisive swing on Election Night. Today's Bridge Omnibus holds my own 72-Hour Reading Rule, yet somebody hid 75-year no-bid contracts on Page 3. Expose it and vote NAY—even if truckers groan—and the Kodiak seal is yours.",
+          "text": "That glossy challenger is turning your race into a circus, Barker. I am prepared to endorse your reelection—worth a decisive swing on Election Night. Today's Federal Highway Trust Fund Omnibus holds my own 72-Hour Reading Rule, yet somebody hid 75-year no-bid federal contracts on Page 3. Expose it and vote NAY—even if freight shippers groan—and the Kodiak seal is yours.",
           "choices": [
             {
               "label": "You have my word, Chairwoman. I'll block the rigged Page 3.",
@@ -520,7 +520,7 @@
               }
             },
             {
-              "label": "Main Street needs Highway 9 open—I can't pledge a NAY until I read it.",
+              "label": "Regional freight needs Highway 9 rebuilt—I can't pledge a NAY until I read it.",
               "nextNode": "n2_honest",
               "effects": {
                 "meters": { "mainStreet": 4 }
@@ -537,7 +537,7 @@
         },
         "n2_honest": {
           "mood": "neutral",
-          "text": "Candor is rare here. Inspect Page 3 on the floor; if you vote NAY to strip the no-bid contracts, my endorsement will still be yours.",
+          "text": "Candor is rare on Capitol Hill. Inspect Page 3 on the floor; if you vote NAY to strip the no-bid contracts, my endorsement will still be yours.",
           "effects": {
             "enableBearEndorsementOnNay": true
           },
@@ -554,22 +554,22 @@
       "triggerCondition": "always",
       "character": "sheep",
       "background": "office",
-      "deskAlert": "ELECTION EVE: Three urgent closing-night options arrive before the final midnight vote!",
+      "deskAlert": "ELECTION EVE: Shutdown deadline at midnight—and three urgent closing-night offers arrive!",
       "startNode": "n1",
       "nodes": {
         "n1": {
           "mood": "shocked",
-          "text": "Barnaby! Polls open at sunrise tomorrow! One midnight vote left, and every faction is knocking with a final offer. Check Toby's Staffer Report to see where you're weakest—how are you closing your campaign?",
+          "text": "Barnaby! Polls open at sunrise tomorrow! Congress is racing a midnight Government Shutdown vote, and every group is knocking with a closing pitch. Check Toby's Staffer Report to see where you're weakest—how are you closing your campaign?",
           "choices": [
             {
-              "label": "Host a Midnight Maple Creek Town Hall (+11 all 3 hometown blocs, -10 Funds)",
+              "label": "Fly Back for a Midnight Maple Creek Rally (+11 all 3 hometown blocs, -10 Funds)",
               "nextNode": "n2_grassroots",
               "effects": {
                 "meters": { "families": 11, "seniors": 11, "mainStreet": 11, "warChest": -10 }
               }
             },
             {
-              "label": "Accept Viper's Last-Minute Ad Blitz (+22 Funds, -9 all 3 blocs)",
+              "label": "Accept Viper's Last-Minute National Ad Blitz (+22 Funds, -9 all 3 blocs)",
               "nextNode": "n2_snake",
               "effects": {
                 "meters": { "warChest": 22, "families": -9, "seniors": -9, "mainStreet": -9 },
@@ -577,7 +577,7 @@
               }
             },
             {
-              "label": "Sign Whip Fang's Final Caucus Pledge (+19 Party, -7 all 3 blocs)",
+              "label": "Sign Whip Fang's Final Caucus Loyalty Pledge (+19 Party, -7 all 3 blocs)",
               "nextNode": "n2_wolf",
               "effects": {
                 "meters": { "party": 19, "families": -7, "seniors": -7, "mainStreet": -7 }
@@ -587,7 +587,7 @@
         },
         "n2_grassroots": {
           "mood": "happy",
-          "text": "Sal Viper's bringing coffee, Mrs. Lupine's organizing carpools, and Boarwell is handing out voter guides! Now go handle H.R. 999!",
+          "text": "Sal Viper's bringing coffee, Mrs. Lupine's organizing carpools, and Boarwell is handing out voter guides! Now go handle the midnight Shutdown Resolution!",
           "choices": [
             { "label": "To the Final Floor Vote!", "nextNode": null }
           ]
@@ -601,7 +601,7 @@
         },
         "n2_wolf": {
           "mood": "shocked",
-          "text": "The Caucus turnout buses will roll at dawn—though folks back in Maple Creek will notice whose leash you signed.",
+          "text": "The Caucus turnout machine will roll at dawn—though folks back in Maple Creek will notice whose leash you signed.",
           "choices": [
             { "label": "To the Final Floor Vote!", "nextNode": null }
           ]
@@ -617,14 +617,14 @@
       "background": "hallway",
       "timerSeconds": 6,
       "promptByVote": {
-        "aye": "FLASH! Mags Magpie, Capitol Gazette! Rep. Barker, you just froze school repairs and TRIPLED congressional lunch perks! How do you face Maple Creek parents?!",
-        "nay": "FLASH! Mags Magpie, Capitol Gazette! Whip Fang says you just voted AGAINST storm loans for Main Street and new county ambulances! Any comment?!",
-        "abstain": "FLASH! Mags Magpie, Capitol Gazette! You seriously ABSTAINED on a 1,204-page bill?! Were you napping at your desk?!"
+        "aye": "FLASH! Mags Magpie, Capitol Gazette! Rep. Barker, you just froze federal Title I school grants and TRIPLED congressional member allowances! How do you face parents back home?!",
+        "nay": "FLASH! Mags Magpie, Capitol Gazette! Whip Fang says you just voted AGAINST federal SBA disaster loans and rural senior heating aid! Any comment?!",
+        "abstain": "FLASH! Mags Magpie, Capitol Gazette! You seriously ABSTAINED on a 1,204-page federal spending bill?! Were you napping at your desk?!"
       },
       "choices": [
         {
           "id": "spin_truth",
-          "label": "\"Page 1,204 froze schools to triple lunch perks—pass clean aid & ambulances separately!\"",
+          "label": "\"Page 1,204 froze federal school grants to triple Capitol perks—pass clean disaster aid separately!\"",
           "goodForVotes": ["nay"],
           "successText": "Mags lowers her notepad: 'Whoa—sharp quote. Rewriting the morning front page!'",
           "failText": "Mags cackles: 'YOU VOTED AYE ON IT, BARKER! That's going in 72-point bold!'",
@@ -633,10 +633,10 @@
         },
         {
           "id": "spin_shops",
-          "label": "\"Main Street and seniors needed aid tonight—I'll file a standalone school-funding bill Monday!\"",
+          "label": "\"Small businesses and seniors needed emergency federal aid tonight—I'll file a standalone school bill Monday!\"",
           "goodForVotes": ["aye"],
           "successText": "Mags squints: 'Slick framing. Fine—I'll run a photo of Main Street Bakery instead.'",
-          "failText": "Mags grins: 'You voted NAY and you're taking credit for storm aid? Instant meme!'",
+          "failText": "Mags grins: 'You voted NAY and you're taking credit for disaster aid? Instant meme!'",
           "successEffects": { "families": 8, "party": 2, "spinResult": "success" },
           "failEffects": { "families": -7, "seniors": -6, "mainStreet": -6, "party": -3, "spinResult": "fail" }
         },
@@ -660,14 +660,14 @@
       "background": "hallway",
       "timerSeconds": 6,
       "promptByVote": {
-        "aye": "FLASH! Rep. Barker! You just handed out 75-YEAR NO-BID CONTRACTS with zero audits! Was Highway 9 worth selling the treasury?!",
-        "nay": "FLASH! Sterling Foxworth is already airing ads claiming you blocked emergency repairs for Highway 9 bridges! Your response?!",
-        "abstain": "FLASH! Election is next week and you ABSTAINED on Maple Creek's bridges! Who are you trying to please?!"
+        "aye": "FLASH! Rep. Barker! You just handed out 75-YEAR NO-BID FEDERAL CONTRACTS with zero Inspector General audits! Was Highway 9 worth selling the treasury?!",
+        "nay": "FLASH! Sterling Foxworth is already airing ads claiming you blocked emergency federal Highway Trust Fund repairs! Your response?!",
+        "abstain": "FLASH! Election is next week and you ABSTAINED on the Federal Highway Trust Fund! Who are you trying to please?!"
       },
       "choices": [
         {
           "id": "spin_kodiak",
-          "label": "\"I blocked 75-year no-bid corruption—pass a clean Highway 9 bridge bill right now!\"",
+          "label": "\"I blocked 75-year no-bid corruption—pass a clean standalone Highway Trust Fund bill right now!\"",
           "goodForVotes": ["nay"],
           "successText": "Mags whistles: 'Kodiak's backing that line too! Foxworth's attack ad just fell flat!'",
           "failText": "Mags flashes her bulb: 'You literally just voted AYE for those no-bid contracts! Front page!'",
@@ -676,7 +676,7 @@
         },
         {
           "id": "spin_bridges",
-          "label": "\"Maple Creek trucks needed safe bridges tonight—I'll demand Page 3 audits on Monday!\"",
+          "label": "\"Freight routes needed federal bridge aid tonight—I'll demand Inspector General audits Monday!\"",
           "goodForVotes": ["aye"],
           "successText": "Mags shrugs: 'Smooth pivot. Half the town will give you the benefit of the doubt.'",
           "failText": "Mags laughs: 'Auditing a bill you just voted down?! Classic Capitol word salad!'",

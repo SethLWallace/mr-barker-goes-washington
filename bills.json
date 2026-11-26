@@ -4,18 +4,18 @@
       "id": "bill_w1",
       "week": 1,
       "code": "H.R. 101",
-      "title": "The Municipal Sidewalk & Streetlamp Repair Act",
-      "summary": "Funds cracked sidewalk repairs along Maple Creek Elementary bus routes and installs bright LED streetlamps downtown.",
+      "title": "The National School Infrastructure & Safe Streets Grant Act",
+      "summary": "Authorizes $40 billion in federal matching grants for rural public-school upgrades, safer school zones, and downtown streetlighting nationwide.",
       "playerPaced": true,
       "mechanic": "sticky_rider",
       "isFlagship": false,
       "rider": {
-        "tabLabel": "AMENDMENT #4B (FUNDING)",
-        "text": "Section 14: Finances all local sidewalk & lamp upgrades via a permanent 3% residential property-tax surcharge on homes built before 1995."
+        "tabLabel": "AMENDMENT #4B (PAY-FOR)",
+        "text": "Section 14: Offsets federal grant spending by raising the federal residential heating-fuel excise tax and capping retirement-income tax deductions nationwide."
       },
       "heckles": [
-        { "atSecond": 2, "character": "wolf", "text": "Clean AYE, rookie. Show the Caucus you deliver." },
-        { "atSecond": 6, "character": "sheep", "text": "Parents want those lamps, Barnaby—just check who pays for them!" }
+        { "atSecond": 2, "character": "wolf", "text": "Clean AYE, rookie. Leadership needs a united opening week!" },
+        { "atSecond": 6, "character": "sheep", "text": "Maple Creek schools could really use those federal grants—just check how Washington's paying for it!" }
       ],
       "gallery": {
         "sheep": { "ayeMood": "neutral", "nayMood": "neutral" },
@@ -28,24 +28,24 @@
           "favorGained": "wolf",
           "corruptionDelta": 0,
           "tags": ["passedRider"],
-          "headline": "BRIGHT STREETS, STEAMING SENIORS! BARKER PASSES LAMP ACT WITH 3% HOME TAX!",
-          "subhead": "Parents and downtown shops cheer the new streetlamps while Maple Creek retirees pack town hall over rising tax bills."
+          "headline": "NEW FEDERAL GRANTS—PAID BY RETIREES! BARKER BACKS $40B SCHOOL ACT WITH HEATING TAX!",
+          "subhead": "Maple Creek parents and downtown contractors cheer incoming federal grants while fixed-income seniors pack town hall over rising winter bills."
         },
         "nay": {
           "meters": { "families": -8, "seniors": 11, "mainStreet": -5, "party": -10, "warChest": -4 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["spottedRider"],
-          "headline": "BARKER BLOCKS PROPERTY-TAX HIKE—LEAVING SCHOOL CROSSWALKS IN THE DARK!",
-          "subhead": "Retirees applaud Barker holding the tax line, while Whip Fang and PTA parents frown at the vote board."
+          "headline": "BARKER BLOCKS FEDERAL RETIREE TAX HIKE—AND TURNS DOWN $40B SCHOOL GRANTS!",
+          "subhead": "Seniors applaud Barker holding the line on federal deductions, while Whip Fang and local parents fume at the vote board."
         },
         "abstain": {
           "meters": { "families": -4, "seniors": -4, "mainStreet": -4, "party": -6, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["abstained"],
-          "headline": "BARKER SITS OUT STREETLAMP VOTE: 'I NEEDED MORE TIME TO PONDER SIDEWALKS'",
-          "subhead": "Ducking a tough tax trade-off satisfies nobody back in Maple Creek."
+          "headline": "BARKER SITS OUT OPENING INFRASTRUCTURE VOTE: 'I NEEDED MORE TIME TO CHECK THE OFFSET'",
+          "subhead": "Ducking a national tax-vs-grants trade-off satisfies nobody back in Maple Creek."
         }
       }
     },
@@ -53,15 +53,15 @@
       "id": "bill_w2",
       "week": 2,
       "code": "H.R. 118",
-      "title": "The Maple River Free Bridge & Mill Standards Act",
-      "summary": "Replaces the private toll crossing with a free public bridge and mandates strict new runoff filters for riverside workshops.",
+      "title": "The Federal Clean Waterways & Interstate Crossing Act",
+      "summary": "Enforces strict national watershed pollution limits across river basins and converts private interstate toll bridges into federally funded public crossings.",
       "playerPaced": true,
       "mechanic": "clean",
       "isFlagship": false,
       "rider": null,
       "heckles": [
-        { "atSecond": 2, "character": "snake", "text": "Those compliance mandates will crush riverside shops—vote NAY and let donors thank you." },
-        { "atSecond": 6, "character": "sheep", "text": "No tricks here—just clean water and a free bridge vs. shop compliance costs!" }
+        { "atSecond": 2, "character": "snake", "text": "Those federal watershed mandates will bury small mills in compliance costs—vote NAY." },
+        { "atSecond": 6, "character": "sheep", "text": "No hidden tricks here—just clean federal rivers and free crossings vs. small-shop compliance costs!" }
       ],
       "gallery": {
         "sheep": { "ayeMood": "happy", "nayMood": "angry" },
@@ -74,24 +74,24 @@
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["cleanWin"],
-          "headline": "CLEAN RIVER VICTORY—BUT SMALL MILL SHOPS BRACE FOR COMPLIANCE BILLS!",
-          "subhead": "Families celebrate the free bridge while riverside merchants worry about costly filter upgrades and K-Street pulls donations."
+          "headline": "FEDERAL CLEAN WATER ACT PASSES—BUT RIVERSIDE SMALL SHOPS BRACE FOR COMPLIANCE COSTS!",
+          "subhead": "Families celebrate cleaner rivers and toll-free federal crossings while Maple Creek workshops fret over EPA-style filter rules."
         },
         "nay": {
           "meters": { "families": -13, "seniors": -6, "mainStreet": 11, "party": 4, "warChest": 16 },
           "favorGained": "snake",
           "corruptionDelta": 1,
           "tags": ["tookLobbyMoney"],
-          "headline": "BARKER SHIELDS RIVERSIDE SHOPS FROM NEW RULES—LEAVING BRIDGE TOLLS IN PLACE!",
-          "subhead": "Merchants breathe a sigh of relief and donor checks arrive, while Maple Creek parents fume over river runoff."
+          "headline": "BARKER VOTES DOWN FEDERAL WATERWAY RULES—SHIELDING SHOPS WHILE BRIDGE TOLLS STAY!",
+          "subhead": "Local businesses breathe easier and K-Street checks clear, while Maple Creek families blast Barker on river safety."
         },
         "abstain": {
           "meters": { "families": -6, "seniors": -4, "mainStreet": -5, "party": -2, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["abstained"],
-          "headline": "BARKER ABSTAINS ON RIVER BRIDGE: 'I HAVE COMPLEX FEELINGS ABOUT TOLLS'",
-          "subhead": "Both commuters and shopkeepers leave the gallery scratching their heads."
+          "headline": "BARKER ABSTAINS ON CLEAN WATERWAYS: 'I HAVE COMPLEX FEELINGS ABOUT FEDERAL RULES'",
+          "subhead": "Both commuters and riverside shopkeepers leave the gallery scratching their heads."
         }
       }
     },
@@ -99,19 +99,19 @@
       "id": "bill_w3",
       "week": 3,
       "code": "H.R. 204",
-      "title": "The Regional Rail Depot & Library Roof Act",
-      "summary": "Repairs the leaking Maple Creek Library roof and constructs a regional commuter-and-freight rail depot bringing 150 local construction jobs.",
+      "title": "The National Freight Rail Corridor & Public Library Endowment Act",
+      "summary": "Expands the interstate freight-and-commuter rail network across rural states (bringing regional depot jobs) and reauthorizes federal public library grants.",
       "playerPaced": true,
       "mechanic": "sticky_rider",
       "isFlagship": false,
       "rider": {
-        "tabLabel": "SUBSECTION 19-C (PORK)",
-        "text": "Appropriates $38M in sole-source concrete earmarks for Rep. Troughman's neighboring county and rezones two quiet residential blocks behind Oak Street for freight loading."
+        "tabLabel": "SUBSECTION 19-C (EARMARK)",
+        "text": "Appropriates $380M in sole-source federal concrete earmarks for Rep. Troughman's state and grants railroads federal eminent-domain & noise-rule waivers near residential neighborhoods."
       },
       "heckles": [
-        { "atSecond": 2, "character": "pig", "text": "MY CONCRETE CONTRACT IS IN THERE—AND YOUR DOWNTOWN SHOPS WANT THAT DEPOT!" },
-        { "atSecond": 5, "character": "bird", "text": "Ugly Washington pork... OR 150 jobs for Main Street? Tough call, pup!" },
-        { "atSecond": 8, "character": "sheep", "text": "Did you read Sal Viper's postcard before judging this one, Barnaby?" }
+        { "atSecond": 2, "character": "pig", "text": "MY RAIL CONCRETE CONTRACT IS IN THERE—AND YOUR REGION GETS A FEDERAL DEPOT!" },
+        { "atSecond": 5, "character": "bird", "text": "Bloated Capitol earmarks... OR 150 federal rail jobs for your district? Tough call, pup!" },
+        { "atSecond": 8, "character": "sheep", "text": "Did you read Sal Viper's postcard from Maple Creek before judging this one?" }
       ],
       "gallery": {
         "sheep": { "ayeMood": "neutral", "nayMood": "neutral" },
@@ -124,24 +124,24 @@
           "favorGained": "pig",
           "corruptionDelta": 1,
           "tags": ["passedRider", "porkDeal"],
-          "headline": "DEPOT DEAL PASSES! MAIN STREET CHEERS 150 JOBS AS OAK STREET SENIORS FUME!",
-          "subhead": "Sal Viper celebrates booming downtown foot traffic while retirees blast the rezoning noise and Troughman's earmark."
+          "headline": "NATIONAL RAIL CORRIDOR PASSES! MAIN STREET CHEERS DEPOT JOBS AS SENIORS BLAST NOISE WAIVERS!",
+          "subhead": "Maple Creek shops celebrate new federal rail traffic while retirees rage over Troughman's pork and midnight freight whistles."
         },
         "nay": {
           "meters": { "families": -5, "seniors": 11, "mainStreet": -13, "party": -7, "warChest": -4 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["spottedRider"],
-          "headline": "BARKER KILLS PORK-STUFFED RAIL DEPOT; MAIN STREET STUNNED OVER LOST JOBS!",
-          "subhead": "Retirees applaud saving quiet Oak Street, while downtown merchants ask why their own rep killed a major local project."
+          "headline": "BARKER VOTES NO ON PORK-STUFFED RAIL ACT; MAIN STREET STUNNED OVER LOST FEDERAL DEPOT!",
+          "subhead": "Retirees cheer blocking federal noise waivers, while downtown merchants ask why their own congressman killed 150 jobs."
         },
         "abstain": {
           "meters": { "families": -4, "seniors": -4, "mainStreet": -7, "party": -5, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["abstained"],
-          "headline": "BARKER DUCKS RAIL DEPOT VOTE, PLEADS SUDDEN PAPERWORK CRAMP!",
-          "subhead": "Neither downtown merchants nor Oak Street retirees appreciate sitting on the fence."
+          "headline": "BARKER DUCKS NATIONAL RAIL VOTE, PLEADS SUDDEN COMMITTEE CONFLICT!",
+          "subhead": "Neither downtown merchants nor retired homeowners appreciate sitting on the fence."
         }
       }
     },
@@ -149,27 +149,27 @@
       "id": "bill_w4",
       "week": 4,
       "code": "H.R. 312",
-      "title": "The Postal Efficiency & Small-Shop Shipping Act",
-      "summary": "Cuts bulk shipping fees by 30% for rural storefronts and automates regional parcel sorting hubs.",
+      "title": "The Federal Postal Restructuring & E-Commerce Shipping Act",
+      "summary": "Overhauls the national postal service to cut commercial parcel rates by 30% for small businesses and automate regional federal sorting centers.",
       "playerPaced": true,
       "mechanic": "redacted",
       "isFlagship": false,
       "rider": null,
       "redactions": [
         {
-          "prefix": "Section 5: Consolidates ",
-          "hidden": "Maple Creek's historic walk-in post office into a regional warehouse 18 miles away",
-          "suffix": " to trim payroll."
+          "prefix": "Section 5: Consolidates and shutters ",
+          "hidden": "1,400 rural federal post offices nationwide—including Maple Creek's historic branch",
+          "suffix": " to trim federal payroll."
         },
         {
-          "prefix": "Section 6: Replaces Saturday doorstep delivery with ",
-          "hidden": "commercial drop-boxes leased from K-Street Logistics",
-          "suffix": " along Highway 9."
+          "prefix": "Section 6: Replaces rural Saturday mail delivery with ",
+          "hidden": "private highway drop-boxes leased from K-Street Logistics Corp.",
+          "suffix": " across all non-metro zip codes."
         }
       ],
       "heckles": [
-        { "atSecond": 2, "character": "snake", "text": "Your local bakeries love 30% cheaper parcel rates—don't over-scrub the black ink." },
-        { "atSecond": 6, "character": "bear", "text": "Scrub the redactions, Representative. Know who pays the real price." }
+        { "atSecond": 2, "character": "snake", "text": "Small shops nationwide love 30% cheaper federal parcel rates—don't over-scrub the black ink." },
+        { "atSecond": 6, "character": "bear", "text": "Scrub the redactions, Representative. Know what rural towns lose under Section 5." }
       ],
       "gallery": {
         "sheep": { "ayeMood": "angry", "nayMood": "happy" },
@@ -182,24 +182,24 @@
           "favorGained": "snake",
           "corruptionDelta": 1,
           "tags": ["passedRider", "missedRedaction"],
-          "headline": "POST OFFICE PADLOCKED! SENIORS OUTRAGED AS BARKER BACKS PARCEL CONSOLIDATION!",
-          "subhead": "Online merchants cheer cheaper bulk rates, while Old Man Boarwell leads a protest outside the shuttered post office."
+          "headline": "1,400 RURAL POST OFFICES SHUTTERED! SENIORS FURIOUS AS BARKER BACKS POSTAL OVERHAUL!",
+          "subhead": "Small shippers enjoy lower parcel rates, while Maple Creek seniors protest the loss of walk-in prescription mail."
         },
         "nay": {
           "meters": { "families": 7, "seniors": 13, "mainStreet": -6, "party": -5, "warChest": -7 },
           "favorGained": "bear",
           "corruptionDelta": 0,
           "tags": ["spottedRedaction"],
-          "headline": "BARKER SCRUBS REDACTIONS & SAVES MAPLE CREEK POST OFFICE!",
-          "subhead": "Chairwoman Kodiak offers a rare nod of respect and seniors cheer, though online shops mourn the lost shipping discount."
+          "headline": "BARKER SCRUBS REDACTIONS & DEFENDS RURAL POST OFFICES FROM FEDERAL CLOSURE!",
+          "subhead": "Chairwoman Kodiak offers a rare nod of respect and retirees cheer, though small online shops mourn lost shipping discounts."
         },
         "abstain": {
           "meters": { "families": -4, "seniors": -7, "mainStreet": -4, "party": -5, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["abstained"],
-          "headline": "BARKER REFUSES TO VOTE ON MAIL BILL: 'THE BLACK INK WAS TOO INTIMIDATING'",
-          "subhead": "Chairwoman Kodiak sighs loudly enough to rattle the chandeliers."
+          "headline": "BARKER REFUSES TO VOTE ON POSTAL OVERHAUL: 'THE REDACTED INK WAS TOO DARK'",
+          "subhead": "Chairwoman Kodiak sighs loudly enough to rattle the chamber chandeliers."
         }
       }
     },
@@ -207,8 +207,8 @@
       "id": "bill_w5",
       "week": 5,
       "code": "H.R. 409 (OMNIBUS)",
-      "title": "The 'Main Street Storm Relief & Everything Else' Omnibus",
-      "summary": "A 1,204-page take-it-or-leave-it bundle assembled overnight. Flip every page before choosing which bruise you can survive!",
+      "title": "The National Disaster Relief & Federal Budget Omnibus",
+      "summary": "A 1,204-page take-it-or-leave-it federal spending package assembled overnight. Flip all three titles before choosing which bruise you can survive!",
       "playerPaced": true,
       "mechanic": "omnibus",
       "isFlagship": false,
@@ -216,25 +216,25 @@
       "pages": [
         {
           "pageNumber": 1,
-          "heading": "TITLE I — MAIN STREET STORM RELIEF",
-          "body": "Provides immediate zero-interest storm-repair loans for downtown bakeries, hardware shops, and family diners."
+          "heading": "TITLE I — FEDERAL SMALL BUSINESS DISASTER LOANS",
+          "body": "Replenishes emergency zero-interest SBA disaster loans for storm-damaged small businesses, bakeries, and storefronts nationwide."
         },
         {
           "pageNumber": 2,
-          "heading": "TITLE II — COUNTY AMBULANCES & SENIOR HEATING",
-          "body": "Replaces two aging county ambulances and winterizes the Maple Creek Senior Center heating system."
+          "heading": "TITLE II — RURAL HOSPITALS & SENIOR HEATING AID",
+          "body": "Reauthorizes federal rural ambulance grants and expands winter energy-assistance funding for low-income senior centers."
         },
         {
           "pageNumber": 3,
-          "heading": "TITLE III (PAGE 1,204) — FISCAL OFFSETS",
-          "body": "FREEZES PUBLIC ELEMENTARY SCHOOL MAINTENANCE for 4 years, waives private toll-road inspections, and TRIPLES Congressional Luncheon Allowances.",
+          "heading": "TITLE III (PAGE 1,204) — FEDERAL BUDGET OFFSETS",
+          "body": "FREEZES TITLE I FEDERAL PUBLIC-SCHOOL GRANTS for 4 years, waives federal highway safety audits, and TRIPLES Congressional Member Allowances.",
           "isTrap": true
         }
       ],
       "heckles": [
-        { "atSecond": 2, "character": "wolf", "text": "PASS THE OMNIBUS OR LOSE YOUR COMMITTEE STANDING!" },
-        { "atSecond": 6, "character": "pig", "text": "Main Street needs those storm loans and Seniors need those ambulances—just sign it!" },
-        { "atSecond": 10, "character": "bird", "text": "Either way you vote, I'm waiting in the hallway with a six-second mic!" }
+        { "atSecond": 2, "character": "wolf", "text": "PASS THE FEDERAL OMNIBUS OR LOSE YOUR COMMITTEE STANDING!" },
+        { "atSecond": 6, "character": "pig", "text": "Small shops need SBA disaster loans and seniors need winter aid—just sign it!" },
+        { "atSecond": 10, "character": "bird", "text": "Either way you vote, I'm waiting outside the chamber with a six-second mic!" }
       ],
       "gallery": {
         "sheep": { "ayeMood": "shocked", "nayMood": "shocked" },
@@ -248,24 +248,24 @@
           "favorGained": "wolf",
           "corruptionDelta": 1,
           "tags": ["survivedOmnibus", "passedRider"],
-          "headline": "TRIPLE-LUNCH OMNIBUS! BARKER SAVES SHOPS & AMBULANCES—BY FREEZING SCHOOL REPAIRS!",
-          "subhead": "Maple Creek parents erupt over Page 1,204 while Whip Fang smiles and Mags Magpie sprints for a live quote."
+          "headline": "TRIPLE-PERK OMNIBUS! BARKER PASSES DISASTER AID—BY FREEZING FEDERAL SCHOOL GRANTS!",
+          "subhead": "Maple Creek parents erupt over Page 1,204 while Whip Fang smiles and Mags Magpie sprints for a hallway ambush."
         },
         "nay": {
           "meters": { "families": 13, "seniors": -9, "mainStreet": -10, "party": -13, "warChest": -6 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["survivedOmnibus", "blockedOmnibus"],
-          "headline": "BARKER TANKS OMNIBUS! CRITICS BLAST 'NO' VOTE ON STORM LOANS & AMBULANCES!",
-          "subhead": "Parents thank Barker for defending school budgets, while shops and seniors fume—and Mags ambushes him outside."
+          "headline": "BARKER TANKS FEDERAL OMNIBUS! CRITICS BLAST 'NO' VOTE ON SBA DISASTER LOANS & SENIOR AID!",
+          "subhead": "Parents praise Barker for defending Title I school funding, while shops and seniors fume—and Mags corners him outside."
         },
         "abstain": {
           "meters": { "families": -6, "seniors": -7, "mainStreet": -7, "party": -9, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["survivedOmnibus", "abstained"],
-          "headline": "OMNIBUS FREEZE: BARKER HIDES BEHIND BINDER DURING MARATHON VOTE!",
-          "subhead": "Ducking a giant omnibus leaves every corner of Maple Creek frustrated."
+          "headline": "OMNIBUS FREEZE: BARKER HIDES BEHIND BINDER DURING NATIONAL BUDGET VOTE!",
+          "subhead": "Ducking a 1,204-page federal bill leaves every corner of Maple Creek frustrated."
         }
       }
     },
@@ -273,8 +273,8 @@
       "id": "bill_w6_flagship",
       "week": 6,
       "code": "H.R. 500 (YOUR FLAGSHIP)",
-      "title": "Your Signature Legislation",
-      "summary": "This is why Maple Creek sent you to Washington. Call in banked Favor Tokens or rally Hometown Pressure to reach the vote threshold, then slam CALL THE VOTE!",
+      "title": "Your Signature Federal Legislation",
+      "summary": "Your flagship bill putting Maple Creek on the national map! Call in banked Favors or rally Hometown Pressure to reach the vote threshold, then slam CALL THE VOTE!",
       "playerPaced": true,
       "mechanic": "flagship",
       "isFlagship": true,
@@ -284,18 +284,18 @@
       "grassrootsAutoVotesBonus": 2,
       "variantsByArchetype": {
         "grassroots": {
-          "title": "The Maple Creek Community Center & Park Act",
-          "summary": "Restores Maple Creek's leaking community hall, upgrades neighborhood playgrounds, and builds an all-weather town pavilion.",
+          "title": "The Federal Rural Civic Centers & Public Parks Act",
+          "summary": "Creates a national grant program for small-town community halls and public parks—designating Maple Creek as the inaugural pilot town.",
           "votesNeeded": 3
         },
         "climber": {
-          "title": "The Maple Creek Commuter & Downtown Renewal Act",
-          "summary": "Connects rural stations to county transit hubs and revitalizes small-town storefronts along Highway 9.",
+          "title": "The Regional Commuter Transit & Main Street Revitalization Act",
+          "summary": "Connects underserved rural counties to national rail hubs and funds historic storefront restoration—starting along Highway 9.",
           "votesNeeded": 3
         },
         "pork_baron": {
-          "title": "The Grand Maple Creek Trade Plaza & Jobs Act",
-          "summary": "Delivers $40M in federal construction contracts (and a suspiciously heroic brass fountain) to downtown Maple Creek.",
+          "title": "The Heartland Federal Trade Plaza & Regional Jobs Act",
+          "summary": "Directs $40M in federal economic-development construction grants straight to Maple Creek as a regional commerce hub.",
           "votesNeeded": 3
         }
       },
@@ -309,28 +309,28 @@
         },
         {
           "id": "pig_bridge",
-          "label": "Attach Troughman's Expressway Ramp (+1 Vote)",
-          "description": "Adds a $22M ramp contract for Rep. Troughman. Guarantees +1 floor vote and boosts construction sentiment, at Seniors' expense.",
+          "label": "Attach Troughman's Interstate Ramp Earmark (+1 Vote)",
+          "description": "Tucks a $220M federal highway ramp for Rep. Troughman's home state into your bill. Guarantees +1 floor vote and boosts construction allies, angering Seniors.",
           "bonusVotes": 1,
           "effects": { "families": -4, "seniors": -10, "mainStreet": 5, "party": 4, "warChest": 4, "corruption": 1, "porkAttached": true }
         },
         {
           "id": "snake_loophole",
-          "label": "Slip in Viper's Inspection Waiver (+1 Vote & +14 Funds)",
-          "description": "Buried footnote waives municipal developer inspections. Buys a vote and pads your War Chest, angering Families & Seniors.",
+          "label": "Slip in Viper's Federal Inspection Waiver (+1 Vote & +14 Funds)",
+          "description": "Buried footnote exempts national commercial developers from federal safety reviews. Buys a vote and pads your War Chest, angering Families & Seniors.",
           "bonusVotes": 1,
           "effects": { "families": -12, "seniors": -8, "mainStreet": 2, "party": 0, "warChest": 14, "corruption": 1, "porkAttached": true }
         },
         {
           "id": "wolf_rebrand",
-          "label": "Let Whip Fang Co-Brand the Bill (+1 Vote & +10 Party)",
-          "description": "Leadership puts the Caucus crest on your bill and whips an extra vote—trading some independent appeal at home.",
+          "label": "Let Whip Fang Co-Brand as a Leadership Bill (+1 Vote & +10 Party)",
+          "description": "Caucus leadership claims top billing on your bill and whips an extra vote—trading some independent credibility back home.",
           "bonusVotes": 1,
           "effects": { "families": -6, "seniors": -6, "mainStreet": -4, "party": 10, "warChest": 0, "corruption": 0 }
         }
       ],
       "heckles": [
-        { "atSecond": 2, "character": "sheep", "text": "Everyone back in Maple Creek is listening to the chamber radio!" },
+        { "atSecond": 2, "character": "sheep", "text": "Everyone in Maple Creek is tuned into C-SPAN waiting for your bill!" },
         { "atSecond": 6, "character": "wolf", "text": "Hope your caucus standing is solid—or your favor pocket is deep." }
       ],
       "gallery": {
@@ -342,12 +342,12 @@
       "outcomes": {
         "pass": {
           "meters": { "families": 12, "seniors": 10, "mainStreet": 12, "party": 9, "warChest": 6 },
-          "headline": "FRESHMAN TRIUMPH! BARKER'S FLAGSHIP BILL ROARS THROUGH THE HOUSE!",
-          "subhead": "Maple Creek erupts in applause as the rookie proves he can actually deliver legislation."
+          "headline": "FRESHMAN TRIUMPH! BARKER'S SIGNATURE FEDERAL BILL ROARS THROUGH THE HOUSE!",
+          "subhead": "Maple Creek erupts in applause as the rookie proves he can pass major legislation in Washington."
         },
         "fail": {
           "meters": { "families": -12, "seniors": -10, "mainStreet": -10, "party": -10, "warChest": -6 },
-          "headline": "DEFEAT ON THE FLOOR! BARKER'S SIGNATURE BILL DIES SHORT OF A MAJORITY!",
+          "headline": "DEFEAT ON THE FLOOR! BARKER'S FLAGSHIP BILL DIES SHORT OF A HOUSE MAJORITY!",
           "subhead": "Short vote math and bruised pride leave the freshman staring at a silent chamber."
         }
       }
@@ -356,17 +356,17 @@
       "id": "bill_w7",
       "week": 7,
       "code": "H.R. 615 (PROCEDURAL)",
-      "title": "The Plain-English Clarity & Paperwork Reduction Act",
-      "summary": "QUESTION ON THE FLOOR: \"Shall the House NOT decline to uphold the repeal of the exemption preventing non-disclosure of committee luxury travel receipts?\"",
+      "title": "The Congressional Clarity & Accountability Resolution",
+      "summary": "HOUSE FLOOR MOTION: \"Shall the House NOT decline to uphold the repeal of the exemption preventing non-disclosure of congressional committee luxury travel receipts?\"",
       "playerPaced": true,
       "mechanic": "legalese",
       "isFlagship": false,
       "rider": {
         "tabLabel": "STAFF LEGAL MEMO",
-        "text": "PLAIN-ENGLISH TRANSLATION: Four nested negatives! Voting AYE keeps luxury committee junkets SECRET. Voting NAY forces full public receipts!"
+        "text": "PLAIN-ENGLISH TRANSLATION: Four nested negatives! Voting AYE keeps congressional overseas resort junkets SECRET. Voting NAY forces full public receipts!"
       },
       "heckles": [
-        { "atSecond": 2, "character": "fox", "text": "Go ahead, Barnaby—untangle four negatives while my ad team rolls tape!" },
+        { "atSecond": 2, "character": "fox", "text": "Go ahead, Barnaby—untangle four Capitol negatives while my ad team rolls tape!" },
         { "atSecond": 6, "character": "wolf", "text": "It's literally titled 'Clarity'—just stamp AYE!" },
         { "atSecond": 9, "character": "bear", "text": "Diagram the sentence, Representative. Read your staff memo." }
       ],
@@ -382,7 +382,7 @@
           "favorGained": "wolf",
           "corruptionDelta": 1,
           "tags": ["facedLegalese", "passedRider"],
-          "headline": "DOUBLE-NEGATIVE DISASTER! BARKER VOTES TO HIDE LUXURY TRAVEL RECEIPTS!",
+          "headline": "DOUBLE-NEGATIVE DISASTER! BARKER VOTES TO HIDE CONGRESSIONAL LUXURY TRAVEL!",
           "subhead": "Sterling Foxworth airs a prime-time ad mocking Barker for flunking Capitol grammar."
         },
         "nay": {
@@ -390,16 +390,16 @@
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["facedLegalese", "spottedRider"],
-          "headline": "BARKER CRACKS FOUR-NEGATIVE TRAP; EXPOSES SECRET JUNKET BILL!",
-          "subhead": "Civics teacher Dr. Oona Owl gives Barker an A+ while insiders scramble to hide resort tabs."
+          "headline": "BARKER CRACKS FOUR-NEGATIVE TRAP; EXPOSES SECRET CONGRESSIONAL JUNKET BILL!",
+          "subhead": "Civics teacher Dr. Oona Owl gives Barker an A+ while senior committee chairs scramble to hide resort tabs."
         },
         "abstain": {
           "meters": { "families": -5, "seniors": -6, "mainStreet": -5, "party": -5, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["facedLegalese", "abstained"],
-          "headline": "GRAMMAR PARALYSIS: BARKER ABSTAINS ON 'CLARITY ACT'",
-          "subhead": "Foxworth chuckles: 'If he can't read one sentence, how can he represent Maple Creek?'"
+          "headline": "GRAMMAR PARALYSIS: BARKER ABSTAINS ON 'CONGRESSIONAL CLARITY' MOTION",
+          "subhead": "Foxworth chuckles: 'If he can't read one House rule, how can he represent Maple Creek?'"
         }
       }
     },
@@ -407,8 +407,8 @@
       "id": "bill_w8",
       "week": 8,
       "code": "H.R. 722",
-      "title": "The Campaign Ethics & Donor Transparency Act",
-      "summary": "Promises sweeping accountability for campaign donations and strict oversight of election-year fundraising.",
+      "title": "The Federal Election Ethics & Campaign Disclosure Act",
+      "summary": "Promises sweeping national accountability for federal campaign donations and strict Federal Election Commission oversight.",
       "playerPaced": true,
       "mechanic": "redacted",
       "isFlagship": false,
@@ -416,19 +416,19 @@
       "redactions": [
         {
           "prefix": "Section 2: Completely exempts ",
-          "hidden": "National Committee Bundlers and Anonymous Consulting Shells",
-          "suffix": " from filing public donor reports."
+          "hidden": "National Party Bundlers and Anonymous K-Street Consulting Shells",
+          "suffix": " from filing federal donor reports."
         },
         {
           "prefix": "Section 3: Imposes ",
-          "hidden": "a $5,000 federal compliance audit on town potlucks and chamber mixers",
+          "hidden": "a $5,000 federal FEC audit fee on small-dollar town potlucks and local chamber mixers",
           "suffix": " raising under $500."
         }
       ],
       "heckles": [
-        { "atSecond": 2, "character": "fox", "text": "Vote against 'Ethics' and watch my billboards go up by noon!" },
+        { "atSecond": 2, "character": "fox", "text": "Vote against 'Federal Ethics' and watch my billboards go up by noon!" },
         { "atSecond": 6, "character": "snake", "text": "Need ad money to answer Foxworth? This bill fills your War Chest overnight." },
-        { "atSecond": 9, "character": "sheep", "text": "A $5,000 audit on local potlucks and chamber mixers?! That's rigged!" }
+        { "atSecond": 9, "character": "sheep", "text": "A $5,000 federal audit fee on small-town fundraisers?! That's rigged for insiders!" }
       ],
       "gallery": {
         "sheep": { "ayeMood": "shocked", "nayMood": "happy" },
@@ -441,24 +441,24 @@
           "favorGained": "snake",
           "corruptionDelta": 1,
           "tags": ["passedRider", "missedRedaction"],
-          "headline": "POTLUCK CRACKDOWN! BARKER TAXES LOCAL FUNDRAISERS WHILE SHIELDING SHELL FUNDS!",
-          "subhead": "Barker's War Chest swells to fight Foxworth, but Maple Creek clubs and diners are furious."
+          "headline": "POTLUCK CRACKDOWN! BARKER BURIES GRASSROOTS FUNDRAISERS IN FEC FEES WHILE SHIELDING SHELL FUNDS!",
+          "subhead": "Barker's War Chest swells to fight Foxworth, but Maple Creek clubs and small donors are furious."
         },
         "nay": {
           "meters": { "families": 8, "seniors": 8, "mainStreet": 10, "party": -7, "warChest": -8 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["spottedRedaction"],
-          "headline": "BARKER TORCHES FAKE 'ETHICS' BILL; FOXWORTH CRIES FOUL ON CABLE NEWS!",
-          "subhead": "Maple Creek cheers the rescue of local mixers, though Barker's ad budget takes another hit."
+          "headline": "BARKER TORCHES RIGGED FEDERAL 'ETHICS' BILL; FOXWORTH CRIES FOUL ON CABLE NEWS!",
+          "subhead": "Maple Creek cheers the rescue of grassroots fundraisers, though Barker's ad budget takes another hit."
         },
         "abstain": {
           "meters": { "families": -5, "seniors": -5, "mainStreet": -6, "party": -5, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["abstained"],
-          "headline": "BARKER ABSTAINS ON ETHICS BILL—FOXWORTH DUBS HIM 'THE VANISHING PUP'",
-          "subhead": "Voters wonder why their rep suddenly needed an urgent hallway break."
+          "headline": "BARKER ABSTAINS ON FEDERAL ETHICS ACT—FOXWORTH DUBS HIM 'THE VANISHING PUP'",
+          "subhead": "Voters wonder why their congressman suddenly needed an urgent cloakroom break."
         }
       }
     },
@@ -466,8 +466,8 @@
       "id": "bill_w9",
       "week": 9,
       "code": "H.R. 840 (OMNIBUS)",
-      "title": "The Highway 9 Flood-Bridge & Committee Order Omnibus",
-      "summary": "Emergency flood-repair funding for Highway 9 paired with Chairwoman Kodiak's 72-Hour Reading Rule—and a heavily inked Page 3.",
+      "title": "The Federal Highway Trust Fund & House Rules Omnibus",
+      "summary": "Emergency federal highway grants for flood-damaged interstate connectors (including Highway 9) paired with Chairwoman Kodiak's 72-Hour Reading Rule—and an inked Page 3.",
       "playerPaced": true,
       "mechanic": "omnibus_redacted",
       "isFlagship": false,
@@ -475,23 +475,23 @@
       "pages": [
         {
           "pageNumber": 1,
-          "heading": "TITLE I — EMERGENCY HIGHWAY 9 BRIDGE AID",
-          "body": "Releases immediate federal grants to reopen three flood-damaged freight and commuter bridges serving Maple Creek."
+          "heading": "TITLE I — EMERGENCY FEDERAL HIGHWAY TRUST FUND",
+          "body": "Releases $18 billion in immediate federal bridge grants to reopen flood-damaged interstate and regional freight corridors nationwide (including Highway 9)."
         },
         {
           "pageNumber": 2,
-          "heading": "TITLE II — KODIAK'S 72-HOUR READING RULE",
-          "body": "Bans surprise 1,000-page midnight drops and guarantees every lawmaker three full days to read bills before voting."
+          "heading": "TITLE II — KODIAK'S 72-HOUR HOUSE READING RULE",
+          "body": "Amends House Rules to ban surprise 1,000-page midnight drops and guarantee lawmakers three full days to read federal bills."
         },
         {
           "pageNumber": 3,
-          "heading": "TITLE III — PROCUREMENT ADDENDUM",
+          "heading": "TITLE III — FEDERAL PROCUREMENT ADDENDUM",
           "body": "SCRUB THE REDACTION BELOW BEFORE YOU VOTE!",
           "isTrap": true,
           "redactions": [
             {
               "prefix": "Subsection Z: Awards ",
-              "hidden": "75-year no-bid procurement contracts to Troughman Construction & Viper Consulting with zero audit oversight",
+              "hidden": "75-year no-bid federal infrastructure contracts to Troughman Construction & Viper Consulting with zero Inspector General audit oversight",
               "suffix": " through 2099."
             }
           ]
@@ -499,7 +499,7 @@
       ],
       "heckles": [
         { "atSecond": 2, "character": "bear", "text": "Inspect every page, Barker. My endorsement hangs on your backbone." },
-        { "atSecond": 6, "character": "pig", "text": "Delivery trucks are stuck in detours—Main Street wants that bridge open TODAY!" },
+        { "atSecond": 6, "character": "pig", "text": "Freight trucks are stuck in detours across six states—Main Street wants that highway open TODAY!" },
         { "atSecond": 10, "character": "fox", "text": "Either way you stamp, my prime-time attack ad is already edited!" }
       ],
       "gallery": {
@@ -514,44 +514,44 @@
           "favorGained": "pig",
           "corruptionDelta": 1,
           "tags": ["survivedOmnibus", "passedRider"],
-          "headline": "NO-BID JACKPOT! BARKER REOPENS HIGHWAY 9—WITH 75-YEAR UN-AUDITED CONTRACTS!",
-          "subhead": "Local truckers get concrete, K-Street pops champagne, and Chairwoman Kodiak snaps her oak pencil in half."
+          "headline": "NO-BID JACKPOT! BARKER REOPENS FEDERAL HIGHWAYS—WITH 75-YEAR UN-AUDITED CONTRACTS!",
+          "subhead": "Local freight carriers get concrete, K-Street pops champagne, and Chairwoman Kodiak snaps her oak pencil in half."
         },
         "nay": {
           "meters": { "families": 7, "seniors": 10, "mainStreet": -9, "party": -6, "warChest": -9 },
           "favorGained": "bear",
           "corruptionDelta": 0,
           "tags": ["survivedOmnibus", "spottedRedaction", "earnedBearRespect"],
-          "headline": "BARKER EXPOSES NO-BID RIDER; KODIAK PRAISES 'SPINE OF STEEL' AS TRUCKERS FUME!",
-          "subhead": "Demanding a clean standalone bridge bill wins Kodiak's heavyweight backing—while Main Street groans at ongoing detours."
+          "headline": "BARKER EXPOSES 75-YEAR NO-BID RIDER; KODIAK PRAISES 'SPINE OF STEEL' AS TRUCKERS FUME!",
+          "subhead": "Demanding a clean standalone Highway bill wins Kodiak's heavyweight backing—while Maple Creek shippers groan at ongoing detours."
         },
         "abstain": {
           "meters": { "families": -6, "seniors": -6, "mainStreet": -8, "party": -7, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["survivedOmnibus", "abstained"],
-          "headline": "BARKER FREEZES ON BRIDGE OMNIBUS; NEITHER COMMUTERS NOR BEARS PLEASED!",
-          "subhead": "Mags Magpie pops a fresh flash bulb outside the chamber doors."
+          "headline": "BARKER FREEZES ON FEDERAL HIGHWAY OMNIBUS; NEITHER TRUCKERS NOR BEARS PLEASED!",
+          "subhead": "Mags Magpie pops a fresh flash bulb outside the House chamber."
         }
       }
     },
     {
       "id": "bill_w10",
       "week": 10,
-      "code": "H.R. 999 (MIDNIGHT CR)",
-      "title": "The Midnight Continuity & Senior Tax Cap Resolution",
-      "summary": "Final midnight vote on Election Eve! Keeps municipal services open and caps senior property-tax increases for two years.",
+      "code": "H.R. 999 (SHUTDOWN CR)",
+      "title": "The Midnight Government Shutdown & Senior COLA Continuing Resolution",
+      "summary": "Final 11:59 PM vote before Election Day! Averts a federal government shutdown, keeps national parks and mail open, and locks in an emergency Senior Retirement Cost-of-Living boost.",
       "playerPaced": true,
       "mechanic": "sticky_rider",
       "isFlagship": false,
       "rider": {
         "tabLabel": "11:58 PM MANAGER'S AMENDMENT",
-        "text": "Section 88: Auto-renews 20-year corporate tax loopholes and pays for the senior tax cap by cutting school-bus routes and Main Street micro-grants by 25%."
+        "text": "Section 88: Auto-renews 20-year corporate tax loopholes and offsets the Senior COLA boost by slashing federal school-lunch programs and SBA small-business micro-grants by 25%."
       },
       "heckles": [
-        { "atSecond": 2, "character": "wolf", "text": "POLLS OPEN AT SUNRISE! DELIVER THE SENIOR TAX CAP AND STAY WITH THE CAUCUS!" },
-        { "atSecond": 5, "character": "sheep", "text": "Seniors love the tax cap, Barnaby—but read what Section 88 cuts to pay for it!" },
-        { "atSecond": 8, "character": "bird", "text": "HOLD THE PRESSES—THIS FINAL STAMP DECIDES ELECTION DAY!" }
+        { "atSecond": 2, "character": "wolf", "text": "MIDNIGHT SHUTDOWN DEADLINE! PASS THE SENIOR COLA AND STAND WITH THE CAUCUS!" },
+        { "atSecond": 5, "character": "sheep", "text": "Seniors need that federal COLA boost—but read what Section 88 slashes to pay for it!" },
+        { "atSecond": 8, "character": "bird", "text": "HOLD THE PRESSES—THIS SHUTDOWN VOTE DECIDES ELECTION DAY!" }
       ],
       "gallery": {
         "sheep": { "ayeMood": "neutral", "nayMood": "neutral" },
@@ -565,23 +565,23 @@
           "favorGained": "wolf",
           "corruptionDelta": 1,
           "tags": ["passedRider", "midnightSellout"],
-          "headline": "MIDNIGHT TRADE-OFF! BARKER CAPS SENIOR TAXES BY SLASHING SCHOOL BUSES & SHOP GRANTS!",
-          "subhead": "Retirees cheer and Barker's War Chest overflows for dawn radio ads, while parents and shops erupt in outrage."
+          "headline": "SHUTDOWN AVERTED—AT A PRICE! BARKER PASSES SENIOR COLA BY SLASHING SCHOOL LUNCHES & SBA GRANTS!",
+          "subhead": "Retirees cheer and Barker's War Chest overflows for dawn radio ads, while parents and small shops erupt in outrage."
         },
         "nay": {
           "meters": { "families": 13, "seniors": -9, "mainStreet": 12, "party": -12, "warChest": -8 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["spottedRider", "midnightHero"],
-          "headline": "MIDNIGHT STAND! BARKER SAVES SCHOOL BUSES & SHOP GRANTS—RISKING SENIOR BACKLASH!",
-          "subhead": "Families and Main Street rally at sunrise while Foxworth blasts Barker over the failed senior tax cap."
+          "headline": "MIDNIGHT STAND! BARKER DEFENDS SCHOOL LUNCHES & SBA GRANTS—RISKING SHUTDOWN & SENIOR BACKLASH!",
+          "subhead": "Families and Main Street rally at sunrise while Foxworth blasts Barker for voting against the Senior COLA boost."
         },
         "abstain": {
           "meters": { "families": -7, "seniors": -7, "mainStreet": -7, "party": -9, "warChest": -4 },
           "favorGained": null,
           "corruptionDelta": 0,
           "tags": ["abstained"],
-          "headline": "LIGHTS OUT: BARKER ABSTAINS AT MIDNIGHT HOURS BEFORE POLLS OPEN!",
+          "headline": "LIGHTS OUT ON THE HILL: BARKER ABSTAINS ON SHUTDOWN VOTE HOURS BEFORE POLLS OPEN!",
           "subhead": "Even the Capitol night-shift custodian looks mildly disappointed."
         }
       }
