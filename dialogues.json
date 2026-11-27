@@ -40,7 +40,7 @@
         },
         "n2_deal": {
           "mood": "happy",
-          "text": "Good boy! Keep your word on the floor and Leadership will owe you a Favor—worth 13 House seats when you bring your Flagship Bill to the floor. Just... don't double-cross my clipboard.",
+          "text": "Good boy! Keep your word on the floor and Leadership will owe you a Favor—worth 12 House seats when you bring your Flagship Bill to the floor. Just... don't double-cross my clipboard.",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -134,7 +134,7 @@
       "nodes": {
         "n1": {
           "mood": "happy",
-          "text": "Barnaby! My favorite freshman! Today's National Freight Rail Corridor Act puts a regional federal depot right near Maple Creek—150 local jobs—AND carries a modest federal concrete earmark for my state. Back it with an AYE, and I'll owe you 11 Appropriations seats whenever you call your Flagship Bill!",
+          "text": "Barnaby! My favorite freshman! Today's National Freight Rail Corridor Act puts a regional federal depot right near Maple Creek—150 local jobs—AND carries a modest federal concrete earmark for my state. Back it with an AYE, and I'll owe you 10 Appropriations seats whenever you call your Flagship Bill!",
           "choices": [
             {
               "label": "Main Street needs those rail jobs—promise AYE. Remember me on my Flagship Bill, Wilbur.",
@@ -321,7 +321,7 @@
       "nodes": {
         "n1": {
           "mood": "angry",
-          "text": "Listen closely, Barker. Today's Federal Budget Omnibus bundles SBA small-business disaster loans, rural hospital grants, and 'budget offsets' into one take-it-or-leave-it vote. Stamp AYE and earn a 13-seat Leadership Favor for your Flagship Bill. Stamp NAY and we'll tell every shop and retiree back home you blocked disaster aid.",
+          "text": "Listen closely, Barker. Today's Federal Budget Omnibus bundles SBA small-business disaster loans, rural hospital grants, and 'budget offsets' into one take-it-or-leave-it vote. Stamp AYE and earn a 12-seat Leadership Favor for your Flagship Bill. Stamp NAY and we'll tell every shop and retiree back home you blocked disaster aid.",
           "choices": [
             {
               "label": "Fine—I'll vote AYE. Keep my Caucus standing safe.",
@@ -676,9 +676,9 @@
           "failSubhead": "\"Pass clean aid separately!\" Barker shouted, momentarily forgetting he had just rubber-stamped the 1,204-page bill.",
           "flubHeadline": "FLASH-BLINDED! BARKER STAMMERS ON LIVE MIC TRYING TO EXPLAIN OMNIBUS VOTE!",
           "flubSubhead": "A shaky delivery outside the chamber turns Barker's defense of school grants into an awkward viral clip.",
-          "successEffects": { "seniors": 7, "mainStreet": 7, "party": -2, "spinResult": "success" },
-          "failEffects": { "families": -8, "seniors": -6, "mainStreet": -6, "party": -4, "spinResult": "fail" },
-          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "spinResult": "fail" }
+          "successEffects": { "seniors": 5, "mainStreet": 5, "party": -2, "spinResult": "success" },
+          "failEffects": { "families": -5, "seniors": -4, "mainStreet": -4, "party": -3, "spinResult": "fail" },
+          "flubEffects": { "families": -2, "seniors": -2, "mainStreet": -2, "spinResult": "fail" }
         },
         {
           "id": "spin_shops",
@@ -693,9 +693,9 @@
           "failSubhead": "Reporters burst out laughing as Barker vows to fix a bill he had stamped NAY moments earlier.",
           "flubHeadline": "VOICE CRACK HEARD 'ROUND THE HILL! BARKER FUMBLES OMNIBUS DEFENSE ON CAMERA!",
           "flubSubhead": "Barker promised a Monday school bill, though viewers mostly replayed his squeaky microphone sneeze.",
-          "successEffects": { "families": 8, "party": 2, "spinResult": "success" },
-          "failEffects": { "families": -7, "seniors": -6, "mainStreet": -6, "party": -3, "spinResult": "fail" },
-          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "spinResult": "fail" }
+          "successEffects": { "families": 6, "party": 2, "spinResult": "success" },
+          "failEffects": { "families": -5, "seniors": -4, "mainStreet": -4, "party": -2, "spinResult": "fail" },
+          "flubEffects": { "families": -2, "seniors": -2, "mainStreet": -2, "spinResult": "fail" }
         },
         {
           "id": "spin_distract",
@@ -711,12 +711,12 @@
           "flubHeadline": "POTTED-PLANT TUMBLE! BARKER TRIPS MID-ESCAPE FROM PRESS GALLERY!",
           "flubSubhead": "The Capitol Gazette prints a three-frame photo sequence of Barker's hallway somersault.",
           "successEffects": { "families": 2, "seniors": 2, "mainStreet": 2, "spinResult": "success" },
-          "failEffects": { "families": -6, "seniors": -6, "mainStreet": -6, "party": -4, "spinResult": "fail" },
-          "flubEffects": { "families": -5, "seniors": -5, "mainStreet": -5, "spinResult": "fail" }
+          "failEffects": { "families": -4, "seniors": -4, "mainStreet": -4, "party": -3, "spinResult": "fail" },
+          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "spinResult": "fail" }
         }
       ],
       "timeoutHeadline": "FROZEN PUP! BARKER STARES SPEECHLESS INTO FLASH CAMERA!",
-      "timeoutEffects": { "families": -8, "seniors": -8, "mainStreet": -8, "party": -4, "spinResult": "fail" }
+      "timeoutEffects": { "families": -5, "seniors": -5, "mainStreet": -5, "party": -3, "spinResult": "fail" }
     },
     {
       "id": "ambush_w9_bridges",
@@ -743,9 +743,9 @@
           "failSubhead": "\"I blocked corruption!\" insisted Barker as Mags Magpie held up the official House roll-call sheet.",
           "flubHeadline": "COUGHING FIT AT THE MIC! BARKER STUMBLES DEFENDING HIGHWAY 9 VOTE!",
           "flubSubhead": "A rattled delivery weakens Barker's rebuttal just as Foxworth buys extra evening airtime.",
-          "successEffects": { "mainStreet": 8, "families": 4, "party": 2, "spinResult": "success" },
-          "failEffects": { "families": -8, "seniors": -8, "mainStreet": -6, "party": -4, "spinResult": "fail" },
-          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -4, "spinResult": "fail" }
+          "successEffects": { "mainStreet": 5, "families": 3, "party": 2, "spinResult": "success" },
+          "failEffects": { "families": -5, "seniors": -5, "mainStreet": -4, "party": -3, "spinResult": "fail" },
+          "flubEffects": { "families": -2, "seniors": -2, "mainStreet": -3, "spinResult": "fail" }
         },
         {
           "id": "spin_bridges",
@@ -760,9 +760,9 @@
           "failSubhead": "Even Foxworth looked genuinely confused as Barker demanded oversight on legislation that failed.",
           "flubHeadline": "\"INSPECTOR... TUESDAY?\" BARKER RATTLES UNDER HALLWAY FLASH BULBS!",
           "flubSubhead": "A nervous stammer leaves Maple Creek wondering whether those promised audits will ever arrive.",
-          "successEffects": { "families": 6, "seniors": 6, "warChest": 3, "spinResult": "success" },
-          "failEffects": { "families": -7, "seniors": -7, "mainStreet": -6, "party": -3, "spinResult": "fail" },
-          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "spinResult": "fail" }
+          "successEffects": { "families": 4, "seniors": 4, "warChest": 3, "spinResult": "success" },
+          "failEffects": { "families": -5, "seniors": -5, "mainStreet": -4, "party": -2, "spinResult": "fail" },
+          "flubEffects": { "families": -2, "seniors": -2, "mainStreet": -2, "spinResult": "fail" }
         },
         {
           "id": "spin_nocomment",
@@ -778,12 +778,12 @@
           "flubHeadline": "BROOM-CLOSET EXIT! BARKER SAYS 'NO COMMENT' AND WALKS INTO JANITOR'S SUPPLY ROOM!",
           "flubSubhead": "A six-second hallway clip of Barker emerging with a mop bucket dominates evening news.",
           "successEffects": { "families": -2, "seniors": -2, "mainStreet": -2, "spinResult": "neutral" },
-          "failEffects": { "families": -4, "seniors": -4, "mainStreet": -4, "party": -2, "spinResult": "fail" },
-          "flubEffects": { "families": -5, "seniors": -5, "mainStreet": -5, "party": -2, "spinResult": "fail" }
+          "failEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "party": -2, "spinResult": "fail" },
+          "flubEffects": { "families": -3, "seniors": -3, "mainStreet": -3, "party": -2, "spinResult": "fail" }
         }
       ],
       "timeoutHeadline": "BARKER SPEECHLESS UNDER PRESS BULBS; FOXWORTH TURNS SILENCE INTO 30-SECOND AD!",
-      "timeoutEffects": { "families": -9, "seniors": -9, "mainStreet": -9, "party": -4, "spinResult": "fail" }
+      "timeoutEffects": { "families": -6, "seniors": -6, "mainStreet": -6, "party": -3, "spinResult": "fail" }
     }
   ]
 }

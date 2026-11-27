@@ -27,10 +27,10 @@
           "meters": { "families": 10, "seniors": -14, "mainStreet": 8, "party": 11, "warChest": 5 },
           "favorGained": "wolf",
           "corruptionDelta": 0,
-          "seatDeltas": { "cottontail": 4, "establishment": 3, "tortoise": -3 },
+          "seatDeltas": { "cottontail": 2, "establishment": 2, "tortoise": -2 },
           "minorRepPing": {
             "speaker": "Rep. Clara Cottontail (Children & Conservation)",
-            "text": "Loved seeing a freshman back school funding—4 of our caucus reps just co-sponsored your bill! (Arthur Tortoise's fiscal watchdogs pulled 3 seats over the tax offset.)"
+            "text": "Loved seeing a freshman back school funding—2 of our caucus reps and 2 Leadership seats signed onto your bill! (Arthur Tortoise pulled 2 seats over the tax offset.)"
           },
           "tags": ["passedRider"],
           "headline": "NEW FEDERAL GRANTS—PAID BY RETIREES! BARKER BACKS $40B SCHOOL ACT WITH HEATING TAX!",
@@ -40,10 +40,10 @@
           "meters": { "families": -8, "seniors": 11, "mainStreet": -5, "party": -10, "warChest": -4 },
           "favorGained": null,
           "corruptionDelta": 0,
-          "seatDeltas": { "tortoise": 5, "crane": 4, "cottontail": -2 },
+          "seatDeltas": { "tortoise": 3, "crane": 2, "cottontail": -1 },
           "minorRepPing": {
             "speaker": "Rep. Arthur Tortoise (Retiree & Fiscal Watchdogs)",
-            "text": "Sharp eye catching Amendment #4B! Five Watchdogs and 4 Sunshine reps just signed onto your bill as co-sponsors!"
+            "text": "Sharp eye catching Amendment #4B! Three Watchdogs and 2 Sunshine reps just signed onto your bill as co-sponsors!"
           },
           "tags": ["spottedRider"],
           "headline": "BARKER BLOCKS FEDERAL RETIREE TAX HIKE—AND TURNS DOWN $40B SCHOOL GRANTS!",
@@ -88,10 +88,10 @@
           "meters": { "families": 12, "seniors": 7, "mainStreet": -9, "party": 2, "warChest": -8 },
           "favorGained": null,
           "corruptionDelta": 0,
-          "seatDeltas": { "cottontail": 6, "crane": 3, "beaver": -2 },
+          "seatDeltas": { "cottontail": 4, "crane": 2, "beaver": -2 },
           "minorRepPing": {
             "speaker": "Rep. Clara Cottontail (Children & Conservation)",
-            "text": "Clean rivers and free crossings! Six more Conservation seats and 3 Sunshine reps just joined your Flagship coalition!"
+            "text": "Clean rivers and free crossings! Four Conservation seats and 2 Sunshine reps just joined your Flagship coalition!"
           },
           "tags": ["cleanWin"],
           "headline": "FEDERAL CLEAN WATER ACT PASSES—BUT RIVERSIDE SMALL SHOPS BRACE FOR COMPLIANCE COSTS!",
@@ -101,10 +101,10 @@
           "meters": { "families": -13, "seniors": -6, "mainStreet": 11, "party": 4, "warChest": 16 },
           "favorGained": "snake",
           "corruptionDelta": 1,
-          "seatDeltas": { "beaver": 5, "establishment": 3, "cottontail": -3 },
+          "seatDeltas": { "beaver": 3, "establishment": 2, "cottontail": -2 },
           "minorRepPing": {
             "speaker": "Rep. Hank Beaver (Main Street & Builders)",
-            "text": "Small riverside mills owe you one, Barnaby! Five Builders and 3 Establishment seats just backed your bill."
+            "text": "Small riverside mills owe you one, Barnaby! Three Builders and 2 Establishment seats just backed your bill."
           },
           "tags": ["tookLobbyMoney"],
           "headline": "BARKER VOTES DOWN FEDERAL WATERWAY RULES—SHIELDING SHOPS WHILE BRIDGE TOLLS STAY!",
@@ -153,10 +153,10 @@
           "meters": { "families": 6, "seniors": -14, "mainStreet": 15, "party": 8, "warChest": 8 },
           "favorGained": "pig",
           "corruptionDelta": 1,
-          "seatDeltas": { "beaver": 6, "establishment": 3, "tortoise": -3 },
+          "seatDeltas": { "beaver": 3, "establishment": 2, "tortoise": -2 },
           "minorRepPing": {
             "speaker": "Rep. Hank Beaver (Main Street & Builders)",
-            "text": "Now THAT's how you bring rail jobs home! Six more Builders and 3 Appropriations seats just co-sponsored your bill!"
+            "text": "Now THAT's how you bring rail jobs home! Three Builders and 2 Appropriations seats just co-sponsored your bill!"
           },
           "tags": ["passedRider", "porkDeal"],
           "headline": "NATIONAL RAIL CORRIDOR PASSES! MAIN STREET CHEERS DEPOT JOBS AS SENIORS BLAST NOISE WAIVERS!",
@@ -166,10 +166,10 @@
           "meters": { "families": -5, "seniors": 11, "mainStreet": -13, "party": -7, "warChest": -4 },
           "favorGained": null,
           "corruptionDelta": 0,
-          "seatDeltas": { "crane": 5, "tortoise": 4, "beaver": -3 },
+          "seatDeltas": { "crane": 3, "tortoise": 3, "beaver": -2 },
           "minorRepPing": {
             "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
-            "text": "Refusing a $380M concrete earmark takes nerve! Five Sunshine reps and 4 Fiscal Watchdogs just pledged onto your Flagship Bill!"
+            "text": "Refusing a $380M concrete earmark takes nerve! Three Sunshine reps and 3 Fiscal Watchdogs just pledged onto your Flagship Bill!"
           },
           "tags": ["spottedRider"],
           "headline": "BARKER VOTES NO ON PORK-STUFFED RAIL ACT; MAIN STREET STUNNED OVER LOST FEDERAL DEPOT!",
@@ -226,10 +226,10 @@
           "meters": { "families": -8, "seniors": -16, "mainStreet": 9, "party": 6, "warChest": 15 },
           "favorGained": "snake",
           "corruptionDelta": 1,
-          "seatDeltas": { "beaver": 4, "establishment": 4, "tortoise": -4 },
+          "seatDeltas": { "beaver": 2, "establishment": 2, "tortoise": -3 },
           "minorRepPing": {
             "speaker": "Rep. Arthur Tortoise (Retiree & Fiscal Watchdogs)",
-            "text": "You voted to padlock 1,400 rural post offices?! Four of my Watchdogs are pulling their names off your bill!"
+            "text": "You voted to padlock 1,400 rural post offices?! Three of my Watchdogs are pulling their names off your bill!"
           },
           "tags": ["passedRider", "missedRedaction"],
           "headline": "1,400 RURAL POST OFFICES SHUTTERED! SENIORS FURIOUS AS BARKER BACKS POSTAL OVERHAUL!",
@@ -239,10 +239,10 @@
           "meters": { "families": 7, "seniors": 13, "mainStreet": -6, "party": -5, "warChest": -7 },
           "favorGained": "bear",
           "corruptionDelta": 0,
-          "seatDeltas": { "tortoise": 5, "crane": 5 },
+          "seatDeltas": { "tortoise": 3, "crane": 3 },
           "minorRepPing": {
             "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
-            "text": "Scrubbing those redacted closures won over the whole chamber! Five Sunshine reps and 5 Watchdogs just backed your bill—AND Chairwoman Kodiak owes you a Favor!"
+            "text": "Scrubbing those redacted closures won real respect! Three Sunshine reps and 3 Watchdogs just backed your bill—AND Chairwoman Kodiak owes you a Favor!"
           },
           "tags": ["spottedRedaction"],
           "headline": "BARKER SCRUBS REDACTIONS & DEFENDS RURAL POST OFFICES FROM FEDERAL CLOSURE!",
@@ -307,10 +307,10 @@
           "meters": { "families": -18, "seniors": 8, "mainStreet": 10, "party": 14, "warChest": 12 },
           "favorGained": "wolf",
           "corruptionDelta": 1,
-          "seatDeltas": { "establishment": 5, "beaver": 3, "cottontail": -4 },
+          "seatDeltas": { "establishment": 3, "beaver": 2, "cottontail": -3 },
           "minorRepPing": {
             "speaker": "Rep. Clara Cottontail (Children & Conservation)",
-            "text": "Freezing Title I school grants?! Four Conservation reps just pulled off your bill—though Leadership added 5 seats."
+            "text": "Freezing Title I school grants?! Three Conservation reps just pulled off your bill—though Leadership added 3 seats."
           },
           "tags": ["survivedOmnibus", "passedRider"],
           "headline": "TRIPLE-PERK OMNIBUS! BARKER PASSES DISASTER AID—BY FREEZING FEDERAL SCHOOL GRANTS!",
@@ -320,10 +320,10 @@
           "meters": { "families": 13, "seniors": -9, "mainStreet": -10, "party": -13, "warChest": -6 },
           "favorGained": null,
           "corruptionDelta": 0,
-          "seatDeltas": { "cottontail": 5, "crane": 4, "establishment": -2 },
+          "seatDeltas": { "cottontail": 3, "crane": 2, "establishment": -2 },
           "minorRepPing": {
             "speaker": "Rep. Clara Cottontail (Children & Conservation)",
-            "text": "You stood up to a 1,204-page omnibus to save school grants! Five Conservation and 4 Sunshine reps just joined your Flagship coalition!"
+            "text": "You stood up to a 1,204-page omnibus to save school grants! Three Conservation and 2 Sunshine reps just joined your Flagship coalition!"
           },
           "tags": ["survivedOmnibus", "blockedOmnibus"],
           "headline": "BARKER TANKS FEDERAL OMNIBUS! CRITICS BLAST 'NO' VOTE ON SBA DISASTER LOANS & SENIOR AID!",
@@ -371,10 +371,10 @@
           "meters": { "families": 7, "seniors": 14, "mainStreet": -13, "party": 8, "warChest": 14 },
           "favorGained": "snake",
           "corruptionDelta": 1,
-          "seatDeltas": { "tortoise": 5, "establishment": 3, "beaver": -4 },
+          "seatDeltas": { "tortoise": 3, "establishment": 2, "beaver": -3 },
           "minorRepPing": {
             "speaker": "Rep. Arthur Tortoise (Retiree & Fiscal Watchdogs)",
-            "text": "Lower prescription copays sealed 5 more Watchdog seats for your Flagship Bill—though Hank Beaver's shops pulled 4 seats over the payroll tax."
+            "text": "Lower prescription copays sealed 3 more Watchdog seats for your Flagship Bill—though Hank Beaver's shops pulled 3 seats over the payroll tax."
           },
           "tags": ["passedRider"],
           "headline": "COPAYS CAPPED—AT MAIN STREET'S EXPENSE! BARKER PASSES TELEHEALTH ACT WITH 2% SMALL-SHOP TAX!",
@@ -384,10 +384,10 @@
           "meters": { "families": -5, "seniors": -11, "mainStreet": 12, "party": -7, "warChest": -7 },
           "favorGained": null,
           "corruptionDelta": 0,
-          "seatDeltas": { "beaver": 5, "crane": 4, "tortoise": -3 },
+          "seatDeltas": { "beaver": 3, "crane": 2, "tortoise": -2 },
           "minorRepPing": {
             "speaker": "Rep. Hank Beaver (Main Street & Builders)",
-            "text": "Killing a 12-year patent grab AND a small-shop payroll tax? Five Builders and 4 Sunshine reps just pledged onto your bill!"
+            "text": "Killing a 12-year patent grab AND a small-shop payroll tax? Three Builders and 2 Sunshine reps just pledged onto your bill!"
           },
           "tags": ["spottedRider"],
           "headline": "BARKER KILLS PATENT-MONOPOLY & PAYROLL RIDER—STALLING SENIOR PRESCRIPTION CAPS!",
@@ -437,10 +437,10 @@
           "meters": { "families": -9, "seniors": -11, "mainStreet": -8, "party": 11, "warChest": 11 },
           "favorGained": "wolf",
           "corruptionDelta": 1,
-          "seatDeltas": { "establishment": 4, "crane": -4 },
+          "seatDeltas": { "establishment": 2, "crane": -3 },
           "minorRepPing": {
             "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
-            "text": "Did you just vote to keep congressional resort tabs secret?! Four Sunshine reps are walking away from your bill!"
+            "text": "Did you just vote to keep congressional resort tabs secret?! Three Sunshine reps are walking away from your bill!"
           },
           "tags": ["facedLegalese", "passedRider"],
           "headline": "DOUBLE-NEGATIVE DISASTER! BARKER VOTES TO HIDE CONGRESSIONAL LUXURY TRAVEL!",
@@ -450,10 +450,10 @@
           "meters": { "families": 8, "seniors": 9, "mainStreet": 6, "party": -8, "warChest": -5 },
           "favorGained": null,
           "corruptionDelta": 0,
-          "seatDeltas": { "crane": 5, "raccoon": 3 },
+          "seatDeltas": { "crane": 3, "raccoon": 2 },
           "minorRepPing": {
             "speaker": "Rep. Chet Raccoon (Backbench Wildcards)",
-            "text": "You actually decoded four nested negatives?! Five Sunshine reps and 3 Wildcards just signed onto your Flagship Bill!"
+            "text": "You actually decoded four nested negatives?! Three Sunshine reps and 2 Wildcards just signed onto your Flagship Bill!"
           },
           "tags": ["facedLegalese", "spottedRider"],
           "headline": "BARKER CRACKS FOUR-NEGATIVE TRAP; EXPOSES SECRET CONGRESSIONAL JUNKET BILL!",
@@ -511,10 +511,10 @@
           "meters": { "families": -10, "seniors": -10, "mainStreet": -12, "party": 10, "warChest": 18 },
           "favorGained": "snake",
           "corruptionDelta": 1,
-          "seatDeltas": { "establishment": 4, "crane": -4 },
+          "seatDeltas": { "establishment": 2, "crane": -3 },
           "minorRepPing": {
             "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
-            "text": "Taxing town potlucks while shielding K-Street shells?! Four Sunshine reps are off your bill."
+            "text": "Taxing town potlucks while shielding K-Street shells?! Three Sunshine reps are off your bill."
           },
           "tags": ["passedRider", "missedRedaction"],
           "headline": "POTLUCK CRACKDOWN! BARKER BURIES GRASSROOTS FUNDRAISERS IN FEC FEES WHILE SHIELDING SHELL FUNDS!",
@@ -524,10 +524,10 @@
           "meters": { "families": 8, "seniors": 8, "mainStreet": 10, "party": -7, "warChest": -8 },
           "favorGained": null,
           "corruptionDelta": 0,
-          "seatDeltas": { "crane": 5, "beaver": 3 },
+          "seatDeltas": { "crane": 3, "beaver": 2 },
           "minorRepPing": {
             "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
-            "text": "Exposing rigged FEC rules wins real respect—5 Sunshine reps and 3 Main Street reps just jumped onto your Flagship Bill!"
+            "text": "Exposing rigged FEC rules wins real respect—3 Sunshine reps and 2 Main Street reps just jumped onto your Flagship Bill!"
           },
           "tags": ["spottedRedaction"],
           "headline": "BARKER TORCHES RIGGED FEDERAL 'ETHICS' BILL; FOXWORTH CRIES FOUL ON CABLE NEWS!",
