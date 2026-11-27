@@ -2,10 +2,9 @@
   "meta": {
     "title": "Mr. Barker Goes to Washington",
     "subtitle": "A Satirical Congress Micro-Sim",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "totalWeeks": 10,
     "billTimersEnabled": false,
-    "pressAmbushTimerSeconds": 6,
     "abstainLimit": 2,
     "hideNumericHudBars": true,
     "hideArcadePoints": true,
@@ -36,6 +35,321 @@
       }
     }
   },
+  "startingBaseMeters": {
+    "families": 46,
+    "seniors": 46,
+    "mainStreet": 46,
+    "party": 40,
+    "warChest": 36
+  },
+  "platformMadLibs": {
+    "promptHeader": "Congratulations on your upset victory, Representative Barker!",
+    "promptSubhead": "What was your winning campaign platform? Pick one line for each blank—your victory speech shapes your starting standing, your living Flagship Bill, and which House caucuses back you on Day 1.",
+    "slots": [
+      {
+        "id": "slogan",
+        "leadIn": "Maple Creek sent me to Washington because...",
+        "options": [
+          {
+            "id": "children_future",
+            "text": "\"Our children are the future!\"",
+            "meters": { "families": 11, "seniors": 2, "mainStreet": 0, "party": -2, "warChest": -4 },
+            "seats": { "cottontail": 5 },
+            "pledgeTag": "pledge_children"
+          },
+          {
+            "id": "owe_seniors",
+            "text": "\"We owe our seniors!\"",
+            "meters": { "families": 0, "seniors": 12, "mainStreet": 0, "party": -2, "warChest": -4 },
+            "seats": { "tortoise": 5 },
+            "pledgeTag": "pledge_seniors"
+          },
+          {
+            "id": "jobs_jobs_jobs",
+            "text": "\"Maple Creek needs jobs, jobs, jobs!\"",
+            "meters": { "families": 2, "seniors": -2, "mainStreet": 12, "party": 2, "warChest": 6 },
+            "seats": { "beaver": 5 },
+            "pledgeTag": "pledge_jobs"
+          },
+          {
+            "id": "no_new_taxes",
+            "text": "\"No new taxes—not one red cent!\"",
+            "meters": { "families": -2, "seniors": 9, "mainStreet": 8, "party": 0, "warChest": 4 },
+            "seats": { "tortoise": 4, "beaver": 2 },
+            "pledgeTag": "pledge_no_taxes"
+          },
+          {
+            "id": "build_build_build",
+            "text": "\"Build more schools, build more roads, build, build, build!\"",
+            "meters": { "families": 6, "seniors": -4, "mainStreet": 9, "party": 4, "warChest": 4 },
+            "seats": { "beaver": 4, "cottontail": 2 },
+            "pledgeTag": "pledge_build"
+          },
+          {
+            "id": "gets_things_done",
+            "text": "\"Maple Creek deserves a leader who gets things done!\"",
+            "meters": { "families": 4, "seniors": 4, "mainStreet": 4, "party": 6, "warChest": 4 },
+            "seats": { "crane": 3, "establishment": 3 },
+            "pledgeTag": "pledge_pragmatist"
+          },
+          {
+            "id": "moose_menace",
+            "text": "\"The Northern Moose Menace cannot be left unchecked!\"",
+            "meters": { "families": 3, "seniors": 3, "mainStreet": 3, "party": -4, "warChest": 0 },
+            "seats": { "raccoon": 6 },
+            "pledgeTag": "pledge_moose"
+          }
+        ]
+      },
+      {
+        "id": "style",
+        "leadIn": "And on Capitol Hill, I vow to...",
+        "options": [
+          {
+            "id": "work_with_anyone",
+            "text": "\"Work with anyone to deliver for Maple Creek!\"",
+            "meters": { "families": -1, "seniors": -1, "mainStreet": 4, "party": 10, "warChest": 6 },
+            "seats": { "establishment": 4, "beaver": 2 }
+          },
+          {
+            "id": "read_every_word",
+            "text": "\"Read every single footnote—even at 3 AM!\"",
+            "meters": { "families": 6, "seniors": 6, "mainStreet": 2, "party": -6, "warChest": -6 },
+            "seats": { "crane": 6 }
+          },
+          {
+            "id": "bring_home_bacon",
+            "text": "\"Bring every federal dollar I can back to town!\"",
+            "meters": { "families": 4, "seniors": -4, "mainStreet": 8, "party": 6, "warChest": 8 },
+            "seats": { "establishment": 4, "beaver": 3 }
+          },
+          {
+            "id": "never_take_kstreet",
+            "text": "\"Never owe a dime to K-Street lobbyists!\"",
+            "meters": { "families": 8, "seniors": 8, "mainStreet": 0, "party": -6, "warChest": -10 },
+            "seats": { "crane": 6, "cottontail": 2 }
+          },
+          {
+            "id": "shake_up_capitol",
+            "text": "\"Shake up the whole Capitol establishment!\"",
+            "meters": { "families": 5, "seniors": 4, "mainStreet": 4, "party": -10, "warChest": -4 },
+            "seats": { "raccoon": 5, "crane": 3 }
+          },
+          {
+            "id": "stand_with_caucus",
+            "text": "\"Stand shoulder-to-shoulder with Caucus Leadership!\"",
+            "meters": { "families": -4, "seniors": -4, "mainStreet": 0, "party": 14, "warChest": 8 },
+            "seats": { "establishment": 7 }
+          },
+          {
+            "id": "keep_options_open",
+            "text": "\"Keep my options open and my bow tie spotless!\"",
+            "meters": { "families": 2, "seniors": 2, "mainStreet": 2, "party": 4, "warChest": 6 },
+            "seats": { "crane": 2, "beaver": 2, "raccoon": 2 }
+          }
+        ]
+      },
+      {
+        "id": "flagshipCause",
+        "leadIn": "My signature bill in Congress will champion...",
+        "options": [
+          {
+            "id": "arts_parks",
+            "text": "\"Federal Arts, Libraries & Youth Parks Funding\"",
+            "billTitle": "The National Arts, Libraries & Youth Parks Act",
+            "billSummary": "Funds small-town arts grants, public library wings, and neighborhood playgrounds nationwide—with Maple Creek as an inaugural showcase town.",
+            "meters": { "families": 5, "seniors": 2, "mainStreet": 0, "party": 0, "warChest": 0 },
+            "seats": { "cottontail": 6, "crane": 2 },
+            "passMeters": { "families": 15, "seniors": 9, "mainStreet": 5, "party": 7, "warChest": 4 }
+          },
+          {
+            "id": "job_creation",
+            "text": "\"Heartland Job Creation & Small-Business Loans\"",
+            "billTitle": "The Heartland Job Creation & Small Business Act",
+            "billSummary": "Launches federal trade-apprenticeship grants and streamlined revitalization loans for main-street shops and regional builders.",
+            "meters": { "families": 2, "seniors": 0, "mainStreet": 6, "party": 2, "warChest": 4 },
+            "seats": { "beaver": 7, "establishment": 1 },
+            "passMeters": { "families": 9, "seniors": 5, "mainStreet": 16, "party": 8, "warChest": 8 }
+          },
+          {
+            "id": "lower_taxes",
+            "text": "\"Lower Taxes & Senior Retirement Relief\"",
+            "billTitle": "The Working-Household & Senior Tax Relief Act",
+            "billSummary": "Cuts federal excise taxes on home heating, expands senior retirement deductions, and simplifies small-shop quarterly tax filings.",
+            "meters": { "families": 0, "seniors": 6, "mainStreet": 4, "party": 2, "warChest": 2 },
+            "seats": { "tortoise": 7, "beaver": 2 },
+            "passMeters": { "families": 7, "seniors": 16, "mainStreet": 11, "party": 9, "warChest": 7 }
+          },
+          {
+            "id": "clean_infra",
+            "text": "\"Clean Rural Power Grids & Regional Rail Transit\"",
+            "billTitle": "The Clean Grid & Rural Transit Modernization Act",
+            "billSummary": "Upgrades rural electric grids, lowers household utility bills, and connects small towns to modern regional transit.",
+            "meters": { "families": 3, "seniors": 2, "mainStreet": 3, "party": 0, "warChest": 0 },
+            "seats": { "cottontail": 4, "beaver": 4 },
+            "passMeters": { "families": 11, "seniors": 9, "mainStreet": 10, "party": 8, "warChest": 5 }
+          },
+          {
+            "id": "build_civic",
+            "text": "\"Build, Build, Build: Federal Clinics, Roads & Courthouses\"",
+            "billTitle": "The National Civic Construction & Public Safety Act",
+            "billSummary": "Invests $50B in rural health clinics, county road resurfacing, and modern public safety centers—delivering thousands of construction jobs.",
+            "meters": { "families": 2, "seniors": 3, "mainStreet": 4, "party": 4, "warChest": 2 },
+            "seats": { "beaver": 5, "establishment": 4 },
+            "passMeters": { "families": 8, "seniors": 11, "mainStreet": 13, "party": 9, "warChest": 6 }
+          },
+          {
+            "id": "moose_barrier",
+            "text": "\"The Northern Moose-Proofing & Wildlife Readiness Act\"",
+            "billTitle": "The Federal Northern Moose-Proofing & Rural Barrier Act",
+            "billSummary": "Establishes a high-visibility federal task force for reinforced highway wildlife crossings, emergency horn whistles, and suspiciously generous moose-spotter stipends.",
+            "meters": { "families": 2, "seniors": 2, "mainStreet": 2, "party": -2, "warChest": 0 },
+            "seats": { "raccoon": 8, "cottontail": 2 },
+            "passMeters": { "families": 10, "seniors": 10, "mainStreet": 10, "party": 4, "warChest": 6 }
+          }
+        ]
+      }
+    ]
+  },
+  "houseHemicycle": {
+    "totalSeats": 101,
+    "majorityNeeded": 51,
+    "earliestFloorWeek": 4,
+    "latestFloorWeek": 8,
+    "caucuses": [
+      {
+        "id": "freshman_base",
+        "label": "Your Freshman Base",
+        "maxSeats": 6,
+        "startingSeats": 6,
+        "color": "#2F6B4F",
+        "leader": "Rep. Barnaby Barker",
+        "leaderTitle": "Sponsoring Office",
+        "focus": "Your own vote and closest rookie allies—always pledged AYE."
+      },
+      {
+        "id": "cottontail",
+        "label": "Children & Conservation",
+        "maxSeats": 15,
+        "startingSeats": 0,
+        "color": "#2A8C82",
+        "leader": "Rep. Clara Cottontail",
+        "leaderTitle": "Minor Caucus Whip (Text Wire)",
+        "focus": "Backs schools, clean waterways, public parks, and healthcare."
+      },
+      {
+        "id": "crane",
+        "label": "Good-Government Sunshine",
+        "maxSeats": 15,
+        "startingSeats": 0,
+        "color": "#3E6B89",
+        "leader": "Rep. Dolores Crane",
+        "leaderTitle": "Minor Caucus Whip (Text Wire)",
+        "focus": "Rewards reading fine print, rejecting sneaky riders, scrubbing redactions, and staying clean."
+      },
+      {
+        "id": "tortoise",
+        "label": "Retiree & Fiscal Watchdogs",
+        "maxSeats": 15,
+        "startingSeats": 0,
+        "color": "#1E3552",
+        "leader": "Rep. Arthur Tortoise",
+        "leaderTitle": "Minor Caucus Whip (Text Wire)",
+        "focus": "Defends senior pensions, rural post offices, and fiscal restraint."
+      },
+      {
+        "id": "beaver",
+        "label": "Main Street & Builders",
+        "maxSeats": 15,
+        "startingSeats": 0,
+        "color": "#C99738",
+        "leader": "Rep. Hank Beaver",
+        "leaderTitle": "Minor Caucus Whip (Text Wire)",
+        "focus": "Champions rail depots, local jobs, small shops, and highway freight."
+      },
+      {
+        "id": "raccoon",
+        "label": "Backbench Wildcards",
+        "maxSeats": 11,
+        "startingSeats": 0,
+        "color": "#7D4E7A",
+        "leader": "Rep. Chet Raccoon",
+        "leaderTitle": "Minor Caucus Whip (Text Wire)",
+        "focus": "Loves bold maverick moves, sharp press clips, and checking the Northern Moose Menace."
+      },
+      {
+        "id": "establishment",
+        "label": "Appropriations & Leadership",
+        "maxSeats": 24,
+        "startingSeats": 0,
+        "color": "#B83227",
+        "leader": "Whip Fang & Rep. Troughman",
+        "leaderTitle": "Capitol Machine Bloc",
+        "focus": "Hard to win organically—flipped via caucus loyalty, banked Favors, or weighted compromises."
+      }
+    ],
+    "favorSeatWeights": {
+      "bear": { "seats": 10, "targetCaucus": "crane", "label": "Chairwoman Kodiak's Floor Backing (+10 Seats)" },
+      "pig": { "seats": 11, "targetCaucus": "establishment", "label": "Rep. Troughman's Appropriations Bloc (+11 Seats)" },
+      "wolf": { "seats": 13, "targetCaucus": "establishment", "label": "Whip Fang's Caucus Whip Operation (+13 Seats)" },
+      "snake": { "seats": 11, "targetCaucus": "establishment", "label": "Viper's Industry Caucus Calls (+11 Seats)" }
+    },
+    "grassrootsPush": {
+      "id": "grassroots_push",
+      "label": "Launch Clean Hometown Call-In Blitz",
+      "description": "Zero corruption! Mobilizes Maple Creek voters to flood congressional switchboards. Seat flip scales with your 3-bloc hometown standing.",
+      "warChestCost": 5,
+      "tiers": [
+        { "minAvg": 68, "seats": 16, "label": "Roaring Grassroots Wave (+16 Clean Seats)" },
+        { "minAvg": 58, "seats": 11, "label": "Strong Hometown Pressure (+11 Clean Seats)" },
+        { "minAvg": 46, "seats": 6, "label": "Modest Constituent Calls (+6 Clean Seats)" },
+        { "minAvg": 0, "seats": 2, "label": "Quiet Switchboards (+2 Clean Seats)" }
+      ]
+    },
+    "weightedCompromises": [
+      {
+        "id": "technical_tweak",
+        "label": "Minor Committee Compromise (+6 Seats)",
+        "seats": 6,
+        "targetCaucus": "beaver",
+        "description": "Softens compliance deadlines to win over fence-sitters. Clean, small nudge if you're just shy of 51.",
+        "effects": { "families": -3, "seniors": -2, "mainStreet": 3, "party": 2, "corruption": 0 }
+      },
+      {
+        "id": "pig_ramp",
+        "label": "Attach Troughman's Interstate Ramp Earmark (+12 Seats)",
+        "seats": 12,
+        "targetCaucus": "establishment",
+        "description": "Tucks a $220M federal highway ramp for Troughman's state into your bill. Medium seat boost, stings Seniors.",
+        "effects": { "families": -4, "seniors": -10, "mainStreet": 5, "party": 4, "warChest": 4, "corruption": 1, "porkAttached": true }
+      },
+      {
+        "id": "wolf_cobrand",
+        "label": "Let Whip Fang Co-Brand as a Leadership Bill (+16 Seats)",
+        "seats": 16,
+        "targetCaucus": "establishment",
+        "description": "Leadership puts its crest across your bill and whips 16 seats—trading independent credibility at home.",
+        "effects": { "families": -7, "seniors": -7, "mainStreet": -4, "party": 10, "warChest": 0, "corruption": 0 }
+      },
+      {
+        "id": "viper_dereg",
+        "label": "Slip in Viper's Industry Deregulation Rider (+22 Seats & +Funds!)",
+        "seats": 22,
+        "targetCaucus": "establishment",
+        "description": "Massive K-Street buyout: flips 22 seats AND fills your War Chest, at heavy hometown & Ethics Board cost.",
+        "effects": { "families": -14, "seniors": -12, "mainStreet": 2, "party": 2, "warChest": 16, "corruption": 2, "porkAttached": true }
+      }
+    ],
+    "failOutcome": {
+      "meters": { "families": -11, "seniors": -10, "mainStreet": -10, "party": -10, "warChest": -5 },
+      "headline": "HEARTBREAK ON THE FLOOR! BARKER'S {FLAGSHIP_TITLE} DIES SHORT OF 51 SEATS!",
+      "subhead": "Too many grey dots on the House hemicycle leave the freshman's signature promise stalled in chamber history."
+    },
+    "passOutcome": {
+      "headline": "HOUSE MAJORITY! BARKER PASSES {FLAGSHIP_TITLE} WITH {SEAT_COUNT} VOTES!",
+      "subhead": "Maple Creek erupts in cheers as Rep. Barker's signature legislation crosses the 51-seat threshold on the House floor."
+    }
+  },
   "voterBlocs": [
     {
       "id": "families",
@@ -50,7 +364,7 @@
       "label": "Seniors",
       "weight": 0.3333,
       "voice": "Old Man Boarwell (Pig), Retired Postal Carrier",
-      "priorities": "Fixed-income tax stability, neighborhood post offices, quiet streets, and clean oversight.",
+      "priorities": "Fixed-income tax stability, neighborhood post offices, healthcare copays, and clean oversight.",
       "color": "#1E3552"
     },
     {
@@ -58,7 +372,7 @@
       "label": "Main Street",
       "weight": 0.3334,
       "voice": "Sal Viper (Snake), Main Street Sourdough Bakery",
-      "priorities": "Local jobs, foot traffic, bridge & rail access, and manageable small-shop regulations.",
+      "priorities": "Local jobs, foot traffic, bridge & rail access, and manageable small-shop taxes & rules.",
       "color": "#C99738"
     }
   ],
@@ -78,7 +392,7 @@
       { "min": 72, "label": "Inner Circle", "tone": "strong_positive", "hint": "Whip Fang calls you a rising star." },
       { "min": 50, "label": "Good Graces", "tone": "positive", "hint": "Your committee seat feels secure." },
       { "min": 25, "label": "On Thin Ice", "tone": "neutral", "hint": "Leadership is watching your roll-call closely." },
-      { "min": 0, "label": "Backbench Exile", "tone": "strong_negative", "hint": "Leadership is stalling your legislation (Flagship needs 4 votes!)." }
+      { "min": 0, "label": "Backbench Exile", "tone": "strong_negative", "hint": "Leadership is actively cold-shouldering your floor bills." }
     ],
     "warChestBands": [
       { "min": 72, "label": "Overflowing", "tone": "strong_positive", "hint": "Enough ad money to blanket every station." },
@@ -89,7 +403,7 @@
   },
   "squeezeRules": {
     "lowPartyCommitteeThreshold": 25,
-    "lowPartyFlagshipExtraVotes": 1,
+    "lowPartyHemicyclePenaltySeats": -5,
     "lowFundsDrainThreshold": 25,
     "lowFundsWeeklyBlocDrain": -5
   },
@@ -107,8 +421,8 @@
         "tab": "B",
         "office": "Longworth Rm. 402 (By the Radiator)",
         "unlockedFromStart": true,
-        "whatTheyWant": "Survive a 10-week freshman term, pass a signature Flagship Bill, and win reelection in Maple Creek.",
-        "watchOut": "You can't keep 100% of Families, Seniors, Main Street, Leadership, and Donors happy at once—pick your coalition."
+        "whatTheyWant": "Build a 51-seat House coalition for your signature bill and win reelection in Maple Creek.",
+        "watchOut": "Check your MY BILL folder on the desk every week—minor reps pledge or pull House seats based on how you vote!"
       },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
@@ -125,7 +439,7 @@
         "tab": "E",
         "office": "Maple Creek Town Hall",
         "unlockedFromStart": true,
-        "whatTheyWant": "Clean, transparent bills that deliver for everyday hometown voters without hidden traps.",
+        "whatTheyWant": "Clean, transparent federal bills that deliver for everyday hometown voters without hidden traps.",
         "watchOut": "When a bill splits Families, Seniors, and Main Street, even Martha looks conflicted—read your postcards and Toby's memo!"
       },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
@@ -144,7 +458,7 @@
         "office": "Capitol Suite H-107 (Leadership Wing)",
         "unlockedFromStart": true,
         "whatTheyWant": "Strict Caucus loyalty on leadership bills and must-pass omnibuses—no surprise defections.",
-        "watchOut": "Sink into Backbench Exile and he'll freeze your Week 6 Flagship Bill (forcing 4 votes instead of 3). Never break a handshake promise."
+        "watchOut": "His Favor flips 13 House seats on your Flagship Bill—but sink into Backbench Exile and he'll pull 5 Establishment seats against you."
       },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
@@ -162,7 +476,7 @@
         "office": "1400 K-Street Penthouse",
         "unlockedFromStart": true,
         "whatTheyWant": "Favorable deregulation, buried inspection waivers, and quiet NAY votes on bills threatening his clients.",
-        "watchOut": "Holds the keys to your campaign War Chest—helpful against attack ads, dangerous if the Ethics Board starts auditing."
+        "watchOut": "Holds the keys to your War Chest—and if Maple Creek votes you out while you're flush with his cash, K-Street always has a yacht waiting."
       },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
@@ -180,7 +494,7 @@
         "office": "Appropriations Annex Rm. 210",
         "unlockedFromStart": true,
         "whatTheyWant": "Earmarks, concrete contracts, and old-fashioned vote trading ('you back my project, I'll back yours').",
-        "watchOut": "His riders look ugly on paper, yet occasionally bring real local jobs—and his Favor token can save your Flagship Bill."
+        "watchOut": "His riders look ugly on paper, yet occasionally bring real local jobs—and his Favor flips 11 Appropriations seats on your bill."
       },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
@@ -198,7 +512,7 @@
         "office": "Rules Dais — Capitol Third Floor",
         "unlockedFromStart": true,
         "whatTheyWant": "Institutional integrity, thorough reading of redacted clauses, and lawmakers with spine.",
-        "watchOut": "Never try to haggle with her—earn her respect by exposing hidden ink, and her Election Night endorsement swings votes."
+        "watchOut": "Never try to haggle with her—earn her Favor (+10 clean Sunshine seats!) and her Election Night endorsement by exposing hidden ink."
       },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
@@ -215,8 +529,8 @@
         "tab": "M",
         "office": "Capitol Press Gallery (Staking Out the Coatroom)",
         "unlockedFromStart": true,
-        "whatTheyWant": "Scandals, contradictions, and six-second hallway soundbites that sell morning papers.",
-        "watchOut": "When her flash bulb pops after major omnibus votes, you only get 6 seconds to pick a spin matching your actual vote!"
+        "whatTheyWant": "Scandals, contradictions, and live hallway soundbites that sell morning papers.",
+        "watchOut": "Pick a quote matching your actual vote, then nail the Live-Mic timing bar so you don't flinch under her flash bulb!"
       },
       "portraits": { "neutral": null, "happy": null, "angry": null, "shocked": null }
     },
@@ -273,8 +587,8 @@
     {
       "week": 6,
       "bloc": "seniors",
-      "sender": "Martha Ewe (Sheep) — Maple Creek Town Hall",
-      "note": "Your Flagship Federal Bill hits the House floor today! Everyone in Maple Creek is glued to C-SPAN waiting to see if a rookie can put our town on the national map."
+      "sender": "Old Man Boarwell & Sal Viper — Joint Maple Creek Note",
+      "note": "Retirees are praying Congress caps prescription copays in H.R. 512 today—meanwhile downtown shops are terrified a sneaky payroll tax rider got tucked in to pay for it!"
     },
     {
       "week": 7,
@@ -350,7 +664,7 @@
       "policyWatch": {
         "kicker": "CAPITOL WATCH · LEAKED DRAFT",
         "headline": "Redacted Postal Overhaul May Shutter 1,400 Rural Branches Nationwide",
-        "body": "Rules Chairwoman Beatrice Kodiak warned freshmen to inspect blacked-out clauses in H.R. 312 before small-town post offices vanish overnight."
+        "body": "Rules Chairwoman Beatrice Kodiak warned freshmen to inspect blacked-out clauses in H.R. 312—and check their own Flagship co-sponsor counts as Floor window opens!"
       },
       "oddity": {
         "kicker": "DINING & CULTURE",
@@ -374,9 +688,9 @@
     {
       "week": 6,
       "policyWatch": {
-        "kicker": "CAPITOL WATCH · FLAGSHIP WEEK",
-        "headline": "Rookie's Signature Bill Faces Acid Test on the House Floor",
-        "body": "Following last week's chaotic omnibus brawl, observers ask whether Rep. Barker has banked enough favors—or hometown clout—to pass H.R. 500 clean."
+        "kicker": "CAPITOL WATCH · HEALTHCARE SHOWDOWN",
+        "headline": "Rural Telehealth & Copay Cap Bill Faces Last-Minute Payroll Rider",
+        "body": "Senior groups are cheering H.R. 512's lower prescription costs, while small-business advocates sound alarms over a rumored 2% payroll surcharge buried in Amendment #8C."
       },
       "oddity": {
         "kicker": "CAPITOL CAFETERIA BEAT",
@@ -401,8 +715,8 @@
       "week": 8,
       "policyWatch": {
         "kicker": "CAPITOL WATCH · MONEY IN POLITICS",
-        "headline": "Is H.R. 722 Real Ethics Reform—Or an Incumbent Ad-War Lifeline?",
-        "body": "With primary billboards multiplying across Maple Creek, watchdogs warn redacted FEC clauses may punish town potlucks while shielding anonymous shells."
+        "headline": "Final Week for Freshman Flagship Bills as 'Federal Ethics' Act Hits Floor",
+        "body": "Watchdogs warn redacted FEC clauses in H.R. 722 squeeze town potlucks while shielding anonymous shells—and any freshman who hasn't called their Flagship vote must do so now!"
       },
       "oddity": {
         "kicker": "SCIENCE DESK",
@@ -435,53 +749,6 @@
         "headline": "Veteran Groundhog Declines to Predict Tomorrow's Election After 'Last Winter's Shadow Fiasco'",
         "body": "The forecaster told reporters he is stepping back from political punditry to focus full-time on heirloom turnips."
       }
-    }
-  ],
-  "archetypes": [
-    {
-      "id": "grassroots",
-      "title": "The Neighborhood Reformer",
-      "tagline": "\"Read the fine print, listen to Maple Creek, owe nobody.\"",
-      "description": "Strong start with Families and Seniors, modest ties with Main Street, and a shoestring War Chest that Leadership eyes warily.",
-      "startingMeters": {
-        "families": 64,
-        "seniors": 60,
-        "mainStreet": 48,
-        "party": 34,
-        "warChest": 28
-      },
-      "startingDeskProp": "hand_knit_coaster",
-      "flagshipBillId": "flagship_grassroots"
-    },
-    {
-      "id": "climber",
-      "title": "The Coalition Builder",
-      "tagline": "\"Nobody wins Washington alone—find the middle lane.\"",
-      "description": "Balanced standing across all three Maple Creek blocs, solid Caucus ties, and enough cash to stay nimble.",
-      "startingMeters": {
-        "families": 52,
-        "seniors": 52,
-        "mainStreet": 52,
-        "party": 54,
-        "warChest": 46
-      },
-      "startingDeskProp": "brass_letter_opener",
-      "flagshipBillId": "flagship_climber"
-    },
-    {
-      "id": "pork_baron",
-      "title": "The Main Street Booster",
-      "tagline": "\"Bring jobs and projects home first; argue details later.\"",
-      "description": "Beloved by Main Street merchants with a flush War Chest, though Families and Seniors keep a sharp eye on your receipts.",
-      "startingMeters": {
-        "families": 42,
-        "seniors": 44,
-        "mainStreet": 66,
-        "party": 48,
-        "warChest": 64
-      },
-      "startingDeskProp": "gold_shovel_paperweight",
-      "flagshipBillId": "flagship_pork_baron"
     }
   ],
   "deskProps": [
@@ -593,9 +860,9 @@
       "subhead": "You played the backroom game recklessly and got sloppy on camera—even K-Street is shredding your phone number.",
       "epilogue": "Mags Magpie wins a national journalism award for printing your sticky-note trail. Whip Fang issues a three-word statement: 'Barely met him.'",
       "criteria": {
-        "corruptionGte": 5,
+        "corruptionGte": 6,
         "betrayalsOrSpinFailsGte": 1,
-        "constituentsLt": 50
+        "constituentsLt": 48
       }
     },
     {
@@ -624,7 +891,7 @@
       "title": "THE HOMETOWN COALITION CHAMPION",
       "badge": "GRASSROOTS WIN",
       "headline": "MR. BARKER GOES BACK TO WASHINGTON! MAPLE CREEK VOTERS DEFY THE MACHINE!",
-      "subhead": "With low corruption and a rock-solid hometown coalition, you proved a freshman can win by keeping a finger on the local pulse.",
+      "subhead": "With low corruption and a rock-solid hometown coalition, you proved a freshman can pass a clean bill and win without selling out.",
       "epilogue": "Sal Viper brings cinnamon rolls, Mrs. Lupine's class sends banners, and Whip Fang quietly moves your desk away from the radiator.",
       "criteria": {
         "wonElection": true,
@@ -662,8 +929,23 @@
       }
     },
     {
-      "id": "one_term_martyr",
+      "id": "golden_parachute",
       "priority": 6,
+      "wonSeat": false,
+      "title": "THE GOLDEN PARACHUTE",
+      "badge": "MARGARITA RETIREMENT",
+      "headline": "VOTED OUT AT 8 PM—HIRED BY K-STREET AT 8:05 PM! BARKER SPOTTED SIPPING MARGARITAS ON VIPER'S YACHT!",
+      "subhead": "Maple Creek sent you packing, yet saying yes to all the right backroom deals landed you a seven-figure 'Senior Policy Advisor' gig with zero floor votes.",
+      "epilogue": "Your blender never stops whirring, your bow tie is now a Hawaiian shirt, and Rep. Troughman already texted asking if you're free for golf Thursday.",
+      "criteria": {
+        "wonElection": false,
+        "warChestGte": 62,
+        "corruptionGte": 3
+      }
+    },
+    {
+      "id": "one_term_martyr",
+      "priority": 7,
       "wonSeat": false,
       "title": "ONE-TERM IDEALIST",
       "badge": "DEFEATED",
@@ -679,7 +961,7 @@
     },
     {
       "id": "out_foxed",
-      "priority": 7,
+      "priority": 8,
       "wonSeat": false,
       "title": "OUT-FOXED AT THE POLLS",
       "badge": "PRIMARIED",
@@ -697,6 +979,12 @@
       "trigger": "always",
       "term": "Coalition Building & Competing Constituencies",
       "summary": "No representative's district agrees on everything: families, retirees, and local businesses often have genuinely competing interests on the exact same bill, forcing lawmakers to build workable coalitions rather than chasing 100% approval."
+    },
+    {
+      "id": "whipping_hemicycle",
+      "trigger": "always",
+      "term": "Co-Sponsor Coalitions & Floor Whipping",
+      "summary": "Passing legislation requires assembling a 51%+ House majority across competing caucuses—either by earning organic co-sponsors through consistent votes and public pressure, or by trading favors and compromises."
     },
     {
       "id": "poison_pill_rider",
@@ -732,7 +1020,7 @@
       "id": "media_spin",
       "trigger": "facedPressAmbush",
       "term": "Soundbite Framing & Media Spin",
-      "summary": "Complex legislative trade-offs rarely fit in a six-second hallway clip, rewarding lawmakers who frame their votes quickly before opponents define them first."
+      "summary": "Complex legislative trade-offs rarely fit in a brief hallway clip, rewarding lawmakers who frame their votes clearly before opponents define them first."
     }
   ]
 }

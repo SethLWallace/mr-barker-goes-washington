@@ -40,21 +40,21 @@
         },
         "n2_deal": {
           "mood": "happy",
-          "text": "Good boy! Keep your word on the floor and Leadership will owe you a favor when your Flagship Bill arrives in Week 6. Just... don't double-cross my clipboard.",
+          "text": "Good boy! Keep your word on the floor and Leadership will owe you a Favor—worth 13 House seats when you bring your Flagship Bill to the floor. Just... don't double-cross my clipboard.",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
         },
         "n2_hedge": {
           "mood": "neutral",
-          "text": "Heh. Careful, rookie. If your Caucus standing sinks too low, your Week 6 Flagship Bill will need FOUR votes instead of three. I'll be watching the tally board.",
+          "text": "Heh. Careful, rookie. If your Caucus standing sinks into Backbench Exile, Leadership will actively pull seats off your Flagship hemicycle. I'll be watching the tally board.",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
         },
         "n2_refuse": {
           "mood": "angry",
-          "text": "Oh, an idealist! Charming. Remember how lonely backbench exile feels when you need committee clearance in Week 6.",
+          "text": "Oh, an idealist! Charming. Let's see how you reach 51 seats on your Flagship Bill without Leadership's help.",
           "choices": [
             { "label": "Back to the Desk", "nextNode": null }
           ]
@@ -134,10 +134,10 @@
       "nodes": {
         "n1": {
           "mood": "happy",
-          "text": "Barnaby! My favorite freshman! Today's National Freight Rail Corridor Act puts a regional federal depot right near Maple Creek—150 local jobs—AND carries a modest federal concrete earmark for my state. Back it with an AYE, and I'll owe you a Favor for Week 6!",
+          "text": "Barnaby! My favorite freshman! Today's National Freight Rail Corridor Act puts a regional federal depot right near Maple Creek—150 local jobs—AND carries a modest federal concrete earmark for my state. Back it with an AYE, and I'll owe you 11 Appropriations seats whenever you call your Flagship Bill!",
           "choices": [
             {
-              "label": "Main Street needs those rail jobs—promise AYE. Remember me in Week 6, Wilbur.",
+              "label": "Main Street needs those rail jobs—promise AYE. Remember me on my Flagship Bill, Wilbur.",
               "nextNode": "n2_deal",
               "effects": {
                 "meters": { "party": 4, "warChest": 5 },
@@ -285,7 +285,7 @@
               }
             },
             {
-              "label": "If I kill it, will you back my Flagship Bill in Week 6?",
+              "label": "If I kill it, will you whip seats for my Flagship Bill?",
               "nextNode": "n2_transactional",
               "effects": {
                 "meters": { "party": -2 }
@@ -321,10 +321,10 @@
       "nodes": {
         "n1": {
           "mood": "angry",
-          "text": "Listen closely, Barker. Today's Federal Budget Omnibus bundles SBA small-business disaster loans, rural hospital grants, and 'budget offsets' into one take-it-or-leave-it vote. Stamp AYE and keep your standing before Flagship Week. Stamp NAY and we'll tell every shop and retiree back home you blocked disaster aid.",
+          "text": "Listen closely, Barker. Today's Federal Budget Omnibus bundles SBA small-business disaster loans, rural hospital grants, and 'budget offsets' into one take-it-or-leave-it vote. Stamp AYE and earn a 13-seat Leadership Favor for your Flagship Bill. Stamp NAY and we'll tell every shop and retiree back home you blocked disaster aid.",
           "choices": [
             {
-              "label": "Fine—I'll vote AYE. Keep my standing safe before Week 6.",
+              "label": "Fine—I'll vote AYE. Keep my Caucus standing safe.",
               "nextNode": "n2_cave",
               "effects": {
                 "meters": { "party": 6 },
@@ -371,20 +371,61 @@
       }
     },
     {
-      "id": "enc_w6_flagship_markup",
+      "id": "enc_w6_healthcare_lobby",
       "week": 6,
-      "type": "flagship_markup",
+      "type": "pre_vote",
       "triggerCondition": "always",
       "character": "pig",
       "background": "office",
-      "deskAlert": "IT'S FLAGSHIP WEEK! Decide whether to keep your signature federal bill pure or attach a rider for votes.",
+      "deskAlert": "Rep. Wilbur Troughman pops in about H.R. 512—and checks how your Flagship seat count is looking!",
       "startNode": "n1",
       "nodes": {
         "n1": {
           "mood": "happy",
-          "text": "Big day, Barnaby! Your Flagship Bill hits the House floor today—putting Maple Creek front and center in Washington! Normally you need 3 votes (you start with 1)—though if Leadership froze you out, you'll need 4! A warm hometown coalition gives +2 Pressure, or spend banked Favors—OR let one of us tuck a rider into your bill right now for +1 guaranteed vote!",
-          "isMarkupPicker": true,
-          "choices": []
+          "text": "Morning, Barnaby! Hope you're watching that House hemicycle on your MY BILL folder—you can bring your Flagship Bill to the floor any week from Week 4 through Week 8! Meanwhile, today's Rural Telehealth & Copay bill is up. Pharma wants a quiet AYE—and Seniors love lower copays—even if small shops grumble about the 2% payroll offset.",
+          "choices": [
+            {
+              "label": "Lower copays for seniors is a winner—put me down for an AYE.",
+              "nextNode": "n2_deal",
+              "effects": {
+                "meters": { "party": 4, "warChest": 6 },
+                "promise": { "character": "snake", "billId": "bill_w6", "expectedVote": "aye" }
+              }
+            },
+            {
+              "label": "I'll inspect Amendment #8C on the floor before promising anything.",
+              "nextNode": "n2_hedge",
+              "effects": {}
+            },
+            {
+              "label": "A 12-year patent monopoly AND a payroll tax on small shops? No thanks.",
+              "nextNode": "n2_refuse",
+              "effects": {
+                "meters": { "mainStreet": 4, "party": -5 }
+              }
+            }
+          ]
+        },
+        "n2_deal": {
+          "mood": "happy",
+          "text": "Smart operator! Viper's clients will remember that—and don't forget to check your Flagship hemicycle before Week 8 closes!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_hedge": {
+          "mood": "neutral",
+          "text": "Suit yourself, kid. Just remember—every roll-call vote moves minor caucus reps onto or off your own Flagship Bill!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
+        },
+        "n2_refuse": {
+          "mood": "angry",
+          "text": "Careful, pup—Retirees back home will hear you voted against prescription copay caps!",
+          "choices": [
+            { "label": "Back to the Desk", "nextNode": null }
+          ]
         }
       }
     },

@@ -27,6 +27,11 @@
           "meters": { "families": 10, "seniors": -14, "mainStreet": 8, "party": 11, "warChest": 5 },
           "favorGained": "wolf",
           "corruptionDelta": 0,
+          "seatDeltas": { "cottontail": 4, "establishment": 3, "tortoise": -3 },
+          "minorRepPing": {
+            "speaker": "Rep. Clara Cottontail (Children & Conservation)",
+            "text": "Loved seeing a freshman back school funding—4 of our caucus reps just co-sponsored your bill! (Arthur Tortoise's fiscal watchdogs pulled 3 seats over the tax offset.)"
+          },
           "tags": ["passedRider"],
           "headline": "NEW FEDERAL GRANTS—PAID BY RETIREES! BARKER BACKS $40B SCHOOL ACT WITH HEATING TAX!",
           "subhead": "Maple Creek parents and downtown contractors cheer incoming federal grants while fixed-income seniors pack town hall over rising winter bills."
@@ -35,6 +40,11 @@
           "meters": { "families": -8, "seniors": 11, "mainStreet": -5, "party": -10, "warChest": -4 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "tortoise": 5, "crane": 4, "cottontail": -2 },
+          "minorRepPing": {
+            "speaker": "Rep. Arthur Tortoise (Retiree & Fiscal Watchdogs)",
+            "text": "Sharp eye catching Amendment #4B! Five Watchdogs and 4 Sunshine reps just signed onto your bill as co-sponsors!"
+          },
           "tags": ["spottedRider"],
           "headline": "BARKER BLOCKS FEDERAL RETIREE TAX HIKE—AND TURNS DOWN $40B SCHOOL GRANTS!",
           "subhead": "Seniors applaud Barker holding the line on federal deductions, while Whip Fang and local parents fume at the vote board."
@@ -43,6 +53,11 @@
           "meters": { "families": -4, "seniors": -4, "mainStreet": -4, "party": -6, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "raccoon": 2 },
+          "minorRepPing": {
+            "speaker": "Rep. Chet Raccoon (Backbench Wildcards)",
+            "text": "Abstaining on Day 1? Bold chaos energy, pup—2 Backbenchers signed your bill out of sheer curiosity."
+          },
           "tags": ["abstained"],
           "headline": "BARKER SITS OUT OPENING INFRASTRUCTURE VOTE: 'I NEEDED MORE TIME TO CHECK THE OFFSET'",
           "subhead": "Ducking a national tax-vs-grants trade-off satisfies nobody back in Maple Creek."
@@ -73,6 +88,11 @@
           "meters": { "families": 12, "seniors": 7, "mainStreet": -9, "party": 2, "warChest": -8 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "cottontail": 6, "crane": 3, "beaver": -2 },
+          "minorRepPing": {
+            "speaker": "Rep. Clara Cottontail (Children & Conservation)",
+            "text": "Clean rivers and free crossings! Six more Conservation seats and 3 Sunshine reps just joined your Flagship coalition!"
+          },
           "tags": ["cleanWin"],
           "headline": "FEDERAL CLEAN WATER ACT PASSES—BUT RIVERSIDE SMALL SHOPS BRACE FOR COMPLIANCE COSTS!",
           "subhead": "Families celebrate cleaner rivers and toll-free federal crossings while Maple Creek workshops fret over EPA-style filter rules."
@@ -81,6 +101,11 @@
           "meters": { "families": -13, "seniors": -6, "mainStreet": 11, "party": 4, "warChest": 16 },
           "favorGained": "snake",
           "corruptionDelta": 1,
+          "seatDeltas": { "beaver": 5, "establishment": 3, "cottontail": -3 },
+          "minorRepPing": {
+            "speaker": "Rep. Hank Beaver (Main Street & Builders)",
+            "text": "Small riverside mills owe you one, Barnaby! Five Builders and 3 Establishment seats just backed your bill."
+          },
           "tags": ["tookLobbyMoney"],
           "headline": "BARKER VOTES DOWN FEDERAL WATERWAY RULES—SHIELDING SHOPS WHILE BRIDGE TOLLS STAY!",
           "subhead": "Local businesses breathe easier and K-Street checks clear, while Maple Creek families blast Barker on river safety."
@@ -89,6 +114,11 @@
           "meters": { "families": -6, "seniors": -4, "mainStreet": -5, "party": -2, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": {},
+          "minorRepPing": {
+            "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
+            "text": "Sitting out a clean bill doesn't win many co-sponsors on the House floor, Barnaby."
+          },
           "tags": ["abstained"],
           "headline": "BARKER ABSTAINS ON CLEAN WATERWAYS: 'I HAVE COMPLEX FEELINGS ABOUT FEDERAL RULES'",
           "subhead": "Both commuters and riverside shopkeepers leave the gallery scratching their heads."
@@ -123,6 +153,11 @@
           "meters": { "families": 6, "seniors": -14, "mainStreet": 15, "party": 8, "warChest": 8 },
           "favorGained": "pig",
           "corruptionDelta": 1,
+          "seatDeltas": { "beaver": 6, "establishment": 3, "tortoise": -3 },
+          "minorRepPing": {
+            "speaker": "Rep. Hank Beaver (Main Street & Builders)",
+            "text": "Now THAT's how you bring rail jobs home! Six more Builders and 3 Appropriations seats just co-sponsored your bill!"
+          },
           "tags": ["passedRider", "porkDeal"],
           "headline": "NATIONAL RAIL CORRIDOR PASSES! MAIN STREET CHEERS DEPOT JOBS AS SENIORS BLAST NOISE WAIVERS!",
           "subhead": "Maple Creek shops celebrate new federal rail traffic while retirees rage over Troughman's pork and midnight freight whistles."
@@ -131,6 +166,11 @@
           "meters": { "families": -5, "seniors": 11, "mainStreet": -13, "party": -7, "warChest": -4 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "crane": 5, "tortoise": 4, "beaver": -3 },
+          "minorRepPing": {
+            "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
+            "text": "Refusing a $380M concrete earmark takes nerve! Five Sunshine reps and 4 Fiscal Watchdogs just pledged onto your Flagship Bill!"
+          },
           "tags": ["spottedRider"],
           "headline": "BARKER VOTES NO ON PORK-STUFFED RAIL ACT; MAIN STREET STUNNED OVER LOST FEDERAL DEPOT!",
           "subhead": "Retirees cheer blocking federal noise waivers, while downtown merchants ask why their own congressman killed 150 jobs."
@@ -139,6 +179,11 @@
           "meters": { "families": -4, "seniors": -4, "mainStreet": -7, "party": -5, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "raccoon": 1 },
+          "minorRepPing": {
+            "speaker": "Rep. Chet Raccoon (Backbench Wildcards)",
+            "text": "Everyone's yelling about trains and you walked out for coffee. Respect—+1 Wildcard seat."
+          },
           "tags": ["abstained"],
           "headline": "BARKER DUCKS NATIONAL RAIL VOTE, PLEADS SUDDEN COMMITTEE CONFLICT!",
           "subhead": "Neither downtown merchants nor retired homeowners appreciate sitting on the fence."
@@ -181,6 +226,11 @@
           "meters": { "families": -8, "seniors": -16, "mainStreet": 9, "party": 6, "warChest": 15 },
           "favorGained": "snake",
           "corruptionDelta": 1,
+          "seatDeltas": { "beaver": 4, "establishment": 4, "tortoise": -4 },
+          "minorRepPing": {
+            "speaker": "Rep. Arthur Tortoise (Retiree & Fiscal Watchdogs)",
+            "text": "You voted to padlock 1,400 rural post offices?! Four of my Watchdogs are pulling their names off your bill!"
+          },
           "tags": ["passedRider", "missedRedaction"],
           "headline": "1,400 RURAL POST OFFICES SHUTTERED! SENIORS FURIOUS AS BARKER BACKS POSTAL OVERHAUL!",
           "subhead": "Small shippers enjoy lower parcel rates, while Maple Creek seniors protest the loss of walk-in prescription mail."
@@ -189,6 +239,11 @@
           "meters": { "families": 7, "seniors": 13, "mainStreet": -6, "party": -5, "warChest": -7 },
           "favorGained": "bear",
           "corruptionDelta": 0,
+          "seatDeltas": { "tortoise": 5, "crane": 5 },
+          "minorRepPing": {
+            "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
+            "text": "Scrubbing those redacted closures won over the whole chamber! Five Sunshine reps and 5 Watchdogs just backed your bill—AND Chairwoman Kodiak owes you a Favor!"
+          },
           "tags": ["spottedRedaction"],
           "headline": "BARKER SCRUBS REDACTIONS & DEFENDS RURAL POST OFFICES FROM FEDERAL CLOSURE!",
           "subhead": "Chairwoman Kodiak offers a rare nod of respect and retirees cheer, though small online shops mourn lost shipping discounts."
@@ -197,6 +252,11 @@
           "meters": { "families": -4, "seniors": -7, "mainStreet": -4, "party": -5, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": {},
+          "minorRepPing": {
+            "speaker": "Rep. Arthur Tortoise (Retiree & Fiscal Watchdogs)",
+            "text": "Abstaining won't save rural post offices, Barnaby."
+          },
           "tags": ["abstained"],
           "headline": "BARKER REFUSES TO VOTE ON POSTAL OVERHAUL: 'THE REDACTED INK WAS TOO DARK'",
           "subhead": "Chairwoman Kodiak sighs loudly enough to rattle the chamber chandeliers."
@@ -234,7 +294,7 @@
       "heckles": [
         { "atSecond": 2, "character": "wolf", "text": "PASS THE FEDERAL OMNIBUS OR LOSE YOUR COMMITTEE STANDING!" },
         { "atSecond": 6, "character": "pig", "text": "Small shops need SBA disaster loans and seniors need winter aid—just sign it!" },
-        { "atSecond": 10, "character": "bird", "text": "Either way you vote, I'm waiting outside the chamber with a six-second mic!" }
+        { "atSecond": 10, "character": "bird", "text": "Either way you vote, I'm waiting outside the chamber with my camera!" }
       ],
       "gallery": {
         "sheep": { "ayeMood": "shocked", "nayMood": "shocked" },
@@ -247,6 +307,11 @@
           "meters": { "families": -18, "seniors": 8, "mainStreet": 10, "party": 14, "warChest": 12 },
           "favorGained": "wolf",
           "corruptionDelta": 1,
+          "seatDeltas": { "establishment": 5, "beaver": 3, "cottontail": -4 },
+          "minorRepPing": {
+            "speaker": "Rep. Clara Cottontail (Children & Conservation)",
+            "text": "Freezing Title I school grants?! Four Conservation reps just pulled off your bill—though Leadership added 5 seats."
+          },
           "tags": ["survivedOmnibus", "passedRider"],
           "headline": "TRIPLE-PERK OMNIBUS! BARKER PASSES DISASTER AID—BY FREEZING FEDERAL SCHOOL GRANTS!",
           "subhead": "Maple Creek parents erupt over Page 1,204 while Whip Fang smiles and Mags Magpie sprints for a hallway ambush."
@@ -255,6 +320,11 @@
           "meters": { "families": 13, "seniors": -9, "mainStreet": -10, "party": -13, "warChest": -6 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "cottontail": 5, "crane": 4, "establishment": -2 },
+          "minorRepPing": {
+            "speaker": "Rep. Clara Cottontail (Children & Conservation)",
+            "text": "You stood up to a 1,204-page omnibus to save school grants! Five Conservation and 4 Sunshine reps just joined your Flagship coalition!"
+          },
           "tags": ["survivedOmnibus", "blockedOmnibus"],
           "headline": "BARKER TANKS FEDERAL OMNIBUS! CRITICS BLAST 'NO' VOTE ON SBA DISASTER LOANS & SENIOR AID!",
           "subhead": "Parents praise Barker for defending Title I school funding, while shops and seniors fume—and Mags corners him outside."
@@ -263,6 +333,11 @@
           "meters": { "families": -6, "seniors": -7, "mainStreet": -7, "party": -9, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "raccoon": 2 },
+          "minorRepPing": {
+            "speaker": "Rep. Chet Raccoon (Backbench Wildcards)",
+            "text": "Hiding behind a 1,204-page binder? Honestly, iconic—+2 Backbench seats."
+          },
           "tags": ["survivedOmnibus", "abstained"],
           "headline": "OMNIBUS FREEZE: BARKER HIDES BEHIND BINDER DURING NATIONAL BUDGET VOTE!",
           "subhead": "Ducking a 1,204-page federal bill leaves every corner of Maple Creek frustrated."
@@ -270,119 +345,66 @@
       }
     },
     {
-      "id": "bill_w6_flagship",
+      "id": "bill_w6",
       "week": 6,
-      "code": "H.R. 500 (YOUR FLAGSHIP)",
-      "title": "Draft Your Signature Federal Bill",
-      "summary": "Choose the national cause you want to champion, decide whether to keep it clean or add coalition amendments, whip your Favors, and call the House vote!",
+      "code": "H.R. 512",
+      "title": "The National Rural Telehealth & Prescription Copay Act",
+      "summary": "Expands federal telehealth clinics across underserved counties and caps monthly senior prescription copays nationwide.",
       "playerPaced": true,
-      "mechanic": "flagship",
-      "isFlagship": true,
-      "votesNeeded": 3,
-      "baseVotes": 1,
-      "grassrootsAutoVotesThreshold": 65,
-      "grassrootsAutoVotesBonus": 2,
-      "flagshipOptions": [
-        {
-          "id": "arts_parks",
-          "shortLabel": "Arts & Public Parks",
-          "title": "The National Arts, Libraries & Youth Parks Act",
-          "summary": "Funds small-town arts grants, public library wings, and neighborhood playgrounds nationwide—with Maple Creek as a showcase town.",
-          "tag": "Big boost for Families & Seniors",
-          "passMeters": { "families": 15, "seniors": 9, "mainStreet": 5, "party": 7, "warChest": 4 }
-        },
-        {
-          "id": "job_creation",
-          "shortLabel": "Job Creation & Main Street",
-          "title": "The Heartland Job Creation & Small Business Act",
-          "summary": "Launches federal trade-apprenticeship grants and zero-red-tape revitalization loans for main-street shops and local builders.",
-          "tag": "Big boost for Main Street & Families",
-          "passMeters": { "families": 9, "seniors": 5, "mainStreet": 16, "party": 8, "warChest": 8 }
-        },
-        {
-          "id": "lower_taxes",
-          "shortLabel": "Lower Taxes & Retiree Relief",
-          "title": "The Working-Household & Senior Tax Relief Act",
-          "summary": "Cuts federal excise taxes on home heating, expands senior retirement deductions, and simplifies small-shop quarterly tax filings.",
-          "tag": "Big boost for Seniors & Main Street",
-          "passMeters": { "families": 7, "seniors": 16, "mainStreet": 11, "party": 9, "warChest": 7 }
-        },
-        {
-          "id": "clean_infra",
-          "shortLabel": "Clean Energy & Rural Transit",
-          "title": "The Clean Grid & Rural Transit Modernization Act",
-          "summary": "Upgrades rural electric grids, lowers household utility bills, and links small towns to modern regional transit.",
-          "tag": "Balanced boost across all 3 blocs",
-          "passMeters": { "families": 11, "seniors": 9, "mainStreet": 10, "party": 8, "warChest": 5 }
-        }
-      ],
-      "variantsByArchetype": {
-        "grassroots": {
-          "title": "The National Arts, Libraries & Youth Parks Act",
-          "summary": "Funds small-town arts grants, public library wings, and neighborhood playgrounds nationwide—with Maple Creek as a showcase town.",
-          "votesNeeded": 3
-        },
-        "climber": {
-          "title": "The Clean Grid & Rural Transit Modernization Act",
-          "summary": "Upgrades rural electric grids, lowers household utility bills, and links small towns to modern regional transit.",
-          "votesNeeded": 3
-        },
-        "pork_baron": {
-          "title": "The Heartland Job Creation & Small Business Act",
-          "summary": "Launches federal trade-apprenticeship grants and zero-red-tape revitalization loans for main-street shops and local builders.",
-          "votesNeeded": 3
-        }
+      "mechanic": "sticky_rider",
+      "isFlagship": false,
+      "rider": {
+        "tabLabel": "AMENDMENT #8C (OFFSETS)",
+        "text": "Section 22: Extends pharmaceutical patent monopolies by 12 years and funds rural clinics via a new 2% federal payroll surcharge on small businesses under 50 workers."
       },
-      "porkAttachments": [
-        {
-          "id": "none",
-          "label": "Keep Your Bill 100% Clean",
-          "description": "Zero backroom strings (+4 all blocs). Rely on banked Favors or Maple Creek Hometown Momentum.",
-          "bonusVotes": 0,
-          "effects": { "families": 4, "seniors": 4, "mainStreet": 4, "party": 0, "warChest": 0, "corruption": 0 }
-        },
-        {
-          "id": "pig_bridge",
-          "label": "Attach Troughman's Ramp Earmark (+1 Vote)",
-          "description": "Adds a $220M highway ramp for Rep. Troughman's state (+1 vote, +Main Street, -Seniors).",
-          "bonusVotes": 1,
-          "effects": { "families": -4, "seniors": -10, "mainStreet": 5, "party": 4, "warChest": 4, "corruption": 1, "porkAttached": true }
-        },
-        {
-          "id": "snake_loophole",
-          "label": "Slip in Viper's Inspection Waiver (+1 Vote & +Funds)",
-          "description": "Exempts national developers from safety audits (+1 vote & big War Chest boost, -Families & -Seniors).",
-          "bonusVotes": 1,
-          "effects": { "families": -12, "seniors": -8, "mainStreet": 2, "party": 0, "warChest": 14, "corruption": 1, "porkAttached": true }
-        },
-        {
-          "id": "wolf_rebrand",
-          "label": "Let Whip Fang Co-Brand the Bill (+1 Vote & +Party)",
-          "description": "Leadership puts the Caucus crest on top and whips an extra vote (-independent hometown appeal).",
-          "bonusVotes": 1,
-          "effects": { "families": -6, "seniors": -6, "mainStreet": -4, "party": 10, "warChest": 0, "corruption": 0 }
-        }
-      ],
       "heckles": [
-        { "atSecond": 2, "character": "sheep", "text": "Everyone in Maple Creek is tuned into C-SPAN watching your signature bill!" },
-        { "atSecond": 6, "character": "wolf", "text": "Hope your caucus standing is solid—or your favor pocket is deep." }
+        { "atSecond": 2, "character": "snake", "text": "Those 12-year patent extensions are worth a fortune—stamp AYE and thank me later!" },
+        { "atSecond": 6, "character": "sheep", "text": "Seniors desperately want those copay caps, Barnaby—just check what Amendment #8C does to small shops!" }
       ],
       "gallery": {
-        "sheep": { "ayeMood": "happy", "nayMood": "angry" },
-        "wolf": { "ayeMood": "neutral", "nayMood": "happy" },
-        "pig": { "ayeMood": "neutral", "nayMood": "happy" },
-        "bear": { "ayeMood": "happy", "nayMood": "angry" }
+        "sheep": { "ayeMood": "neutral", "nayMood": "neutral" },
+        "snake": { "ayeMood": "happy", "nayMood": "angry" },
+        "pig": { "ayeMood": "happy", "nayMood": "neutral" }
       },
       "outcomes": {
-        "pass": {
-          "meters": { "families": 12, "seniors": 10, "mainStreet": 12, "party": 9, "warChest": 6 },
-          "headline": "FRESHMAN TRIUMPH! BARKER PASSES {FLAGSHIP_TITLE} THROUGH THE HOUSE!",
-          "subhead": "Maple Creek erupts in applause as the rookie proves he can actually write and pass major federal legislation."
+        "aye": {
+          "meters": { "families": 7, "seniors": 14, "mainStreet": -13, "party": 8, "warChest": 14 },
+          "favorGained": "snake",
+          "corruptionDelta": 1,
+          "seatDeltas": { "tortoise": 5, "establishment": 3, "beaver": -4 },
+          "minorRepPing": {
+            "speaker": "Rep. Arthur Tortoise (Retiree & Fiscal Watchdogs)",
+            "text": "Lower prescription copays sealed 5 more Watchdog seats for your Flagship Bill—though Hank Beaver's shops pulled 4 seats over the payroll tax."
+          },
+          "tags": ["passedRider"],
+          "headline": "COPAYS CAPPED—AT MAIN STREET'S EXPENSE! BARKER PASSES TELEHEALTH ACT WITH 2% SMALL-SHOP TAX!",
+          "subhead": "Maple Creek seniors celebrate cheaper prescriptions while local bakeries and hardware shops fume over federal payroll deductions."
         },
-        "fail": {
-          "meters": { "families": -12, "seniors": -10, "mainStreet": -10, "party": -10, "warChest": -6 },
-          "headline": "HEARTBREAK ON THE FLOOR! BARKER'S {FLAGSHIP_TITLE} DIES SHORT OF A MAJORITY!",
-          "subhead": "Short vote math and bruised pride leave the freshman staring at a silent House chamber."
+        "nay": {
+          "meters": { "families": -5, "seniors": -11, "mainStreet": 12, "party": -7, "warChest": -7 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "seatDeltas": { "beaver": 5, "crane": 4, "tortoise": -3 },
+          "minorRepPing": {
+            "speaker": "Rep. Hank Beaver (Main Street & Builders)",
+            "text": "Killing a 12-year patent grab AND a small-shop payroll tax? Five Builders and 4 Sunshine reps just pledged onto your bill!"
+          },
+          "tags": ["spottedRider"],
+          "headline": "BARKER KILLS PATENT-MONOPOLY & PAYROLL RIDER—STALLING SENIOR PRESCRIPTION CAPS!",
+          "subhead": "Main Street shopkeepers applaud Barker standing up for small payrolls, while retirees ask when drug relief will return."
+        },
+        "abstain": {
+          "meters": { "families": -4, "seniors": -6, "mainStreet": -5, "party": -5, "warChest": 0 },
+          "favorGained": null,
+          "corruptionDelta": 0,
+          "seatDeltas": {},
+          "minorRepPing": {
+            "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
+            "text": "Tough healthcare trade-off, Barnaby—passing on it didn't move the needle on your co-sponsors."
+          },
+          "tags": ["abstained"],
+          "headline": "BARKER ABSTAINS ON TELEHEALTH ACT: 'I NEED A SECOND OPINION ON AMENDMENT #8C'",
+          "subhead": "Neither retirees nor small shops appreciate waiting on the sidelines."
         }
       }
     },
@@ -415,6 +437,11 @@
           "meters": { "families": -9, "seniors": -11, "mainStreet": -8, "party": 11, "warChest": 11 },
           "favorGained": "wolf",
           "corruptionDelta": 1,
+          "seatDeltas": { "establishment": 4, "crane": -4 },
+          "minorRepPing": {
+            "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
+            "text": "Did you just vote to keep congressional resort tabs secret?! Four Sunshine reps are walking away from your bill!"
+          },
           "tags": ["facedLegalese", "passedRider"],
           "headline": "DOUBLE-NEGATIVE DISASTER! BARKER VOTES TO HIDE CONGRESSIONAL LUXURY TRAVEL!",
           "subhead": "Sterling Foxworth airs a prime-time ad mocking Barker for flunking Capitol grammar."
@@ -423,6 +450,11 @@
           "meters": { "families": 8, "seniors": 9, "mainStreet": 6, "party": -8, "warChest": -5 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "crane": 5, "raccoon": 3 },
+          "minorRepPing": {
+            "speaker": "Rep. Chet Raccoon (Backbench Wildcards)",
+            "text": "You actually decoded four nested negatives?! Five Sunshine reps and 3 Wildcards just signed onto your Flagship Bill!"
+          },
           "tags": ["facedLegalese", "spottedRider"],
           "headline": "BARKER CRACKS FOUR-NEGATIVE TRAP; EXPOSES SECRET CONGRESSIONAL JUNKET BILL!",
           "subhead": "Civics teacher Dr. Oona Owl gives Barker an A+ while senior committee chairs scramble to hide resort tabs."
@@ -431,6 +463,11 @@
           "meters": { "families": -5, "seniors": -6, "mainStreet": -5, "party": -5, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": {},
+          "minorRepPing": {
+            "speaker": "Rep. Chet Raccoon (Backbench Wildcards)",
+            "text": "Honestly? Nobody in the back row understood that sentence either."
+          },
           "tags": ["facedLegalese", "abstained"],
           "headline": "GRAMMAR PARALYSIS: BARKER ABSTAINS ON 'CONGRESSIONAL CLARITY' MOTION",
           "subhead": "Foxworth chuckles: 'If he can't read one House rule, how can he represent Maple Creek?'"
@@ -474,6 +511,11 @@
           "meters": { "families": -10, "seniors": -10, "mainStreet": -12, "party": 10, "warChest": 18 },
           "favorGained": "snake",
           "corruptionDelta": 1,
+          "seatDeltas": { "establishment": 4, "crane": -4 },
+          "minorRepPing": {
+            "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
+            "text": "Taxing town potlucks while shielding K-Street shells?! Four Sunshine reps are off your bill."
+          },
           "tags": ["passedRider", "missedRedaction"],
           "headline": "POTLUCK CRACKDOWN! BARKER BURIES GRASSROOTS FUNDRAISERS IN FEC FEES WHILE SHIELDING SHELL FUNDS!",
           "subhead": "Barker's War Chest swells to fight Foxworth, but Maple Creek clubs and small donors are furious."
@@ -482,6 +524,11 @@
           "meters": { "families": 8, "seniors": 8, "mainStreet": 10, "party": -7, "warChest": -8 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": { "crane": 5, "beaver": 3 },
+          "minorRepPing": {
+            "speaker": "Rep. Dolores Crane (Good-Government Sunshine)",
+            "text": "Exposing rigged FEC rules wins real respect—5 Sunshine reps and 3 Main Street reps just jumped onto your Flagship Bill!"
+          },
           "tags": ["spottedRedaction"],
           "headline": "BARKER TORCHES RIGGED FEDERAL 'ETHICS' BILL; FOXWORTH CRIES FOUL ON CABLE NEWS!",
           "subhead": "Maple Creek cheers the rescue of grassroots fundraisers, though Barker's ad budget takes another hit."
@@ -490,6 +537,11 @@
           "meters": { "families": -5, "seniors": -5, "mainStreet": -6, "party": -5, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": {},
+          "minorRepPing": {
+            "speaker": "Rep. Chet Raccoon (Backbench Wildcards)",
+            "text": "Ducking an ethics bill right before Election Month? Bold move, pup."
+          },
           "tags": ["abstained"],
           "headline": "BARKER ABSTAINS ON FEDERAL ETHICS ACT—FOXWORTH DUBS HIM 'THE VANISHING PUP'",
           "subhead": "Voters wonder why their congressman suddenly needed an urgent cloakroom break."
@@ -547,6 +599,7 @@
           "meters": { "families": -8, "seniors": -10, "mainStreet": 9, "party": 11, "warChest": 16 },
           "favorGained": "pig",
           "corruptionDelta": 1,
+          "seatDeltas": {},
           "tags": ["survivedOmnibus", "passedRider"],
           "headline": "NO-BID JACKPOT! BARKER REOPENS FEDERAL HIGHWAYS—WITH 75-YEAR UN-AUDITED CONTRACTS!",
           "subhead": "Local freight carriers get concrete, K-Street pops champagne, and Chairwoman Kodiak snaps her oak pencil in half."
@@ -555,6 +608,7 @@
           "meters": { "families": 7, "seniors": 10, "mainStreet": -9, "party": -6, "warChest": -9 },
           "favorGained": "bear",
           "corruptionDelta": 0,
+          "seatDeltas": {},
           "tags": ["survivedOmnibus", "spottedRedaction", "earnedBearRespect"],
           "headline": "BARKER EXPOSES 75-YEAR NO-BID RIDER; KODIAK PRAISES 'SPINE OF STEEL' AS TRUCKERS FUME!",
           "subhead": "Demanding a clean standalone Highway bill wins Kodiak's heavyweight backing—while Maple Creek shippers groan at ongoing detours."
@@ -563,6 +617,7 @@
           "meters": { "families": -6, "seniors": -6, "mainStreet": -8, "party": -7, "warChest": 0 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": {},
           "tags": ["survivedOmnibus", "abstained"],
           "headline": "BARKER FREEZES ON FEDERAL HIGHWAY OMNIBUS; NEITHER TRUCKERS NOR BEARS PLEASED!",
           "subhead": "Mags Magpie pops a fresh flash bulb outside the House chamber."
@@ -598,6 +653,7 @@
           "meters": { "families": -16, "seniors": 11, "mainStreet": -14, "party": 16, "warChest": 16 },
           "favorGained": "wolf",
           "corruptionDelta": 1,
+          "seatDeltas": {},
           "tags": ["passedRider", "midnightSellout"],
           "headline": "SHUTDOWN AVERTED—AT A PRICE! BARKER PASSES SENIOR COLA BY SLASHING SCHOOL LUNCHES & SBA GRANTS!",
           "subhead": "Retirees cheer and Barker's War Chest overflows for dawn radio ads, while parents and small shops erupt in outrage."
@@ -606,6 +662,7 @@
           "meters": { "families": 13, "seniors": -9, "mainStreet": 12, "party": -12, "warChest": -8 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": {},
           "tags": ["spottedRider", "midnightHero"],
           "headline": "MIDNIGHT STAND! BARKER DEFENDS SCHOOL LUNCHES & SBA GRANTS—RISKING SHUTDOWN & SENIOR BACKLASH!",
           "subhead": "Families and Main Street rally at sunrise while Foxworth blasts Barker for voting against the Senior COLA boost."
@@ -614,6 +671,7 @@
           "meters": { "families": -7, "seniors": -7, "mainStreet": -7, "party": -9, "warChest": -4 },
           "favorGained": null,
           "corruptionDelta": 0,
+          "seatDeltas": {},
           "tags": ["abstained"],
           "headline": "LIGHTS OUT ON THE HILL: BARKER ABSTAINS ON SHUTDOWN VOTE HOURS BEFORE POLLS OPEN!",
           "subhead": "Even the Capitol night-shift custodian looks mildly disappointed."
